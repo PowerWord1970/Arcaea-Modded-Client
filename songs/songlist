@@ -1,5 +1,52 @@
 {
   "songs": [
+     {
+      "id": "sayonara",
+      "title_localized": {
+        "en": "Sayonara Hatsukoi[Beyond]"
+      },
+      "artist": "REDSHiFT",
+      "bpm": "178",
+      "bpm_base": 178,
+      "set": "base",
+      "purchase": "",
+      "audioPreview": 30000,
+         "audioPreviewEnd": 70000,
+            "side": 0,
+      "bg": "",
+      "version": "1.0.5",
+      "date": 1653775968,
+      "difficulties": [
+       {
+         "ratingClass": 0,
+         "chartDesigner": "",
+         "jacketDesigner": "",
+         "rating": 0,
+         "ratingPlus": false
+       },
+       {
+         "ratingClass": 1,
+         "chartDesigner": "",
+         "jacketDesigner": "",
+         "rating": 0,
+         "ratingPlus": false
+       },
+       {
+         "ratingClass": 2,
+         "chartDesigner": "Wang Yaya",
+         "jacketDesigner": "",
+         "rating": 0,
+         "ratingPlus": false
+       },
+       {
+         "ratingClass": 3,
+         "chartDesigner": "Wang Yaya",
+         "jacketDesigner": "",
+         "rating": 9,
+         "ratingPlus": true
+       }
+     ]
+    },
     {
       "id": "example",
       "title_localized": {
