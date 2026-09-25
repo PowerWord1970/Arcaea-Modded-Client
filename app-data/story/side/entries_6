@@ -1,0 +1,31 @@
+{
+	"entries": [{
+		"minor": 1,
+		"requiredPack": "scarletcage",
+		"storyType": "nvl",
+		"clearSongId": "purgatorium",
+		"clearCharaId": -1,
+		"charIcon1": 13,
+		"charIcon2": -1
+	},
+	{
+		"minor": 2,
+		"requiredPack": "scarletcage",
+		"requiredMinor": 1,
+		"storyType": "nvl",
+		"clearSongId": "scarletcage",
+		"clearCharaId": -1,
+		"charIcon1": 13,
+		"charIcon2": -1
+	},
+	{
+		"minor": 3,
+		"requiredPack": "scarletcage",
+		"requiredMinor": 2,
+		"storyType": "nvl",
+		"clearSongId": "vector",
+		"clearCharaId": -1,
+		"charIcon1": 13,
+		"charIcon2": -1
+	}]
+}

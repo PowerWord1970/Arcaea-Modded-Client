@@ -1,0 +1,62 @@
+{
+	"entries": [{
+		"minor": 1,
+		"requiredPack": "nijuusei",
+		"storyType": "nvl",
+		"clearSongId": "nexttoyou",
+		"clearCharaId": 11,
+		"charIcon1": 11,
+		"charIcon2": 12
+	},
+	{
+		"minor": 2,
+		"requiredPack": "nijuusei",
+		"requiredMinor": 1,
+		"storyType": "nvl",
+		"clearSongId": "silentrush",
+		"clearCharaId": 12,
+		"charIcon1": 11,
+		"charIcon2": 12
+	},
+	{
+		"minor": 3,
+		"requiredPack": "nijuusei",
+		"requiredMinor": 2,
+		"storyType": "nvl",
+		"clearSongId": "strongholds",
+		"clearCharaId": 11,
+		"charIcon1": 11,
+		"charIcon2": 12
+	},
+	{
+		"minor": 4,
+		"requiredPack": "nijuusei",
+		"requiredMinor": 3,
+		"storyType": "nvl",
+		"clearSongId": "nexttoyou",
+		"clearCharaId": 12,
+		"charIcon1": 11,
+		"charIcon2": 12
+	},
+	{
+		"minor": 5,
+		"requiredPack": "nijuusei",
+		"requiredMinor": 4,
+		"storyType": "nvl",
+		"clearSongId": "memoryforest",
+		"clearCharaId": 12,
+		"charIcon1": 11,
+		"charIcon2": 12,
+		"storyCgPath": "app-data/story/cg/10-5.jpg"
+	},
+	{
+		"minor": 6,
+		"requiredPack": "nijuusei",
+		"requiredMinor": 5,
+		"storyType": "nvl",
+		"clearSongId": "singularity",
+		"clearCharaId": 11,
+		"charIcon1": 11,
+		"charIcon2": 12
+	}]
+}

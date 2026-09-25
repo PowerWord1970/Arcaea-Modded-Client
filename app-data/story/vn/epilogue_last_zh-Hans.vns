@@ -1,0 +1,1048 @@
+play "glassRain.ogg" 0.4 loop
+
+wait 3
+
+show "vs/arcahv2.jpg" 0.3:0 0.3:0 1.4:1.4 fade(0,linear) normal
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+wait 1
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+wait 0.5
+hide "black.png" fade(0,linear)
+wait 0.5
+move "vs/arcahv2.jpg" -600:0 32 easeout
+wait 1
+hide "2black.png" fade(6,sineout)
+wait 3
+
+say "光瘫坐在尘土与血泊中。"
+
+say "我看到她在那里……她的愚蠢和自怨自艾毁了她。"
+
+say "从捂着脸的指缝间看出去时，她再一次发现你的视线所指向的，是已经死去的，
+我的第二个自我。冷漠，也可说是造成这一切的元凶，致使了你的死亡，而它一定会威胁着要卷土重来。"
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white40.png" fade(6,sineout)
+
+say "我知道，这名身穿红白衣服的少女感觉得到。
+她感觉得到，她就是为此而存在。"
+
+say "你的死早已注定，
+而她就是那个杀害了你的人。"
+
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "black.png" fade(3,sineout)
+
+say "她的后背放松下来……
+这世界……Arcaea……她好像感到压力在从中释放。
+那是一种解脱……"
+
+play "breath.ogg" 0.4
+
+say "混沌已经散去……现在安全了……
+但我也听到了……
+有个像低语的东西缓慢进入她的内心，仿佛在要求她接受这个状态。"
+
+say "接受她自身，接受Arcaea。
+……然而——"
+
+play "collapse.ogg" 0.1
+hide "vs/arcahv2.jpg" fade(0.2,sinein)
+
+say "\"……对立……\""
+
+show "vs/arcahv2.jpg" 0.65:0.42 0.65:0.42 1.9:1.9 fade(1,easeout) normal
+
+say "……她对自己低语道一个名字。她声音颤抖，泣不成声。"
+
+say "\"你是什么意思……？我们在‘这里’的名字是那样的……？\""
+
+say "她沉默不语，感到讶异。"
+
+play "breath.ogg" 0.4
+play "voice_epilogue.ogg" 0.7 loop
+
+say "低语再次对她说道：只要你想，那些答案就会浮现。
+这地方，封存了所有的回忆……
+……而她依旧沉默不语。"
+
+
+
+say "\"……\""
+
+hide "vs/arcahv2.jpg" fade(3,easeout)
+
+say "埋藏在她武装的冷漠之下，是纯粹又刺眼的憎恶。
+她无法停止憎恨自己。"
+
+say "很明显她做不到。在一切之后……她要如何接受这样的结局？这代表什么？
+对她来说有什么意义？"
+
+say "她……曾漫步于此的她，绝对不可能接受。"
+
+show "finale/LS.jpg" 0.5:0.7 0.5:0.7 1:1 fade(4,linear) normal
+wait 1.5 clear
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+stop "voice_epilogue.ogg" 2.5
+hide "finale/LS.jpg" fade(0.4,linear)
+wait 1
+
+say "反胃感吞噬着她的腹部，她咬紧牙关。"
+
+
+say "\"……\""
+
+show "finale/bg7.jpg" 0.4:0 0.4:0 1.7:1.7 fade(3,linear) normal
+hide "black.png" fade(5,easeout)
+stop "glassRain.ogg" 5
+wait 0.1
+play "quietWind.ogg" 0.6 loop
+move "finale/bg7.jpg" 0:-40 7 easeout
+
+say "光将手放至身下的尘土与沙子中，然后在膝盖上抖了抖。"
+
+say "她问道：
+\"Arcaea……你是来治愈我的吗？\""
+
+play "woosh.ogg" 0.4
+
+wait 2
+
+say "她的手臂放松下来，就像是有一道凉爽穿过了她的手臂。"
+
+wait 2
+
+say "\"……我感觉得到。\"
+光慢慢闭上双眼，喃喃自语的说道。她的声音依然沙哑。"
+
+say "\"……这是害怕、疲惫且虚弱之人的乐园……\""
+
+wait 1
+
+say "\"……\""
+
+wait 1
+
+play "sand_epilogue.ogg" 1
+wait 0.1
+move "finale/bg7.jpg" 0:-300 12 easeout
+
+say "她吞下干燥的空气，张开双眼，
+抓起一把沙子并起身，
+大部分的沙子从她指缝间流出。"
+
+say "\"我不知道该如何是好……\"
+光继续说道：
+\"……把一切都再次交付给你，是正确的吗？\""
+
+say "\"绝对……不是。\""
+
+say "\"我……不想要这样…\""
+
+say "\"我不想要这样……！\""
+
+show "vs/arcahv2.jpg" 1:0.4 1:0.4 1.15:1.15 fade(0,linear) normal
+hide "finale/bg7.jpg" fade(0,linear)
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+play "thump.ogg" 1
+
+wait 0.5 clear
+stop "quietWind.ogg" 2
+
+wait 2
+
+play "refusal_epilogue.ogg" 0.5
+hide "black.png" fade(0.3,linear)
+move "vs/arcahv2.jpg" 0:80 0.3 sinein
+move "vs/arcahv2.jpg" 0:10 2 easeout
+show "vs/arcahv1.jpg" 1:0.22 1:0.22 1.15:1.15 fade(40,linear) normal
+
+say "——
+\"呃——！\""
+
+say "光突然弯腰抱住腹部，
+用另一只手捂住嘴。她剧烈地颤抖着。"
+
+play "plea_epilogue.ogg" 2
+play "voice_epilogue.ogg" 0.7 loop
+play "tension.ogg" 0.6 loop
+
+say "她的\"抗拒\"似乎足以让这世界再次感觉到她。
+就在她恐惧的说不出话，双眼睁大时，她突然皱了一下眉头。
+我也听到有个刺耳的噪音，突然穿过她的耳朵、她的头脑——"
+
+
+
+say "再次进入她的内心，但这已经不是低语了，几乎可说是震颤的怒吼。
+一个沉静却有力的声音出现，说道：决定吧，说出你内心的想法。"
+
+
+
+stop "voice_epilogue.ogg" 4
+
+say "\"说出……我的……？\""
+
+show "../../cg/F-7.jpg" 0.8:0 0.8:0 2:2 fade(4,linear) normal
+move "../../cg/F-7.jpg" 40:0 15 easeout
+
+say "因为……
+……光是一名受内心驱使的少女。
+早在她生平第一次张开双眼前，她的内心便指引她至此。"
+
+say "是本能反应吗？这个\"身体\"记得一切是怎么发生的吗‥…？她之前是怎么样的人……？"
+
+stop "tension.ogg" 5
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(1,linear) normal
+
+say "哈……
+我其实并不在意。
+只是……我觉得这很有趣又讽刺，这个新的心脏会在下一次跳动前就颠覆一切。"
+
+hide "../../cg/F-7.jpg" fade(0,linear)
+hide "vs/arcahv2.jpg" fade(0,linear)
+hide "vs/arcahv1.jpg" fade(0,linear)
+show "finale/bg_distance.jpg" 0.2:0.4 0.2:0.4 1.3:1.3 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2black.png" fade(3,linear)
+wait 0.1
+play "memory1.ogg" 0.7 loop
+move "finale/bg_distance.jpg" 0:-230 7.5 easeout
+
+say "她呼吸急促，内心颤抖了整整一分钟，
+最终得到一个清晰且坚定的答案："
+
+play "thump.ogg" 1
+
+say "\"我要…推翻现状。\""
+
+say "\"我必须带她回来。\""
+
+play "thump.ogg" 1
+
+say "\"这世界……一点都不合理！
+你以为我会为此死去？还是以为我会让‘其他’人为之死去……！ ？ \""
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white40.png" fade(2,sineout)
+
+say "\"我做不到！我不会这么做的！
+不论我必须做什么，放弃什么……作为交换，这些我都愿意牺牲……！\""
+
+move "finale/bg_distance.jpg" 10:0 0.01 linear
+play "cut.ogg" 0.2
+wait 0.04
+move "finale/bg_distance.jpg" -5:10 0.01 linear
+wait 0.03
+move "finale/bg_distance.jpg" 10:-12 0.01 linear
+wait 0.04
+move "finale/bg_distance.jpg" 0:10 0.01 linear
+wait 0.03
+
+say "她手中牢牢的抓了一把泥土，接着甩出她的手并将其撒出去。"
+
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white40.png" fade(2,sineout)
+
+say "她宣布：
+\"如果我的死亡可以改变这一切，那我愿意——！\""
+
+stop "memory1.ogg" 0.3
+play "groan_epilogue.ogg" 2
+play "heart_epilogue.ogg" 1
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+wait 3 clear
+
+hide "finale/bg_distance.jpg" fade(0,linear)
+wait 0
+show "finale/bg_distance.jpg" 0.4:0.6 0.4:0.6 1.3:1.3 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(0,linear)
+hide "2white.png" fade(1,linear)
+
+scale "finale/bg_distance.jpg" 0.9:0.9 0.3 easeinout
+wait 0.3
+scale "finale/bg_distance.jpg" 0.8:0.8 4 easeout
+
+show "2white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2white40.png" fade(7,sineout)
+
+say "世界的心脏在跳动，而这心跳声让她完全的安静下来。
+这世界从未放弃她，以后也不会。
+这个声音再次布满她的体内——"
+
+stop "heart_epilogue.ogg" 2
+
+play "voice_epilogue.ogg" 1 loop
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(1,easein) normal
+wait 1.1 clear
+hide "white70.png" fade(8,sineout)
+wait 0.7
+
+say "而其中的情感和知识，进入了她的胸口，传达至她每个指尖。"
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,easein) normal
+
+say "它说道：你不能死。
+你注定会活下去，而且这是你的选择。"
+
+play "thump.ogg" 1
+
+say "这件事……光是明白的。
+自责，内疚，使她眼中充满泪水。"
+
+play "tension.ogg" 1
+stop "tension.ogg" 1.8
+play "breath.ogg" 1
+
+say "在她哭出来之前，这世界的心脏又再次跳动。
+Arcaea 说道：别死。"
+
+
+play "tension.ogg" 1 loop
+wait 2 clear
+
+play "decision_epilogue.ogg" 1
+stop "voice_epilogue.ogg" 3
+show "epilogue/last1_c1_epilogue.jpg" 0.3:0 0.3:0 1.3:1.3 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2white.png" fade(3,easeout)
+move "epilogue/last1_c1_epilogue.jpg" -200:0 20 easeout
+
+say "——
+只要让它结束就好。"
+
+hide "white.png" fade(0,linear)
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(5,linear) normal
+wait 5 clear
+
+show "epilogue/last1_c2_epilogue.jpg" 0.7:0 0.7:0 1:1 fade(0,linear) normal
+hide "2white.png" fade(0,linear)
+hide "epilogue/last1_c1_epilogue.jpg" fade(0,linear)
+hide "finale/bg_distance.jpg" fade(0,linear)
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(3,easeout)
+move "epilogue/last1_c2_epilogue.jpg" 300:0 12 easeout
+wait 2
+
+say "……她的双唇紧闭。
+她的泪水从眼角流出，滑落脸颊。
+她点了点头。"
+
+stop "tension.ogg" 3
+
+hide "epilogue/last1_c2_epilogue.jpg" fade(6,easeout)
+
+say "心脏再次跳动……
+仿佛——"
+
+play "loss_epilogue.ogg" 0.6
+play "wind.ogg" 0.4 loop
+
+
+
+say "—— Arcaea 开始失去光芒。"
+
+wait 3
+
+show "finale/LS.jpg" 0.5:0.6 0.5:0.6 0.8:0.8 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2black.png" fade(10,easeout)
+
+play "blowing1.ogg" 0.6 loop
+wait 0.1
+move "finale/LS.jpg" 0:5 0.5 easeout
+wait 0.5
+move "finale/LS.jpg" 0:100 0.3 easeout
+wait 0.3
+move "finale/LS.jpg" 0:20 5 easeout
+
+say "这样做后，Arcaea 淹没了她，流入她的双手和内心。
+她感到失落，几乎就要崩溃。"
+
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white70.png" fade(5,sineout)
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white40.png" fade(2,sineout)
+
+say "这段时间，记忆闪现在她眼前，但我知道……这些是被忽略的记忆。
+她的双眼反而专注在你了无生气的遗体上。"
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,sineout) normal
+stop "wind.ogg" 4
+stop "blowing1.ogg" 4
+
+say "我想她现在唯一知道的……就是\"她该做什么。\"
+我可以感觉到自己被往下拉至那里……一直下沉，下沉……
+下沉至你被杀害的地方。"
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,linear) normal
+wait 3 clear
+play "tension.ogg" 0.4 loop
+wait 1
+show "../../cg/F-7.jpg" 1:1 1:1 1.5:1.5 fade(0,linear) normal
+move "../../cg/F-7.jpg" 250:0 25 easeout
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "finale/LS.jpg" fade(0,linear)
+hide "black.png" fade(0,linear)
+hide "black.png" fade(0,linear)
+hide "white.png" fade(0,linear)
+hide "2white.png" fade(15,sineout)
+
+say "……
+她……是否真的明白她舍弃的东西是什么？
+她真的明白这里的\"结束\"是什么意思吗？"
+
+say "我不知道。
+　
+……你也无从得知。"
+
+say "……事实上，如果她带我走，那……我还会记得每件事吗？我会明白吗？
+　
+不……或许不会。但是……她现在似乎对自己很有信心。"
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.6,linear) normal
+wait 0.6 clear
+stop "tension.ogg" 6
+wait 2
+play "new_epilogue.ogg" 1.0 loop 19103:104128
+wait 1.5
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(2.5,sinein) normal
+wait 2.5
+hide "white.png" fade(4,easeout)
+wait 1
+
+say "……"
+
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(16,linear) normal
+
+say "我会让她的内心成为之后任何事的灯塔。
+　
+……我深信着。你也会，不是吗？"
+
+say "毕竟，你是对的……
+　
+她们俩人……是完全不一样的。"
+
+
+
+say "……\"对立\"……
+　
+……我现在要走了。"
+
+say "不过别担心。
+　
+我一定会把你带在身边。"
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,easein) normal
+wait 1
+wait 3 clear
+hide "black.png" fade(0,linear)
+hide "white70.png" fade(0,linear)
+hide "../../cg/F-7.jpg" fade(0,linear)
+play "fracture1_epilogue.ogg" 0.6
+wait 1.9
+play "fracture1_epilogue.ogg" 0.8
+wait 0.3
+play "fracture1_epilogue.ogg" 0.8
+wait 0.3
+play "fracture4_epilogue.ogg" 1
+wait 0.3
+play "fracture1_epilogue.ogg" 1
+wait 0.3
+play "fracture2_epilogue.ogg" 1.5
+wait 0.3
+play "fracture1_epilogue.ogg" 1.5
+wait 0.3
+play "fracture3_epilogue.ogg" 1.5
+show "epilogue/last1_c3_epilogue.jpg" 0:1 0:1 1.3:1.3 fade(0,linear) normal
+hide "white.png" fade(0,linear)
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+move "epilogue/last1_c3_epilogue.jpg" 0:1300 0.45 sinein
+hide "2white.png" fade(0.8,linear)
+wait 0.3
+play "fracture5_epilogue.ogg" 1.5
+wait 0.1
+play "fracture5_epilogue.ogg" 1.5
+wait 0.1
+play "fracture5_epilogue.ogg" 1.5
+wait 0.1
+play "fracture5_epilogue.ogg" 2
+wait 0.05
+move "epilogue/last1_c3_epilogue.jpg" 0:60 20 linear
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white70.png" fade(3,easeout)
+wait 4
+
+say "天空再次落下，而土地依她的意愿上升。
+为了死亡，也为了让对立重生。"
+
+say "生命和灵魂不会真的被带进这个亡者的世界。
+这里只有她们的形象以及回声……"
+
+say "首先，
+光芒之女和纷争之女的灵魂……从来就不平凡。"
+
+show "epilogue/last1_epilogue.jpg" 0.1:0.03 0.1:0.03 1.5:1.5 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+move "epilogue/last1_epilogue.jpg" -300:-90 15 easeout
+hide "white.png" fade(3,linear)
+
+say "没错，这世界不是为此而生。
+确实，这个世界将因此支离破碎。
+为了改写这一切，它愿意做任何事，或至少一试。"
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,easein) normal
+
+say "它需要黑衣女子的\"第一灵魂\"
+以及可在她第二人格中找到的残片……"
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+play "memoryShift.ogg" 2
+wait 0.3
+hide "white40.png" fade(4,easeout)
+
+say "而现在一个破碎的灵魂，呼唤着另一个完整的灵魂。
+很快，这另一个灵魂便被强行带入这个苍白的世界。"
+
+wait 1.5 clear
+play "fracture1_epilogue.ogg" 2
+wait 0.01
+play "blowing1.ogg" 2 loop
+wait 0.01
+hide "epilogue/last1_epilogue.jpg" fade(0,linear)
+play "burst.ogg" 2
+wait 0.1
+show "epilogue/last1_epilogue.jpg" 0.5:0.4 0.5:0.4 1.2:1.2 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "2white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.2,linear) normal
+scale "epilogue/last1_epilogue.jpg" 1:1 0.3 sineout
+move "epilogue/last1_epilogue.jpg" -30:-20 10 sineout
+hide "2white.png" fade(0.3,sineout)
+wait 0.2
+hide "2white40.png" fade(3.5,sineout)
+hide "black.png" fade(0,linear)
+wait 3
+
+say "一道旋风围绕在光的身边，
+在阴影和光芒的激流中，划破了身边笼罩的现实。"
+
+wait 0.5 clear
+
+play "glass_epilogue.ogg" 2
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "epilogue/last1_c3_epilogue.jpg" fade(0,sineout)
+hide "white70.png" fade(4,sineout)
+
+say "Arcaea\"记得\"另一名少女，在光的指示之下，这些记忆以玻璃的形态瞬间赶到。
+这些记忆看似突然出现。又或许说，它们一直都在。
+……它们是否足够？这世界能否编织两个破碎的灵魂？"
+
+hide "epilogue/last1_epilogue.jpg" fade(0.6,sineout)
+
+play "tunnel.ogg" 2
+stop "blowing1.ogg" 4
+
+say "……这个世界会的。规则并不重要。光会做到的……
+带着名为对立的少女拥有的记忆……
+这些记忆的玻璃迅速出现，在整场风暴中发光。"
+
+show "epilogue/last1_c4_epilogue.jpg" 0.55:0.55 0.6:0.6 1.4:1.4 fade(0,linear) normal
+show "epilogue/forgotten_epilogue.jpg" 0.52:0.62 0.52:0.62 1.6:1.6 fade(0,linear) normal
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "zettai/bg.jpg" 0.9:0.2 0.9:0.2 1.5:1.5 fade(0,linear) normal
+show "finale/bg3.jpg" 0.5:0.4 0.5:0.4 1.5:1.5 fade(0,linear) normal
+show "meeting/bg.jpg" 0.9:0.2 0.9:0.2 1.5:1.5 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "prelude/bg.jpg" 0.5:0.5 0.5:0.5 1.2:1.2 fade(0,linear) normal
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(2.5,easein) normal
+wait 2.5 clear
+show "../../cg/2-1.jpg" 0.3:0.5 0.3:0.5 1:1 fade(4,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(0,linear)
+hide "2white.png" fade(4,easeout)
+move "../../cg/2-1.jpg" -100:0 11 easeout
+
+wait 3
+
+hide "../../cg/2-1.jpg" fade(1.5,linear)
+
+say "过去有名少女曾备受煎熬的走过这些土地。
+悲痛如影随形地跟着这名少女……
+但她仍大步向前，想要拯救自己。"
+
+
+show "epilogue/2missingtai_epilogue.png" 0.5:0.5 0.5:0.5 1.2:1.2 fade(2,linear) normal
+show "epilogue/missingtai_epilogue.png" 0.5:0.5 0.5:0.5 1:1 fade(3,linear) normal
+wait 1 clear
+scale "epilogue/2missingtai_epilogue.png" 1.05:1.05 2 easeout
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(2,linear)
+hide "epilogue/2missingtai_epilogue.png" fade(3,easeout)
+
+wait 0.5
+move "epilogue/missingtai_epilogue.png" 0:80 18 easeout
+
+say "为了拯救自己，为了紧紧抓住自由。
+她只盼望着：
+有机会能有一个理由让她微笑。"
+
+hide "epilogue/missingtai_epilogue.png" fade(2,easeout)
+hide "black.png" fade(3,easeout)
+
+say "为了打造一个更好的世界，这名少女曾挺身而出，
+即使\"更好\"可能代表要让世界天翻地覆。"
+
+hide "2black.png" fade(3,easeout)
+hide "prelude/bg.jpg" fade(3,easeout)
+wait 0.5 clear
+show "epilogue/tai_epilogue.png" 0.5:0.5 0.5:0.5 1.6:1.6 fade(7,easein) normal
+move "meeting/bg.jpg" 0:200 5 easeout
+wait 2.5
+move "finale/bg3.jpg" 0:200 5 easeout
+hide "meeting/bg.jpg" fade(0.3,easeout)
+wait 3
+move "zettai/bg.jpg" 0:200 5 easeout
+hide "finale/bg3.jpg" fade(0.3,easeout)
+wait 3
+hide "zettai/bg.jpg" fade(0.3,easeout)
+wait 0.25
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+wait 1.5
+hide "white.png" fade(3.5,linear)
+hide "epilogue/tai_epilogue.png" fade(3,easeout)
+play "blowing1.ogg" 2 loop
+wait 0.5
+hide "3black.png" fade(2.5,easein)
+move "epilogue/forgotten_epilogue.jpg" 0:-200 5 easeout
+hide "epilogue/forgotten_epilogue.jpg" fade(5,easeout)
+wait 1
+move "epilogue/last1_c4_epilogue.jpg" 0:100 11 easeout
+
+say "这些回忆在光的双眼中闪现，
+让她更加无法专注在她侵占中的回忆。"
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white40.png" fade(4,sineout)
+
+say "另一名少女的眼泪，只有少许穿越了这场风暴，而她大部分的痛苦似乎都已被遗忘。"
+
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white70.png" fade(5,sineout)
+
+say "看起来是这样没错……但事实上，身为光芒的灵魂，仍然抗拒着那灵魂和她一样的残酷的真相，
+光唯一能做的事，就是找到另一名少女最真挚的绝望，
+即便只是其中短暂的瞬间—— 而剩余的那些较长的时刻，则超出她的能力范围。"
+
+say "……不过，当知道那最真实的痛苦引导黑衣少女至何方后，光便不再难过，
+也放弃寻找她怎么也找不到的，那个她们相遇的时刻。"
+
+hide "epilogue/last1_c4_epilogue.jpg" fade(1,easein)
+
+say "由这一切产生出的对立……从未看过她所处的困境实际有多深，
+但仍明白自己注定活在挣扎之中。"
+
+show "epilogue/last1_c3_epilogue.jpg" 0.33:0.2 0.33:0.2 1.3:1.3 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(5,sineout)
+move "epilogue/last1_c3_epilogue.jpg" 0:-200 0.35 easeout
+play "fracture3_epilogue.ogg" 1.5
+wait 0.1
+play "fracture3_epilogue.ogg" 1.5
+wait 0.1
+play "fracture3_epilogue.ogg" 1.5
+wait 0.1
+play "fracture6_epilogue.ogg" 1.5
+wait 0.05 clear
+move "epilogue/last1_c3_epilogue.jpg" 0:-50 20 easeout
+play "woosh.ogg" 2
+
+say "光产生了一股新的能量。地面喷发四柱光芒，是巨大的力量泉源。
+这是世界要保护她，因为她所召唤的暗影之魂最终降临了。"
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,easein) normal
+play "tension.ogg" 1.5 loop
+
+say "这个灵魂靠近时，她几乎看不出来这是什么。在她前面漂浮并遮蔽天空的，
+是一个与死亡相仿的东西：那是一个巨大又令人毛骨悚然的鬼魂形象。
+这东西靠近时轻轻放慢了速度，随即便开始流入转动中的玻璃。"
+
+hide "black.png" fade(1,sineout)
+stop "tension.ogg" 6
+play "tunnel.ogg" 2
+stop "tunnel.ogg" 5.5
+
+say "她完全明白这是怎么回事。她坚决的点了点头，引导灵魂至玻璃，让过程更加顺畅。
+对立\"之前\"迷失的灵魂，成为了新身体来临时的生命精华。
+而对立\"之后\"迷失的灵魂，则用于稳定躯壳的剩余部分。"
+
+move "epilogue/last1_c3_epilogue.jpg" 40:0 0.01 linear
+wait 0.01 clear
+move "epilogue/last1_c3_epilogue.jpg" -80:40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 40:-80 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" -40:40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 0:-40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 40:40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" -40:40 0.01 linear
+wait 0.01
+play "fracture2_epilogue.ogg" 1.5
+play "decision_epilogue.ogg" 2
+move "epilogue/last1_c3_epilogue.jpg" 0:-40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 40:40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" -40:40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 40:-40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 0:-40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 40:40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" -40:40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 40:-40 0.01 linear
+
+
+say "光脚下的震动就快让人无法忍受。
+她尽可能维持不动，并用双手不停引导这个新生命。
+她听到雷鸣般的悲鸣，她感觉世界在痛苦中扭曲，但她依然紧紧抓住她的愿望。"
+
+show "epilogue/last1_c4_epilogue.jpg" 0.67:0.48 0.67:0.48 1.8:1.8 fade(5,easein) normal
+scale "epilogue/last1_c4_epilogue.jpg" 1.3:1.3 70 sineout
+
+say "她没有被吓到，并在心中重申了她的誓言。"
+
+wait 4
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.4,easein) normal
+wait 0.4
+play "fracture3_epilogue.ogg" 1.5
+wait 1.5
+play "fracture1_epilogue.ogg" 1
+wait 0.5
+play "fracture2_epilogue.ogg" 1.5
+hide "white.png" fade(4,sineout)
+
+say "她扭曲了世界的核心，这样做也将导致堕落之神的重生。
+就这样最后，曾经绝对的规则被改写了。光发出坚定且沉静的命令后，
+新的死亡便牢牢刺入至这个核心之中。"
+
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,linear) normal
+wait 5 clear
+play "fracture4_epilogue.ogg" 1.5
+wait 2
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(7,easein) normal
+wait 3
+play "groan_epilogue.ogg" 2
+play "skyFall.ogg" 2
+stop "skyFall.ogg" 7.1
+
+say "在光芒和暗影巨大的脉冲之下，Arcaea 开始迈向灭亡。"
+
+wait 3
+show "epilogue/last1_epilogue.jpg" 0.4:0.5 0.4:0.5 1:1 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2white.png" fade(0,sineout)
+hide "black.png" fade(0,sineout)
+hide "epilogue/last1_c4_epilogue.jpg" fade(0,sineout)
+hide "epilogue/last1_c3_epilogue.jpg" fade(0,sineout)
+hide "2black.png" fade(4,sineout)
+scale "epilogue/last1_epilogue.jpg" 2.1:2.1 120 sineout
+
+say "创造存在的愿望被推翻了。天空在头上迅速移动，而现实的余光从四面八方倾泻而下至她身上。
+光将这打造出的灵魂推入至浮在半空中极度美艳的对立的身体时，
+她的汗珠滴至眉间，但同时她也推动了整个世界——"
+
+say "她引导着大地的生命。"
+
+hide "epilogue/last1_epilogue.jpg" fade(0.2,sineout)
+
+say "她抛弃了Arcaea。"
+
+show "epilogue/last1_epilogue.jpg" 0.6:1 0.6:1 2.1:2.1 fade(5,easeout) normal
+move "epilogue/last1_epilogue.jpg" 1000:0 30 easeoutin
+
+say "在白天要结束之时，双胞胎少女看着云朵从上空快速飘过。"
+
+say "而在夜晚的天空之下，有一名贵族看着裂缝慢慢将大地分裂，
+看着星星从空中逐渐落下。"
+
+say "有一名关心又在乎的少女，有一名四处游荡并探索的少女，有一名看顾并许下愿望的少女——"
+
+say "有一个愉悦的灵魂，有一个饥渴的灵魂，有一个有抱负的灵魂——"
+
+say "有一颗战争的心，有一颗歌唱的心——"
+
+say "—— 在这世界上所有的活力都被带至一个遥远地方之时，她们也看见了尾声。"
+
+hide "epilogue/last1_epilogue.jpg" fade(3,easein)
+stop "blowing1.ogg" 6
+stop "new_epilogue.ogg" 17
+
+say "而很快地……"
+
+say "……光感觉这些活力，最后有几缕流入了她希望拯救的那名少女体内。
+当这活力从光的双手中退去时，对立的形体开始飘落至地面，
+同时……"
+
+say "……这名身穿白衣的少女也感觉到了，她自身也有一部分开始迷失在这股流动之中。"
+
+say "……但她一点都不担心。"
+
+say "当风声平息，Arcaea 上方的天空也回归平缓后……
+她感到头晕目眩，并在可能跌倒前尽力站稳脚步。"
+
+say "她试着让自己冷静下来，并试图理解她究竟做了什么。
+但是……她做不到。
+她无法抗拒地专注在一件事情上："
+
+
+
+say "对立活了吗？"
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(6,linear) normal
+wait 3
+wait 3 clear
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(3.2,easeout) normal
+
+play "wind.ogg" 0.8 loop
+
+wait 3.2
+
+show "epilogue/forgotten_epilogue.jpg" 0.52:1 0.52:1 1.8:1.8 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white40.png" fade(0,linear)
+hide "white.png" fade(0,linear)
+hide "2white.png" fade(12,sineout)
+move "epilogue/forgotten_epilogue.jpg" 0:960 24 easeout
+
+say "——"
+
+wait 4
+
+say "尘土再次从天空飘落。"
+
+wait 1
+stop "wind.ogg" 3
+
+say "她确实记得……"
+
+wait 1
+
+say "……在最后，在最低点的时候……"
+
+wait 1
+
+hide "epilogue/forgotten_epilogue.jpg" fade(5,easein)
+
+say "没有人在那里，她闭上眼，眼泪开始留下。"
+
+wait 1
+
+say "她现在缓缓张开双眼……
+　
+……而那些回忆也离开了她。"
+
+wait 3
+play "after_epilogue.ogg" 0 loop
+volume "after_epilogue.ogg" 0.51 7.5
+wait 1.6
+
+show "finale/bg_distance.jpg" 1:0 1:0 1.5:1.5 fade(8,easeout) normal
+
+move "finale/bg_distance.jpg" 0:-500 31 easeout
+
+wait 13.4 clear
+
+say "光看见她额头有些动静。
+这名白衣女子双手握拳放在嘴前，喉咙也深吸一口气。"
+
+say "就这一切的璀璨来说，她认为，真是太简单了——"
+
+say "太简单——
+这些微的希望和努力，能否实现她的愿望？"
+
+play "1step.ogg" 0.5
+
+say "光对于这些想法摇摇头，她颤抖着向前。
+对立的双眼张开，眨了一下，接着再次眯起。"
+
+play "collapse.ogg" 0.3
+hide "finale/bg_distance.jpg" fade(0.3,sineout)
+
+say "光赶紧上前，跪下并抱着眼前这名少女。"
+
+show "finale/bg7.jpg" 0:0 0:0 1.7:1.7 fade(3,linear) normal
+move "finale/bg7.jpg" -380:0 25 easeout
+
+say "\"这……你……！？你这是——！？\""
+
+say "光紧紧抱住她，这是她一生中抱得最紧的一次，
+而另一名少女则沉默不语。
+然后，光开始啜泣。"
+
+say "她不顾自我地靠在另一个少女的肩膀上哭泣，
+而那名少女回过头看着她，对这一切都感到难以置信。"
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white40.png" fade(2,sineout)
+play "woosh.ogg" 0.3
+
+say "……更多裂缝都已经在那片景色中被凿开。
+过去从天空中不断倾泻的光芒，突然也变得黯淡许多。
+这个世界……受损了。"
+
+say "而光的注意力仍放在有\"什么\"—— 有\"谁\"还在。
+对立抬起一只手，轻轻地放在光颤抖的背上。
+她们各自都不知道发生了什么事，在世界结束之时就这样安抚彼此。"
+
+
+hide "finale/bg7.jpg" fade(2,sineout)
+
+say "\"抱歉……我真的很抱歉……\"
+光不停地说着。"
+
+say "\"……不论你做了什么，\"
+对立回应道：
+\"你都做到了，不是吗？为何要道歉……？\""
+
+say "光缓缓移开身子，但仍抱着这名少女。
+她的双眼跟鼻子都哭红了，强颜欢笑地注视着对立。"
+
+say "突然之间，光把脸埋进对立的胸口，而对立也轻轻地抱住她。
+这一幕都安静了下来，黑衣少女就这样让白衣少女一直哭泣。"
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,linear) normal
+wait 2 clear
+wait 1
+show "3white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "epilogue/last2_c1_epilogue.jpg" 0.8:0.1 0.8:0.1 0.9:0.9 fade(0,linear) normal
+
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2white.png" fade(7,sineout)
+hide "white.png" fade(0,linear)
+move "epilogue/last2_c1_epilogue.jpg" 180:0 26 easeout
+wait 3
+
+say "——
+她们在灰色世界中启程。"
+
+say "对立牵着另一名少女的手带她向前走了一阵子，但没多久，
+另一名少女就调整好脚步跟上。"
+
+hide "epilogue/last2_c1_epilogue.jpg" fade(7,linear)
+show "epilogue/last2_c2_epilogue.jpg" 1:1 1:1 1.42:1.42 fade(6,sinein) normal
+move "epilogue/last2_c2_epilogue.jpg" 200:0 17 easeout
+
+say "她不记得发生在自己身上的悲剧，至少，不记得最糟糕的部分。"
+
+say "还有这些黑色碎片……这些碎片也不再对她感兴趣。"
+
+show "epilogue/last2_c3_epilogue.jpg" 0:1 0:1 1.42:1.42 fade(7,linear) normal
+move "epilogue/last2_c3_epilogue.jpg" -200:0 18 easeout
+
+say "光的情况也一样。这些原本非常喜欢光的白色碎片，再也不在她身边舞动或亲近她。"
+
+say "一个已经失去部分黑暗，而另一个……而这世界……也持续失去光芒。
+不过……
+光那真诚的微笑，也不再需要玻璃的光芒。"
+
+hide "epilogue/last2_c2_epilogue.jpg" fade(4,linear)
+wait 2
+
+hide "epilogue/last2_c3_epilogue.jpg" fade(4,linear)
+show "epilogue/last2_c4_epilogue.jpg" 1:0.2 1:0.2 0.9:0.9 fade(8,linear) normal
+move "epilogue/last2_c4_epilogue.jpg" 270:0 26 easeout
+
+say "少女们走到悬崖边。
+她们小心地寻找充满被忘却的记忆并缓慢腐败的大地。
+这大地将腐败。它将崩溃，褪色，并且瓦解为虚无。"
+
+say "她们站在那里，对此并不知情，她们仅\"知道\"彼此，
+为此放弃了过去与回忆。"
+
+say "对立带着沉着而温暖的表情看着光——
+这是她在另外一个生命中，只要可以就会露出的神情。
+光看见了她的神情，回以最单纯自在的微笑。"
+
+say "\"等着我们的是什么\"……？
+什么可能都不重要了。"
+
+
+
+say "她们各自感到的\"完整\"……是不容动摇的。"
+
+say "而且……
+毫无疑问，光知道这场旅程已进入尾声。
+未来的道路就在前方，新的旅程即将展开。"
+
+volume "after_epilogue.ogg" 0.15 8
+show "epilogue/last2_c5_epilogue.jpg" 0.48:0.5 0.48:0.5 1:1 fade(4.1,easein) normal
+wait 1
+wait 2 clear
+move "epilogue/last2_c5_epilogue.jpg" -100:0 30 linear
+
+say "……她花了一段时间意识到自己是无法精准得知这趟旅程会带来什么的。
+她永远无法得知未来会发生什么事。"
+
+say "她接受这个事实，并闭上双眼思考：
+……对立之前是否知道，她走的每一步会将她带到哪？
+她只会一路向前。"
+
+volume "after_epilogue.ogg" 0.01 5
+
+say "……"
+
+stop "after_epilogue.ogg" 3
+
+say "如果你已选择生命，那便是选择了活下去。
+活在这个世界。见证这个世界。体验它，并真切地接受这最后的每个当下。
+有了这样的体悟，她选择去牢牢把握。"
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(4,easein) normal
+wait 4 clear
+show "epilogue/last2_epilogue.jpg" 0.31:0.52 0.31:0.52 1.5:1.5 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+move "epilogue/last2_epilogue.jpg" 0:-70 30 linear
+
+play "lastVocal_A_epilogue.ogg" 1
+wait 0.1
+scale "epilogue/last2_epilogue.jpg" 0.72:0.72 33 sineout
+hide "2white.png" fade(12,sineout)
+auto 5.25
+
+
+say "她睁开双眼，并且呼吸着空气。
+前方蜿蜒的未知、身旁的少女、
+没见过的脸庞、以及远方未知的地方……"
+
+say "她把这些放在心中最重要的位置。"
+
+auto 5.4
+
+say "她牵着对立的手。"
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.09,linear) normal
+
+auto 2
+
+say "因为她们将会继续前进。"
+
+wait 0 clear
+hide "black.png" fade(0,linear)
+hide "white.png" fade(0,linear)
+hide "3white.png" fade(0,linear)
+hide "epilogue/last2_epilogue.jpg" fade(0,linear)
+hide "epilogue/last2_c5_epilogue.jpg" fade(0,linear)
+hide "epilogue/last2_c4_epilogue.jpg" fade(0,linear)
+wait 0
+
+wait 5

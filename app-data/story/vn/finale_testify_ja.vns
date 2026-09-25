@@ -1,0 +1,740 @@
+show "finale/bg_distance.jpg" 1:0.55 1:0.55 1.5:1.5 fade(0,linear) normal
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "black.png" fade(14,linear)
+
+move "finale/bg_distance.jpg" 0:900 21 linear
+
+play "skyFall.ogg" 1.0
+wait 14
+
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(5,linear) normal
+wait 2
+
+say "この状況はいつまでも続くと、理性が告げていた。"
+
+wait 2
+hide "finale/bg_distance.jpg" fade(0,linear)
+show "finale/bg_distance.jpg" 1:0.55 1:0.55 1.5:1.5 fade(0,linear) normal
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(3,linear)
+
+say "再び、この剣を大地に突き立てれば、周囲の硝壁は砕け散り、
+また対立を押し退けることも出来るだろう。"
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.4,linear) normal
+
+say "（なのに、どうして――？）"
+
+show "finale/testify1.jpg" 0.1:0.57 0.1:0.57 2.2:2.2 fade(0,linear) normal
+hide "finale/bg_distance.jpg" fade(0,linear)
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3 clear
+hide "finale/testify1.jpg" fade(0,linear)
+wait 0
+
+
+hide "2white.png" fade(0,linear)
+
+
+show "finale/testify1.jpg" 0.74:0.97 0.74:0.97 2.2:2.2 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3
+hide "finale/testify1.jpg" fade(0,linear)
+wait 0
+
+show "finale/testify1.jpg" 0.34:0.55 0.34:0.55 2.2:2.2 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3
+hide "finale/testify1.jpg" fade(0,linear)
+wait 0
+
+show "finale/testify1.jpg" 1:0.74 1:0.74 2.2:2.2 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3
+hide "finale/testify1.jpg" fade(0,linear)
+wait 0
+
+show "finale/testify1.jpg" 0.48:0.85 0.48:0.85 2.2:2.2 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3
+hide "finale/testify1.jpg" fade(0,linear)
+wait 0
+
+hide "black.png" fade(0.2,linear)
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+wait 1
+
+show "finale/testify1.jpg" 0.55:0.81 0.55:0.81 2.05:2.05 fade(6,linear) normal
+
+say "あの、手……対立の手が、
+この右頬にそっと触れた感覚。"
+
+show "red.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "red.png" fade(0.2,linear)
+hide "2black.png" fade(0,linear)
+
+move "finale/testify1.jpg" -5:0 1 sineout
+wait 0.5
+move "finale/testify1.jpg" -295:0 10.5 easeout 
+
+play "thump.ogg" 0.5
+
+say "どうしてだろう。"
+
+say "対立の肢体。
+それが、目の前に現れた瞬間、"
+
+say "いったいどうして、白の少女は剣を上へ"
+
+say "（――どうして、突き刺してしまったの……？）"
+
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "finale/testify1.jpg" fade(0,linear)
+
+wait 1 clear
+
+show "finale/testify1.jpg" 0.5:0.48 0.5:0.48 0.85:0.85 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+scale "finale/testify1.jpg" 0.8:0.8 0.3 sineout
+move "finale/testify1.jpg" 0:-20 10 sineout
+hide "2white.png" fade(0.3,sineout)
+
+play "strike.ogg" 2.0
+play "predestination.ogg" 1.0
+wait 9
+
+stop "predestination.ogg" 2
+
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white70.png" fade(3,linear)
+
+play "blowing1.ogg" 0.7 loop
+
+hide "2black.png" fade(0,linear)
+
+say "衝撃に凍りつく体。
+だが、すぐに感情がその凍てついた体を動かした。"
+
+say "黒い硝片が、視界の端。
+今、対立の手から落ちていく。
+痛みへの反射か、掴んでいた右手が緩んだらしい。"
+
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(8,linear) normal
+
+play "burst.ogg" 1
+play "memory1.ogg" 0.6 loop
+wait 0.2
+
+move "finale/testify1.jpg" -40:0 0.2 sinein
+move "finale/testify1.jpg" -20:0 13 linear
+
+
+
+show "white50.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+
+say "眩い、眩い光がゆるやかに、
+けれどすぐにその輝きを強めていく。"
+
+say "非現実的な、この世のものとも思えない、その光――"
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+
+say "そして後に続く、
+命が削れるような絶叫と、
+応えるように喰われて逝く命。"
+
+say "震える叫び。
+大地を、そして対立の体もまた貫いて響いていく。"
+
+wait 2 clear
+
+stop "blowing1.ogg" 0.2
+
+hide "white40.png" fade(0,linear)
+hide "white50.png" fade(0,linear)
+hide "white.png" fade(0,linear)
+
+hide "finale/testify1.jpg" fade(0,linear)
+
+play "sword.ogg" 1.0
+
+play "testifyStoryFull.ogg" 1.0 loop 114000:194001
+
+wait 1.2 clear
+
+play "end.ogg" 1.0
+
+show "finale/testify1.jpg" 0.66:0.42 0.66:0.42 3.7:3.7 fade(0,linear) normal
+scale "finale/testify1.jpg" 3.0:3.0 0.3 sineout
+move "finale/testify1.jpg" 40:0 0.01 linear
+wait 0.01 clear
+move "finale/testify1.jpg" -80:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:-80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -40:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 0:-40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -40:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:-40 0.01 linear
+scale "finale/testify1.jpg" 2.95:2.95 0.5 linear
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.5,sinein) normal
+wait 1.23
+
+stop "sword.ogg" 0.5
+
+hide "black.png" fade(0,linear)
+scale "finale/testify1.jpg" 2.2:2.2 0.3 sineout
+move "finale/testify1.jpg" 40:0 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -80:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:-80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -40:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 0:-40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -40:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:-40 0.01 linear
+scale "finale/testify1.jpg" 2.15:2.15 0.5 linear
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.45,sineout) normal
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.5,sinein) normal
+wait 1.23
+
+
+hide "black.png" fade(0,linear)
+scale "finale/testify1.jpg" 1.4:1.4 0.3 sineout
+move "finale/testify1.jpg" 80:0 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -160:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:-160 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -80:80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 0:-80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 80:80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -80:80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:-40 0.01 linear
+scale "finale/testify1.jpg" 1.35:1.35 0.5 linear
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.4,sineout) normal
+wait 0.01
+move "finale/testify1.jpg" -80:80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 0:-80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 80:0 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -160:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 0:-80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 80:0 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -80:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 0:-160 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -80:80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:80 0.01 linear
+wait 1.23
+hide "finale/testify1.jpg" fade(0,linear)
+
+play "breath.ogg" 0.4
+
+say "これが、おわり。"
+
+say "そうして、音が止んだ。"
+
+say "ひとつの命と、一緒に。"
+
+show "finale/bg7.jpg" 1:0.55 1:0.55 1.5:1.5 fade(0,linear) normal
+hide "white.png" fade(0,linear)
+hide "white70.png" fade(0,linear)
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2white.png" fade(5,linear)
+move "finale/bg7.jpg" 0:625 20 sineoutin
+
+wait 10 clear
+
+play "tunnel.ogg" 0.4
+stop "tunnel.ogg" 4
+
+say "貫いた、体内へと侵入した瞬間から、
+その刃は黒い少女の生命を呑んでいた。
+その血と彼女の全てが、硝片に呑まれていったのだ。"
+
+say "そのまま粉々に散り、消えていく硝片。
+こうして、一つの命は消化された。"
+
+wait 0 clear
+hide "finale/bg7.jpg" fade(0,linear)
+wait 0
+show "finale/bg7.jpg" 1:0.05 1:0.05 1.5:1.5 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(2,linear)
+move "finale/bg7.jpg" 0:40 1 sineout
+
+play "collapse.ogg" 0.3
+
+say "遺った体だけが重力に囚われ、崩れ落ちていく。"
+
+say "思考よりも疾く、その手は頬にあった対立の手を取っていた。"
+
+say "だが、すぐに命は宙に消えた。
+残ったのは温度の奪われた静寂だけ。"
+
+play "glassRain.ogg" 0.1 loop
+
+say "剣が砕けて消える一方で、
+その指にはいつまでも、
+あの温もりが遺っていた。"
+
+say "それは赤く、ぬめった温もり。"
+
+say "彼女に掴まれたときの感触が、既にもう一方の手では思い出せないのに。"
+
+play "collapse.ogg" 0.3
+
+play "thump.ogg" 0.7
+
+say "地に足がつく。
+濡れて温もり残る光の手だけが、
+少女だったモノの胴体を支えている。"
+
+say "閉じられた両の目、顰められた眉間、
+……それも今、緩んでなくなった。"
+
+say "安らぎもない、なにもない。
+こうして、彼女は死んだのだ。"
+
+play "thump.ogg" 1.0
+
+say "見開かれた目。
+止まらない拍動。"
+
+say "今更追いついた五感が、
+たった今消えた命の感触を喚いている。"
+
+stop "memory1.ogg" 2.0
+
+play "thump.ogg" 1.0
+
+wait 0
+hide "finale/bg7.jpg" fade(0,linear)
+wait 0
+show "finale/bg7.jpg" 0:0.63 0:0.63 1.5:1.5 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(6,linear)
+move "finale/bg7.jpg" 0:100 5 sineout
+
+say "ゆっくりとその左手を引けば、
+ずるりと倒れてくる彼女の体。"
+
+say "目を見開く。
+とっさにその手を戻し、
+もう一方の手でも彼女だったモノを支える。"
+
+say "そろって地に膝をついた二人の少女は、
+生気の消えた手を強く繋いでいた。"
+
+say "二度と動くことのなくなったその肺、
+その胸に触れていると、
+再び温もりを感じるような気がした。"
+
+say "そして目に映ったのは、
+他でもない自分自身が付けた傷だった。"
+
+say "空と大地、
+彼女はそのどちらにも大きな傷痕を残していった。"
+
+say "今は巨大でいびつなクレーターがあるばかり。
+周囲の土地はもはや、ほぼ均されてしまっていた。"
+
+wait 0
+hide "finale/bg7.jpg" fade(0,linear)
+wait 0
+show "finale/bg7.jpg" 1:0.4 1:0.4 1.5:1.5 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2white.png" fade(6,linear)
+move "finale/bg7.jpg" 0:100 5 sineout
+
+say "あの突撃に込められた力というのは、
+それほどまでに強大だったらしい。"
+
+say "平らになった辺り一面に、
+雲一つ残らず消し飛んで、未だ空っぽのままの空。"
+
+say "折れずにあった大聖堂など、もう影もあるかどうか。"
+
+say "それでも対立の背後には、
+爆風でひび割れた煉瓦の壁が飛び出て、倒れていた。"
+
+say "黒い少女の体が盾になり、
+結果として粉々になることから逃れたのだろう。"
+
+say "だが、もう盾は破れた。"
+
+wait 0
+hide "finale/bg7.jpg" fade(0.2,linear)
+wait 0
+show "finale/bg7.jpg" 0.2:0 0.2:0 1.5:1.5 fade(0,linear) normal
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+say "光は対立の……
+対立だった物の、その顔に、
+己の顔を寄せていた。"
+
+say "愚かにもまるで、
+息を吹き返すのを待つかのように。"
+
+say "強く強く、その手を握る。
+だが、もう死んだ手だ。
+握り返されることはない。"
+
+say "少女は苛立ち、
+死んだその手を投げるように放り出す。"
+
+say "微かに裂けるのも厭わずに、
+もう息をしない少女の服、その胸元に爪立てた。"
+
+show "red.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "red.png" fade(0.2,linear)
+
+play "thump.ogg" 1.0
+
+wait 2 clear
+
+show "red.png" 0.5:0.5 0.5:0.5 2000:960 fade(10,linear) normal
+
+say "感じる。……温もりを感じる。"
+
+say "だがそれは他でもなく、
+己の腕に零れた涙だった。
+泣いていた。"
+
+say "さっき感じた温もり、
+少女はその正体を知っていた。
+否、分かっていなければならなかったのだ。"
+
+say "見れば、零れた涙が一筋の線を描いていた
+――赤黒くぬめる、自らの腕の上で。"
+
+say "その光景、その事実に、
+少女は恐慌へと突き落とされた。"
+
+hide "red.png" fade(0,linear)
+
+move "finale/bg7.jpg" 0:-2200 20 sineout
+
+play "collapse.ogg" 0.3
+
+say "鉄の棒でも通されたように、
+恐怖で伸びた背筋に、
+後ろへと転びそうになる。"
+
+say "表情は歪み、唇は震えている。"
+
+hide "black.png" fade(7,linear)
+
+say "もう、嗚咽していた。"
+
+say "口元をきれいな方の腕で覆っても、嗚咽はもう止まらなかった。
+バランスを崩して後ろに転べば、冷たくなった体もまた倒れた。"
+
+say "己の汚れた手をドレスに下ろすと、
+こちらに寄りかかっていた遺骸が、
+大聖堂だった瓦礫にその背中を預けるように倒れ込んだ。"
+
+say "脳裏で反響する、
+自分が吐いた言葉たち。"
+
+say "まるでそれは自身からの、冷笑のような誅罰のようで。"
+
+say "『こんなことする意味なんてないよ……』"
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,linear) normal
+
+wait 4 clear
+hide "finale/bg7.jpg" fade(0,linear)
+play "thump.ogg" 2
+wait 1
+
+say "――ああ、どうして笑えなかった。"
+
+say "現実の全て、実感の全て、
+もはやすべてが無視出来ない。"
+
+say "――いいじゃない、ずっと失意に沈んでいれば。"
+
+say "肌にぬめる、焼き付いた温もりは消えないもの。
+そう。消えることはないの、あの剣のように。"
+
+show "prelude/tai2.jpg" 0.5:1 0.5:1 1:1 fade(2,sinein) normal
+
+say "死んだよ。死んだの。
+あの人は死んじゃった。終わったの。"
+
+say "そう、あなた。
+あなたがあの人を殺したの。"
+
+say "でもね？"
+
+say "あの人の苦しみに、痛みに気づいてたでしょ。
+あの辛さ、あなたは一度でも分かろうとしていたの？"
+
+hide "prelude/tai2.jpg" fade(3,linear)
+show "../../cg/2-8.jpg" 0.6:0.39 0.6:0.39 1.2:1.2 fade(4,linear) normal
+
+say "『もうどうしたらいいのかわかんない』？
+……わからないんだ、まだ。"
+
+say "……ううん、出来ない。
+なかったことになんて出来ないよ。死んじゃったもの。"
+
+say "なに？また立ち直ってやりなおして、
+それで元通りになると思ったの？"
+
+say "この所業を、こんな不始末を、
+もう世界に刻んでしまったのに？"
+
+hide "../../cg/2-8.jpg" fade(3,linear)
+show "../../cg/V-10.jpg" 0.2:0.75 0.2:0.75 1.3:1.3 fade(4,sinein) normal
+show "finale/vs_overlay.png" 0.15:0.75 0.15:0.75 1.3:1.3 fade(1,sinein) normal
+move "../../cg/V-10.jpg" 40:0 2.6 sinein
+move "finale/vs_overlay.png" -100:0 1.6 sinein
+move "../../cg/V-10.jpg" 30:0 1 linear
+
+say "……どうしたの、
+喜ばないの？勝ったじゃない。"
+
+say "あの子を潰して、消化して。
+……今、生きてるでしょ。"
+
+say "なのに、生きている自分が嫌なんだ？
+……でも、それならあの人こそ死にたがってたよね。"
+
+hide "../../cg/V-10.jpg" fade(3,linear)
+
+say "――今、逃げたね。
+逃げたでしょ。
+死にたがってた人だから悪くないって、正当化した。"
+
+say "自分がいい子だって言い訳が見つかってよかったね。
+どんな気分？"
+
+wait 2
+hide "finale/vs_overlay.png" fade(0.3,linear)
+wait 1
+
+show "finale/LS.jpg" 0.34:0.5 0.34:0.5 1:1 fade(3.5,linear) normal
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white70.png" fade(0.6,linear)
+move "finale/LS.jpg" 0:-400 3 sineout
+play "thump.ogg" 1.4
+wait 1
+
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white70.png" fade(0.6,linear)
+play "thump.ogg" 1.8
+scale "finale/LS.jpg" 1.4:1.4 0.3 sineout
+wait 0.3
+scale "finale/LS.jpg" 1.6:1.6 3 linear
+wait 1.4
+
+play "thump.ogg" 2.5
+hide "finale/LS.jpg" fade(0,linear)
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white70.png" fade(0.2,linear)
+wait 0.5
+
+wait 3 clear
+
+say "……手遅れなのは頭（おつむ）からなのかな。"
+
+say "だって、
+いつまでもそのまんまだよ。
+今だって、ずーっとそう。"
+
+say "――ほんとあなたって、自分さえ良ければ良いんだね。"
+
+show "vs/arcahv1.jpg" 0.7:0.2 0.7:0.2 1.8:1.8 fade(2,sineout) normal
+move "vs/arcahv1.jpg" 0:180 8 sinein
+
+say "そんな思考、そんな指向。
+心はまるで紙のよう。
+ただひらひらと引かれて、落ちていくばかり。"
+
+say "自らの髪を掴んでも、
+左手を持ち上げることは出来やしない。"
+
+say "わたし（自分）からわたし（自分）へ。
+断罪は止まらない。"
+
+say "卑しいわたし、利己的なわたし、独善的なわたし。
+ㅤ
+嗚呼、わたしがこうじゃなかったら。"
+
+move "vs/arcahv1.jpg" 0:20 6 sinein
+
+say "それでも何かが引っかかって、自分に囁く。
+ㅤ
+『今までだって、ずっとそうだったのに？』"
+
+hide "vs/arcahv1.jpg" fade(0,linear)
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,linear) normal
+
+wait 4
+
+show "../../cg/1-1.jpg" 0:0.3 0:0.3 1.1:1.1 fade(0,linear) normal
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2white.png" fade(3.5,linear)
+hide "white70.png" fade(6,linear)
+
+scale "../../cg/1-1.jpg" 1.2:1.2 6 sineout
+move "../../cg/1-1.jpg" -600:0 18 sineout
+
+
+say "はじめは、ガラスの蝶で出来た雲の中で目覚めたのかと思った。"
+
+say "（ああ、素敵。
+こんなふうに動くなんて、糸でもつながってるの……？）"
+
+say "膝をつき、ドレスを整えて見回してみれば、糸などついていない。
+そもそも、飛んでいるものは蝶ですらなかった。
+浮かんでいたのは、ガラスの欠片。"
+
+say "「楽しい」と、感じるままに少女は言っていた。"
+
+say "硝片がその身に映すのは、
+少女を取り巻く白い世界とは異なる情景。"
+
+say "見えるのは海に街々、火と、そして光。
+両手を上げれば遠ざかる硝片を見て、
+彼女は楽しげに笑っていた。笑っていたのだ。"
+
+say "『Arcaea』
+……知りもしなかった。あの硝子に名前があるなんて。
+むしろ名前なんて、あの綺麗さの前ではどうでもよかったのだ。"
+
+say "触れて、
+纏わせて、
+美しさを眺めているだけ。"
+
+say "――それだけでは、いけなかったのだろうか？"
+
+hide "white40.png" fade(0.2,linear)
+hide "white.png" fade(0.2,linear)
+hide "../../cg/1-1.jpg" fade(0.2,linear)
+
+say "そうだ、
+きっといけなかった。"
+
+say "それに、知っていたはずなのだ、
+真に人間が変わることなど出来やしないって。"
+
+say "ずっと、それも分かっていたはずなのに。"
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(1.5,linear) normal
+wait 1.7
+
+show "zettai/bg.jpg" 0.9:0.2 0.9:0.2 1.5:1.5 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(6,linear)
+hide "2white.png" fade(6,linear)
+move "zettai/bg.jpg" 150:0 10 sineout
+wait 3 clear
+wait 4
+
+hide "black.png" fade(0,linear)
+hide "zettai/bg.jpg" fade(0,linear)
+show "vs/bg.jpg" 0:0.4 0:0.4 1.5:1.5 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(6,linear)
+move "vs/bg.jpg" -150:0 10 sineout
+wait 7
+
+hide "vs/bg.jpg" fade(0,linear)
+show "meeting/bg.jpg" 0.9:0.2 0.9:0.2 1.5:1.5 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(5,linear)
+move "meeting/bg.jpg" 150:0 10 sineout
+wait 6
+
+hide "meeting/bg.jpg" fade(0,linear)
+show "finale/bg7.jpg" 0:0 0:0 1.5:1.5 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(6,linear)
+move "finale/bg7.jpg" -150:0 10 sineout
+wait 7
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,linear) normal
+wait 4
+
+hide "finale/bg7.jpg" fade(0,linear)
+show "finale/bg3.jpg" 0.5:0.7 0.5:0.7 1.5:1.5 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(0,linear)
+wait 0.1
+hide "2white.png" fade(20,linear)
+move "finale/bg3.jpg" 0:1800 40 sineoutin
+
+auto 3
+
+say "それでも、幕は引かれない。
+終わりなど、決して訪れない。"
+
+say "ずっとずっと、少女が求める意味などない。"
+
+say "意義などない。ここに見つかるものはない。"
+
+volume "testifyStoryFull.ogg" 0.15 10
+
+say "死んだ世界に、泣きじゃくる少女が一人いるばかり。"
+
+say "それでも、慰めがただ一つ、否定しようのない事実が一つ。"
+
+say "危うく全てを奪いかけた1人の少女を生贄に、
+今、白い少女の奥底に、"
+
+auto 4
+
+say "かの血で深く刻み付けられた事実が一つ。"
+
+volume "testifyStoryFull.ogg" 0.01 5
+wait 2
+hide "finale/bg3.jpg" fade(6,linear)
+auto 3
+
+say "――そう。"
+
+stop "testifyStoryFull.ogg" 3
+wait 3
+stop "glassRain.ogg" 8
+auto 6
+
+say "こうして楽園は守られたのだ。"
+
+wait 8

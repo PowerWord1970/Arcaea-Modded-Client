@@ -1,0 +1,1233 @@
+play "glassRain.ogg" 0.4 loop
+
+wait 3
+
+show "vs/arcahv2.jpg" 0.3:0 0.3:0 1.4:1.4 fade(0,linear) normal
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+wait 1
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+wait 0.5
+hide "black.png" fade(0,linear)
+wait 0.5
+move "vs/arcahv2.jpg" -600:0 32 easeout
+wait 1
+hide "2black.png" fade(6,sineout)
+wait 3
+
+say "――赤い血と埃の中、あの子は座りこんでた。"
+
+say "自らの愚行、
+そして自己憐憫で……
+光は、もうボロボロだったわ。"
+
+say "顔を覆う小さな手……
+その指、隙間から覗く視線は、一つに釘付けだった。"
+
+say "もう一人の私……貴女の遺骸にね。"
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white40.png" fade(6,sineout)
+
+say "……怖いでしょうね。自らの中に、
+いつ暴れ出すのかわからないモノがあるのは。"
+
+say "それは、別の一面。
+怖気が走るほど全てに無関心で、どこか自棄じみた一面。"
+
+say "この惨状、そして他でもない貴女に死を届けた張本人こそ、
+彼女の別側面。"
+
+say "それでもどこかで、あの子はきっと感じているのでしょうね。
+すべてが、この出来事のためにあったという事実を。
+……私にも解るもの。"
+
+say "――死ぬ定めにあった貴女と、その処刑人としてのあの子。
+きっと全てが確約されたことだった。
+……そんな、どうしようもない事実を、ね。"
+
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "black.png" fade(3,sineout)
+
+say "薄汚れた衣と、弛緩していくその背すじ。
+世界――\"Arcaea\"から、張り詰めた何かが抜けるような感覚。
+『異変は消え、もう安全なのだ』とでも言うような、そんな安堵。"
+
+play "breath.ogg" 0.4
+
+say "――でも、感じるの。
+あの子の心へ入り込んで、緩ませようとする、何かの気配を。
+……この状況を受け入れろ、自分を受け入れろ、って。"
+
+say "『\"Arcaea\"を受け入れろ』って、そんな囁きのような――。
+……でも、あの子は――"
+
+play "collapse.ogg" 0.1
+hide "vs/arcahv2.jpg" fade(0.2,sinein)
+
+say "「たい、りつ……？」"
+
+show "vs/arcahv2.jpg" 0.65:0.42 0.65:0.42 1.9:1.9 fade(1,easeout) normal
+
+say "呟かれたそれは、名前だった。
+……涙に震えたその声は、ほとんど聞こえない程度のものだったが。"
+
+say "「どういう、こと……？『ここでの名前』……？」"
+
+say "そして思索に包まるような、沈黙。"
+
+play "breath.ogg" 0.4
+play "voice_epilogue.ogg" 0.7 loop
+
+say "ふと、また\"囁き\"を聞いた。
+『――お望みであれば、その答えもここにはあるでしょう』"
+
+say "『――ここは、全ての記憶の書庫なのですから』と。
+……だが少女は、なおも思索に沈んでいた。"
+
+say "「……」"
+
+hide "vs/arcahv2.jpg" fade(3,easeout)
+
+say "思索する。思案する。
+その水面下で募っていく『無関心さ』と、深まる憎悪。
+最早、目が眩むほどに。己への憎悪が止まらない。止められない。"
+
+say "当然だ。起きたことが覆るだろうか？
+あんな終わりが許されて然るべきだろうか？
+あの結末の意味、そもそもの意義は？"
+
+say "あの死は一体、彼女にとって何だったというのか？"
+
+say "ここまで彼女は、自分を諦めなかった。
+だからこそ今、自分を赦せなかった。"
+
+show "finale/LS.jpg" 0.5:0.7 0.5:0.7 1:1 fade(4,linear) normal
+wait 1.5 clear
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+stop "voice_epilogue.ogg" 2.5
+hide "finale/LS.jpg" fade(0.4,linear)
+wait 1
+
+say "胃に巣食う吐き気に、ひくつく顎。"
+
+say "「……」"
+
+
+show "finale/bg7.jpg" 0.4:0 0.4:0 1.7:1.7 fade(3,linear) normal
+hide "black.png" fade(5,easeout)
+stop "glassRain.ogg" 5
+wait 0.1
+play "quietWind.ogg" 0.6 loop
+move "finale/bg7.jpg" 0:-40 7 easeout
+
+say "足元は地面、手と膝を砂につけて、
+前傾するような姿勢で、光は尋ねた。"
+
+say "「あの、あなた……
+Arcaeaさん……は、私をなぐさめに来たの……？」"
+
+play "woosh.ogg" 0.4
+
+wait 2
+
+say "そう言って強張った腕をすこし緩めれば、
+手足にひんやりとした感触が伝った。
+ゆるやかに目を閉じて、まだ低い声音で呟く。"
+
+wait 2
+
+say "「わ、分かる……感じるわ」"
+
+say "「ここは……楽園なの……？
+怯えて、くたびれて、弱った人たちのための……？」"
+
+wait 1
+
+say "「……」"
+
+wait 1
+
+play "sand_epilogue.ogg" 1
+wait 0.1
+move "finale/bg7.jpg" 0:-300 12 easeout
+
+say "渇いた、味覚のない口で、唾を下そうとする。
+閉じた目を開いて立ち上がれば、指間から砂が零れ落ちていく。
+知らずと、握り込んでいたらしい。"
+
+say "「わからない……わからないの。
+わたし、また逃げてもいいのかな……。
+また、あなたに慰めてもらってもいいの……？」"
+
+say "「……ううん、違うよね。絶対そうじゃない」"
+
+say "「――グスッ、……いや、だなあ……」"
+
+say "「……こんなの……嫌だよぉ……！」"
+
+show "vs/arcahv2.jpg" 1:0.4 1:0.4 1.15:1.15 fade(0,linear) normal
+hide "finale/bg7.jpg" fade(0,linear)
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+play "thump.ogg" 1
+
+wait 0.5 clear
+stop "quietWind.ogg" 2
+
+wait 2
+
+play "refusal_epilogue.ogg" 0.5
+hide "black.png" fade(0.3,linear)
+move "vs/arcahv2.jpg" 0:80 0.3 sinein
+move "vs/arcahv2.jpg" 0:10 2 easeout
+show "vs/arcahv1.jpg" 1:0.22 1:0.22 1.15:1.15 fade(40,linear) normal
+
+say "「……ッうぶ」"
+
+say "突如、崩折れるように前に屈む。
+その手は口を、胃を押さえて、体が大きく揺れていた。"
+
+play "plea_epilogue.ogg" 2
+play "voice_epilogue.ogg" 0.7 loop
+play "tension.ogg" 0.6 loop
+
+say "少女の拒絶に既視感を覚えたのか、
+再び\"世界\"の関心が彼女に向いたらしい。"
+
+say "口を固く閉じ、恐怖に目を見開いて、
+そして光は、急に涙ぐんでいた。"
+
+say "……私にも聞こえたわ、急に耳障りなノイズが。
+耳に――いいえ、あの子の頭の中、
+そして心臓から聞こえているようだった。"
+
+say "あんなのもう、囁きなんかじゃない。
+肌の下から震えるみたいな……"
+
+say "静かな、だが有無を言わさぬような力強さで、
+その内側に声が響いた。"
+
+say "『――覚悟を決めて、そしてお告げなさい。己の望みを』と。"
+
+stop "voice_epilogue.ogg" 4
+
+say "「告げる……わたしの……？」"
+
+show "../../cg/F-7.jpg" 0.8:0 0.8:0 2:2 fade(4,linear) normal
+move "../../cg/F-7.jpg" 40:0 15 easeout
+
+say "それは、奇しくも彼女のありのまま。
+なぜなら光は、己の心のままに生きてきた少女だ。"
+
+say "そして彼女自身をここに導いたのもまた、その心だ。
+そう、この\"世界\"で目覚めるよりも、ずっと前から。"
+
+say "――なら、全ては直感的な行動だったのかしら？"
+
+say "……つまりあの子の体は、全ての経緯、
+そしてこの\"世界\"を作り出す前の自分を、
+全て、最初から憶えていたとでもいうの……？"
+
+stop "tension.ogg" 5
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(1,linear) normal
+
+
+
+say "……フフ、まあ……
+そんな瑣末事、どうでもいいわね。"
+
+say "でも、可笑しい。笑ってしまいそう。
+……だって、とびきりの皮肉だと思わない？"
+
+say "――せっかく生み出されたのに、
+他でもない生みの親、その一時の感情で、
+全てがなかったことにされ得るだなんて……まるでコメディだわ。"
+
+hide "../../cg/F-7.jpg" fade(0,linear)
+hide "vs/arcahv2.jpg" fade(0,linear)
+hide "vs/arcahv1.jpg" fade(0,linear)
+show "finale/bg_distance.jpg" 0.2:0.4 0.2:0.4 1.3:1.3 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2black.png" fade(3,linear)
+wait 0.1
+play "memory1.ogg" 0.7 loop
+move "finale/bg_distance.jpg" 0:-230 7.5 easeout
+
+say "干上がるように浅い呼吸、乱れる心拍。
+それが実に一分を越えた後、少女の答えは明確だった。"
+
+play "thump.ogg" 1
+
+say "「――『巻き戻したい』」"
+
+say "「……ううん、『取り戻したい』、それだけなんだ。
+わたしの望みはきっとこれだけ……それだけが願い事」"
+
+play "thump.ogg" 1
+
+say "「……だって、対立さんは生きてなきゃ。
+だってこんなの、わたしが死んじゃうようなこと？
+これって、だれか死ななきゃいけないこと？」"
+
+say "「……こんな意味わかんない、こんな世界のために……？」"
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white40.png" fade(2,sineout)
+
+say "「……おかしいよ。そんなの、絶対にまちがってる！
+何でもする、何でもあげる……もう、全部あきらめちゃってもいい。
+……だけどこんなの、ぜったいに認めない！」"
+
+move "finale/bg_distance.jpg" 10:0 0.01 linear
+play "cut.ogg" 0.2
+wait 0.04
+move "finale/bg_distance.jpg" -5:10 0.01 linear
+wait 0.03
+move "finale/bg_distance.jpg" 10:-12 0.01 linear
+wait 0.04
+move "finale/bg_distance.jpg" 0:10 0.01 linear
+wait 0.03
+
+say "手中の砂、掴んでしまっていた大地を、固く固く握り締めた。
+手放して投げ捨てる、その前に。"
+
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white40.png" fade(2,sineout)
+
+say "「死んじゃっても、いいよ。
+それで全部、変えられるなら――！！」"
+
+stop "memory1.ogg" 0.3
+play "groan_epilogue.ogg" 2
+play "heart_epilogue.ogg" 1
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+wait 3 clear
+
+hide "finale/bg_distance.jpg" fade(0,linear)
+wait 0
+show "finale/bg_distance.jpg" 0.4:0.6 0.4:0.6 1.3:1.3 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(0,linear)
+hide "2white.png" fade(1,linear)
+
+scale "finale/bg_distance.jpg" 0.9:0.9 0.3 easeinout
+wait 0.3
+scale "finale/bg_distance.jpg" 0.8:0.8 4 easeout
+
+show "2white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2white40.png" fade(7,sineout)
+
+say "今、\"世界\"の心臓が動く。その拍動に、不思議と寒気はもう止んでいた。
+――ああ、それでも\"世界\"は彼女を諦めない。絶対に、諦められないのだ。
+けれどその時、再び語りかける声が内側から……それは、\"囁き\"とは違う声。"
+
+stop "heart_epilogue.ogg" 2
+
+play "voice_epilogue.ogg" 1 loop
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(1,easein) normal
+wait 1.1 clear
+hide "white70.png" fade(8,sineout)
+wait 0.7
+
+say "流れ込んでくるその感情、その知識。
+胸元から指先まで、今、響いてくる。"
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,easein) normal
+
+say "『死んではなりません。生きるためにあなたは生まれ、
+そしてあの時、生きると、ご決断なされたのですから』と。"
+
+play "thump.ogg" 1
+
+say "――もう、光にも分かっていた。
+あとを追うように聞こえてくる、罪悪感と、謝罪と……
+気づけば、視界は潤んでいた。"
+
+play "tension.ogg" 1
+stop "tension.ogg" 1.8
+play "breath.ogg" 1
+
+say "けれどその涙が零れる前に、鼓動があった。
+\"世界\"が、その核が拍動したのだ。"
+
+say "世界――\"Arcaea\"は囁き、語りかけてくる。
+『――だからどうか、あなたまで終わらないで』と。"
+
+
+play "tension.ogg" 1 loop
+wait 2 clear
+
+play "decision_epilogue.ogg" 1
+stop "voice_epilogue.ogg" 3
+show "epilogue/last1_c1_epilogue.jpg" 0.3:0 0.3:0 1.3:1.3 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2white.png" fade(3,easeout)
+move "epilogue/last1_c1_epilogue.jpg" -200:0 20 easeout
+
+say "『――終わるのは、この\"世界\"だけでいいのです』"
+
+hide "white.png" fade(0,linear)
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(5,linear) normal
+wait 5 clear
+
+show "epilogue/last1_c2_epilogue.jpg" 0.7:0 0.7:0 1:1 fade(0,linear) normal
+hide "2white.png" fade(0,linear)
+hide "epilogue/last1_c1_epilogue.jpg" fade(0,linear)
+hide "finale/bg_distance.jpg" fade(0,linear)
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(3,easeout)
+move "epilogue/last1_c2_epilogue.jpg" 300:0 12 easeout
+wait 2
+
+say "唇は、固く。
+とうに溢れた涙は、頬を伝って落ちていく。
+白の少女は、頷いた。"
+
+stop "tension.ogg" 3
+
+hide "epilogue/last1_c2_epilogue.jpg" fade(6,easeout)
+
+say "――再び、起きる拍動。
+ㅤ
+そして世界が――"
+
+play "loss_epilogue.ogg" 0.6
+play "wind.ogg" 0.4 loop
+
+
+say "――\"Arcaea\"が、その輝きを失い始めた。"
+
+wait 3
+
+show "finale/LS.jpg" 0.5:0.6 0.5:0.6 0.8:0.8 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2black.png" fade(10,easeout)
+
+play "blowing1.ogg" 0.6 loop
+wait 0.1
+move "finale/LS.jpg" 0:5 0.5 easeout
+wait 0.5
+move "finale/LS.jpg" 0:100 0.3 easeout
+wait 0.3
+move "finale/LS.jpg" 0:20 5 easeout
+
+say "――流れ込み、雪崩込んでくる、膨大な何か。
+それは掌へ、心臓へ。
+思わずすべてを止めて、崩れ落ちてしまいそうになる。"
+
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white70.png" fade(5,sineout)
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white40.png" fade(2,sineout)
+
+say "――しばらく、光の頭の中と視界には、
+膨大な記憶が流れ混んでいたようだわ。
+かつては忘れていて、今は無視している記憶が、ね。"
+
+say "それでも今、
+その目には貴女の遺体だけしか写っていないみたい。"
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,sineout) normal
+stop "wind.ogg" 4
+stop "blowing1.ogg" 4
+
+say "きっと、自分の為すべきことがはっきりしたからかしら。
+――それに、私ももう引っ張られている感じがするの。
+下へ、下へ……貴女が殺された場所に、ね……"
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,linear) normal
+wait 3 clear
+play "tension.ogg" 0.4 loop
+wait 1
+show "../../cg/F-7.jpg" 1:1 1:1 1.5:1.5 fade(0,linear) normal
+move "../../cg/F-7.jpg" 250:0 25 easeout
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "finale/LS.jpg" fade(0,linear)
+hide "black.png" fade(0,linear)
+hide "black.png" fade(0,linear)
+hide "white.png" fade(0,linear)
+hide "2white.png" fade(15,sineout)
+
+
+say "……それにしても、あの子は分かっているのかしら？
+つまり、己が何を犠牲にコトを起こそうとしているのか、
+そして、この結末がいったい何をもたらすのか、ってことを。"
+
+say "……どうなんでしょうね？
+なんて、きっと貴女にも解らないか、フフッ。
+――、それにしても、こうしてお呼ばれしているわけだけど……"
+
+say "……私、あの場所に漂着する頃には、
+ここでの事を憶えていられるのかしら？
+そして、ちゃんとその時の\"世界\"の状態を、理解できるのかしら……？"
+
+say "……きっと、無理でしょうね。そんな気がする。"
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.6,linear) normal
+wait 0.6 clear
+stop "tension.ogg" 6
+wait 2
+play "new_epilogue.ogg" 1.0 loop 19103:104128
+wait 1.5
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(2.5,sinein) normal
+wait 2.5
+hide "white.png" fade(4,easeout)
+wait 1
+
+say "……"
+
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(16,linear) normal
+
+say "……まあ、あの子の心のままにさせてあげましょう。
+今起きてるコトも、これから起きるコトにしても、
+精々、頼りにするとしましょう。"
+
+say "だって、貴女ならきっとそうする……でしょう？
+結局、貴女が正しかったのだもの。
+『別のあの子』と光は、全く違ったものね。"
+
+
+
+say "……ねえ、対立。
+ㅤ
+わたしにもそろそろ、お迎えが来たみたいよ。"
+
+say "……でも、安心して頂戴？
+私たち、ちゃんと一緒だから。
+連れていくから、ね……"
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,easein) normal
+wait 1
+wait 3 clear
+hide "black.png" fade(0,linear)
+hide "white70.png" fade(0,linear)
+hide "../../cg/F-7.jpg" fade(0,linear)
+play "fracture1_epilogue.ogg" 0.6
+wait 1.9
+play "fracture1_epilogue.ogg" 0.8
+wait 0.3
+play "fracture1_epilogue.ogg" 0.8
+wait 0.3
+play "fracture4_epilogue.ogg" 1
+wait 0.3
+play "fracture1_epilogue.ogg" 1
+wait 0.3
+play "fracture2_epilogue.ogg" 1.5
+wait 0.3
+play "fracture1_epilogue.ogg" 1.5
+wait 0.3
+play "fracture3_epilogue.ogg" 1.5
+show "epilogue/last1_c3_epilogue.jpg" 0:1 0:1 1.3:1.3 fade(0,linear) normal
+hide "white.png" fade(0,linear)
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+move "epilogue/last1_c3_epilogue.jpg" 0:1300 0.45 sinein
+hide "2white.png" fade(0.8,linear)
+wait 0.3
+play "fracture5_epilogue.ogg" 1.5
+wait 0.1
+play "fracture5_epilogue.ogg" 1.5
+wait 0.1
+play "fracture5_epilogue.ogg" 1.5
+wait 0.1
+play "fracture5_epilogue.ogg" 2
+wait 0.05
+move "epilogue/last1_c3_epilogue.jpg" 0:60 20 linear
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white70.png" fade(3,easeout)
+wait 4
+
+say "再度の墜落を強いられる空と、
+隆起していく大地。
+それは、少女の願いのために。"
+
+say "彼女は殺す。
+\"世界\"を殺す。
+今再び、黒の少女を生かすため。"
+
+say "この死んだ\"世界\"に、存在しうる命や魂など真にはない。
+あるのはその形代だけ、残響だけ。"
+
+say "そもそも始めから、白の少女も、黒の少女も、
+どちらの魂も尋常のそれではないのだから。"
+
+show "epilogue/last1_epilogue.jpg" 0.1:0.03 0.1:0.03 1.5:1.5 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+move "epilogue/last1_epilogue.jpg" -300:-90 15 easeout
+hide "white.png" fade(3,linear)
+
+say "真に、\"世界\"はそんな用途のために造られていない。
+故に、ここは潰えるだろう。その願いを契機にして。
+それでも、\"世界\"は応える……応えようと、全てを尽くしていた。"
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,easein) normal
+
+say "光の願い、その成就には2つの要素が必要だった。
+つまり黒い少女、その原型（オリジナル）の魂。
+そして、二人目の彼女の記憶が封じられた、数多の硝片だ。"
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+play "memoryShift.ogg" 2
+wait 0.3
+hide "white40.png" fade(4,easeout)
+
+say "今、魂は元の片割れ、記憶の欠片を喚んでいた。
+彼方から急速に、裂かれるように引き寄せられる記憶たち。"
+
+wait 1.5 clear
+play "fracture1_epilogue.ogg" 2
+wait 0.01
+play "blowing1.ogg" 2 loop
+wait 0.01
+hide "epilogue/last1_epilogue.jpg" fade(0,linear)
+play "burst.ogg" 2
+wait 0.1
+show "epilogue/last1_epilogue.jpg" 0.5:0.4 0.5:0.4 1.2:1.2 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "2white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.2,linear) normal
+scale "epilogue/last1_epilogue.jpg" 1:1 0.3 sineout
+move "epilogue/last1_epilogue.jpg" -30:-20 10 sineout
+hide "2white.png" fade(0.3,sineout)
+wait 0.2
+hide "2white40.png" fade(3.5,sineout)
+hide "black.png" fade(0,linear)
+wait 3
+
+say "渦巻く、渦巻く、光と影の奔流。
+光を中心に、現実という閉じられた幕を引き裂いていく。"
+
+wait 0.5 clear
+
+play "glass_epilogue.ogg" 2
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "epilogue/last1_c3_epilogue.jpg" fade(0,sineout)
+hide "white70.png" fade(4,sineout)
+
+say "記憶している、記録している。
+\"Arcaea\"は、その少女のことを憶えている。"
+
+say "そして今、命令は下された。
+曰く、破片は原型へ、記憶は現実へと還れ、と。"
+
+say "――そして、ついに在った。
+それはまるで今生まれたようで、
+まるでずっと居たかのよう。"
+
+hide "epilogue/last1_epilogue.jpg" fade(0.6,sineout)
+
+play "tunnel.ogg" 2
+stop "blowing1.ogg" 4
+
+say "果たして願いは、裂けた魂は一つに成り得たのか？
+……否、問いが違う。前提が違う。
+もう道理はない、法則もない――白の少女が願ったから、『そうなる』のだ。"
+
+say "対立と名付けられていた少女と、その記憶。
+今、きらめく硝片の群れが渦を越えて、その姿を表していた。"
+
+show "epilogue/last1_c4_epilogue.jpg" 0.55:0.55 0.6:0.6 1.4:1.4 fade(0,linear) normal
+show "epilogue/forgotten_epilogue.jpg" 0.52:0.62 0.52:0.62 1.6:1.6 fade(0,linear) normal
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "zettai/bg.jpg" 0.9:0.2 0.9:0.2 1.5:1.5 fade(0,linear) normal
+show "finale/bg3.jpg" 0.5:0.4 0.5:0.4 1.5:1.5 fade(0,linear) normal
+show "meeting/bg.jpg" 0.9:0.2 0.9:0.2 1.5:1.5 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "prelude/bg.jpg" 0.5:0.5 0.5:0.5 1.2:1.2 fade(0,linear) normal
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(2.5,easein) normal
+wait 2.5 clear
+show "../../cg/2-1.jpg" 0.3:0.5 0.3:0.5 1:1 fade(4,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(0,linear)
+hide "2white.png" fade(4,easeout)
+move "../../cg/2-1.jpg" -100:0 11 easeout
+
+wait 3
+
+hide "../../cg/2-1.jpg" fade(1.5,linear)
+
+say "――広大な地平を、
+苦しみながら歩き続ける少女が一人。"
+
+say "嘆きと悲しみに追い立てられながら、
+それでも少女は前に進み続けた。"
+
+say "それは、自身の救済のために。
+それは、いつかの自由のために。"
+
+
+show "epilogue/2missingtai_epilogue.png" 0.5:0.5 0.5:0.5 1.2:1.2 fade(2,linear) normal
+show "epilogue/missingtai_epilogue.png" 0.5:0.5 0.5:0.5 1:1 fade(3,linear) normal
+wait 1 clear
+scale "epilogue/2missingtai_epilogue.png" 1.05:1.05 2 easeout
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(2,linear)
+hide "epilogue/2missingtai_epilogue.png" fade(3,easeout)
+
+wait 0.5
+move "epilogue/missingtai_epilogue.png" 0:80 18 easeout
+
+say "少女が胸に懐くのは、たった一つのささやかな願い。
+こころからの笑顔、その理由（しあわせ）を手にすること。"
+
+hide "epilogue/missingtai_epilogue.png" fade(2,easeout)
+hide "black.png" fade(3,easeout)
+
+say "彼女が立ち上がりつづけ、立ち向かい続けたのは、
+この世界にそんな、笑顔の在り処をつくるため。
+……例えそれで、世界全てをひっくり返すことになったとしても。"
+
+hide "2black.png" fade(3,easeout)
+hide "prelude/bg.jpg" fade(3,easeout)
+wait 0.5 clear
+show "epilogue/tai_epilogue.png" 0.5:0.5 0.5:0.5 1.6:1.6 fade(7,easein) normal
+move "meeting/bg.jpg" 0:200 5 easeout
+wait 2.5
+move "finale/bg3.jpg" 0:200 5 easeout
+hide "meeting/bg.jpg" fade(0.3,easeout)
+wait 3
+move "zettai/bg.jpg" 0:200 5 easeout
+hide "finale/bg3.jpg" fade(0.3,easeout)
+wait 3
+hide "zettai/bg.jpg" fade(0.3,easeout)
+wait 0.25
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+wait 1.5
+hide "white.png" fade(3.5,linear)
+hide "epilogue/tai_epilogue.png" fade(3,easeout)
+play "blowing1.ogg" 2 loop
+wait 0.5
+hide "3black.png" fade(2.5,easein)
+move "epilogue/forgotten_epilogue.jpg" 0:-200 5 easeout
+hide "epilogue/forgotten_epilogue.jpg" fade(5,easeout)
+wait 1
+move "epilogue/last1_c4_epilogue.jpg" 0:100 11 easeout
+
+say "そんな記憶、そんなイメージ。
+視界を走り去る『誰か』の記憶が、光の注意を乱していく、逸していく。
+それは浸食してくる原典の記憶から、そして前世の記録から。"
+
+say "そして嵐の中を通り抜けてくる、
+『誰か』の涙。『誰か』の痛み。"
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white40.png" fade(4,sineout)
+
+say "ほとんど忘れ去られていただろうそのいくつかが、集ってくる。"
+
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white70.png" fade(5,sineout)
+
+say "だが、
+そんな光の魂とその潜在的な善性こそが、
+凄惨な記憶たちを今に至るまで遠ざけてきた。"
+
+say "今もまた、『誰か』の致命的な絶望の記憶、
+その痕跡を探すことだけで精一杯。
+もはや残りの経緯や記憶など、少女の手には届きすらしない。"
+
+say "――けれど光は、そんな致命的な絶望、その捜索を諦めた。
+まだ見つからない、二人の出会った記憶も。"
+
+say "……絶望に歪んだ『誰か』の道の果てを知りながら、
+その記憶を戻すことなんて、光にはできなかったから。"
+
+hide "epilogue/last1_c4_epilogue.jpg" fade(1,easein)
+
+say "……こうして生まれる『対立』という少女は、
+かつての激情と苦痛の多くを知ることはないだろう。"
+
+say "それでも数多の困難と苦痛を生き抜いた人物としての己だけを知り、
+再誕を遂げるのだ。"
+
+show "epilogue/last1_c3_epilogue.jpg" 0.33:0.2 0.33:0.2 1.3:1.3 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(5,sineout)
+move "epilogue/last1_c3_epilogue.jpg" 0:-200 0.35 easeout
+play "fracture3_epilogue.ogg" 1.5
+wait 0.1
+play "fracture3_epilogue.ogg" 1.5
+wait 0.1
+play "fracture3_epilogue.ogg" 1.5
+wait 0.1
+play "fracture6_epilogue.ogg" 1.5
+wait 0.05 clear
+move "epilogue/last1_c3_epilogue.jpg" 0:-50 20 easeout
+play "woosh.ogg" 2
+
+say "その時、突如として新たな力が光に芽吹いた。
+立ち上がる四本の光柱、吹き出すような力の源泉が地中から伸び上がる。
+呼びかけに応え、今現れた影なる魂から、\"世界\"が彼女を守ろうとしているのだ。"
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,easein) normal
+play "tension.ogg" 1.5 loop
+
+say "影――近づいてくるそれがなんなのか、光には一瞬わからなかった。
+莫大で、背筋の凍るような形の幻。"
+
+say "宙に浮かび、空を遮る眼前のそれは、
+もはや実体のある死のようにしか見えなかったのだ。"
+
+say "それは近づくにつれて、やがて緩やかに速度を落とすと、
+やがてくるくると光の周囲を回る、
+黒い少女だった記憶片たちへと流れ込み始めた。"
+
+hide "black.png" fade(1,sineout)
+stop "tension.ogg" 6
+play "tunnel.ogg" 2
+stop "tunnel.ogg" 5.5
+
+say "その時、光はようやくその正体に思い至った。
+勇気づけられたように影へと頷くと、
+硝片へと入ろうとするその魂たちを、そっと導いた。"
+
+say "こうして邂逅し、新たな体を構成していく二つの要素。
+失われていた原典の魂はようやく、もう一人の対立の魂と再会した。
+傷ついて、ひび割れていても、二人だった一人が今、一つの肉の殻を編み上げていく。"
+
+move "epilogue/last1_c3_epilogue.jpg" 40:0 0.01 linear
+wait 0.01 clear
+move "epilogue/last1_c3_epilogue.jpg" -80:40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 40:-80 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" -40:40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 0:-40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 40:40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" -40:40 0.01 linear
+wait 0.01
+play "fracture2_epilogue.ogg" 1.5
+play "decision_epilogue.ogg" 2
+move "epilogue/last1_c3_epilogue.jpg" 0:-40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 40:40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" -40:40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 40:-40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 0:-40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 40:40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" -40:40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 40:-40 0.01 linear
+
+
+say "だが光の足元、地面の振動はもはや耐え難いほどになっていた。
+なんとか踏みどまりながら、新たな生命を両の手で編み続ける。
+雷鳴のような呻き声が響く。\"世界\"が苦痛に呻いている。"
+
+show "epilogue/last1_c4_epilogue.jpg" 0.67:0.48 0.67:0.48 1.8:1.8 fade(5,easein) normal
+scale "epilogue/last1_c4_epilogue.jpg" 1.3:1.3 70 sineout
+
+say "それでもなお、光は己の意思にしがみつく。
+この願いは徹してみせると、決意を確かにして。"
+
+wait 4
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.4,easein) normal
+wait 0.4
+play "fracture3_epilogue.ogg" 1.5
+wait 1.5
+play "fracture1_epilogue.ogg" 1
+wait 0.5
+play "fracture2_epilogue.ogg" 1.5
+hide "white.png" fade(4,sineout)
+
+say "\"世界\"を作る核、そのものを捻じ曲げる。
+堕ちた女神の再誕、そのためだけに。
+こうして、\"世界\"という絶対のルールは曲げられた。"
+
+say "静かな、そして明確な光の命令により、
+\"世界\"は今、死の一撃を受け入れる。"
+
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,linear) normal
+wait 5 clear
+play "fracture4_epilogue.ogg" 1.5
+wait 2
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(7,easein) normal
+wait 3
+play "groan_epilogue.ogg" 2
+play "skyFall.ogg" 2
+stop "skyFall.ogg" 7.1
+
+say "平衡感覚が狂うほどの光と影。
+\"Arcaea\"の断末魔。
+これが、終わりの始まりだった。"
+
+wait 3
+show "epilogue/last1_epilogue.jpg" 0.4:0.5 0.4:0.5 1:1 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2white.png" fade(0,sineout)
+hide "black.png" fade(0,sineout)
+hide "epilogue/last1_c4_epilogue.jpg" fade(0,sineout)
+hide "epilogue/last1_c3_epilogue.jpg" fade(0,sineout)
+hide "2black.png" fade(4,sineout)
+scale "epilogue/last1_epilogue.jpg" 2.1:2.1 120 sineout
+
+say "あらゆる存在の楔となっていた願い。
+今、それは覆された。押し流されるように急速に流される空に、
+現実に残留するありとあらゆる光が、遥かな地平から白い少女へと流れ込む。"
+
+say "深く、眩く光りながら浮かぶ、対立の体。
+青息吐息に編んだばかりの魂を今、そこに光が押し込んでいく。
+まるで世界全てを、詰め込むように。"
+
+say "この星と生命、その全てに繋がって――"
+
+hide "epilogue/last1_epilogue.jpg" fade(0.2,sineout)
+
+say "――こうして少女は、\"Arcaea\"を棄てた。"
+
+show "epilogue/last1_epilogue.jpg" 0.6:1 0.6:1 2.1:2.1 fade(5,easeout) normal
+move "epilogue/last1_epilogue.jpg" 1000:0 30 easeoutin
+
+say "終わりの陽光の下、ある双子の少女が二人。
+頭上を走り往く雲々を見つめている。"
+
+say "半夜の空の下、ある高貴な風貌の少女が一人。
+ゆるやかに広がる大地の裂け目と、
+はるか上空に消え行く星々を見つめている。"
+
+say "世話焼きの少女に、探索する少女。
+全てを観察し、願う少女もまた、見つめている。"
+
+say "それは喜色旺盛な少女、
+腹減りの少女、
+野心豊かな少女、"
+
+say "戦の女、
+旋律の少女も――。"
+
+say "――少女たちは皆、見つめていた。
+全ての命が引き込まれていく場所を。
+――そして、終末を。"
+
+hide "epilogue/last1_epilogue.jpg" fade(3,easein)
+stop "blowing1.ogg" 6
+stop "new_epilogue.ogg" 17
+
+say "そうして、しばらくの後。"
+
+say "光は感じた。
+最後の命の煌きが、救いたかった少女の体に宿るのを。
+掌中に残った命の感触は消え、今、対立の姿がはっきりと結ばれていく……。"
+
+say "……白い少女もまた、それをじっと見ていた。
+その一連の出来事の中、自身のどこかから、
+何かが消えるのを感じながら。"
+
+say "だが、今やそれも些細なこと。"
+
+say "風が穏やかになり、
+雲が元の鈍い足並みを戻す頃には、
+光の視界はぐるぐると回っているようだった。"
+
+say "昏倒する前に、なんとか足を踏みしめる。
+まずは落ち着こうと、今の状況を理解しようとした。"
+
+say "つまりは己の所業、その結果を理解しようとしていた。
+だが……落ち着くことなどできなかった。
+その思考を占めるのは、ただひとつだけ。"
+
+
+
+say "「（対立さんは……いきているの……？）」"
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(6,linear) normal
+wait 3
+wait 3 clear
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(3.2,easeout) normal
+
+play "wind.ogg" 0.8 loop
+
+wait 3.2
+
+show "epilogue/forgotten_epilogue.jpg" 0.52:1 0.52:1 1.8:1.8 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white40.png" fade(0,linear)
+hide "white.png" fade(0,linear)
+hide "2white.png" fade(12,sineout)
+move "epilogue/forgotten_epilogue.jpg" 0:960 24 easeout
+
+
+
+say "――"
+
+wait 4
+
+say "ゆるやかに、再び落ちていく土煙。"
+
+wait 1
+stop "wind.ogg" 3
+
+say "少女が覚えているのは、ひとつだけ。"
+
+wait 1
+
+say "……それは、終わり。
+止り木のような、終点での記憶。"
+
+wait 1
+
+hide "epilogue/forgotten_epilogue.jpg" fade(5,easein)
+
+say "……もうだれもいない、あの場所での想い出。
+閉じた目から、知らずと静かに涙が零れた。"
+
+wait 1
+
+say "……ゆっくりと瞼を開く頃には、
+そんな記憶も、
+こぼれ落ちるように消えてしまっていたけれど。"
+
+wait 3
+play "after_epilogue.ogg" 0 loop
+volume "after_epilogue.ogg" 0.51 7.5
+wait 1.6
+
+show "finale/bg_distance.jpg" 1:0 1:0 1.5:1.5 fade(8,easeout) normal
+
+move "finale/bg_distance.jpg" 0:-500 31 easeout
+
+wait 13.4 clear
+
+say "――白い少女は見た、その瞼が動くのを。
+驚くままに、口を両手で覆っていた。
+……息が、喉に詰まるようだ。"
+
+say "大仰な儀式を経て、
+荘厳な光景を展開して。
+……その割にはなんて、単純な結果なのだろう。"
+
+say "だがはたして、己の願いは成就したのだろうか。
+否、していいのだろうか？"
+
+say "こんな僅かな願いと、努力のみで。"
+
+play "1step.ogg" 0.5
+
+say "頭の隅へとそんな思考を追いやりながら、
+光は、前へと踏み出した……知らずと、足は震えていた。
+ようやく開く、対立の双眸。"
+
+say "一度の瞬きの後、再び開かれた目は、
+まだまるで微睡むようで。"
+
+play "collapse.ogg" 0.3
+hide "finale/bg_distance.jpg" fade(0.3,sineout)
+
+say "――駆けていた、逸っていた。
+気づけば光は転ぶように、
+もう一方の少女に抱きついていた。"
+
+show "finale/bg7.jpg" 0:0 0:0 1.7:1.7 fade(3,linear) normal
+move "finale/bg7.jpg" -380:0 25 easeout
+
+say "「…いやっ！なっ、なに？！だれ？！あなた……えっ？！」"
+
+say "少女は動転して――けれど、思わず黙ってしまった。
+そこには我が身を省みずに縋り付き、
+強く強く、何よりもただ抱き締めるばかりの光がいたから。"
+
+say "見れば、子供のように泣きじゃくっている。"
+
+say "白い少女はどうしようもなく、
+もう一方の少女の肩で泣いていた。"
+
+say "不信に揺れる目の、
+わけもわからないままの少女に縋りついて。"
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white40.png" fade(2,sineout)
+play "woosh.ogg" 0.3
+
+say "――多くの亀裂が入る、遠くの地平。
+永久に降り注いでいた光も今は昔、空はただ、酷く薄暗い。
+傷だらけのこの世界。"
+
+say "……それでも光の関心は、残る物――残る者にしかなかった。"
+
+say "戸惑いながらも対立は、その手を、いまだ震える光の背中に置いた。
+知らずと、二人はお互いを慰めあっていた。
+終わり往く、壊れた世界の片隅で。"
+
+
+hide "finale/bg7.jpg" fade(2,sineout)
+
+say "「……めんなさい……ごめんなさい……！」
+繰り返す、繰り返す。まるで傷ついたレコードのように。
+そんな光を受け止めながら、やがて対立は口を開いた。"
+
+say "「……あなたが何をしたのか、私は知らないわ。
+けれどもう、きっとあなたは正したのでしょう？
+なら、何を謝るというの……？」"
+
+say "その言葉を受けて、ようやく光はその身をゆっくりと離した。
+まだ、少女を抱き締めたままではあったけれど。"
+
+say "嘆きに昏れながら、
+けれど視線を惹かれてしまうどきどきとした高揚との狭間で、
+その鼻も目も赤くして、光はただ、対立を見つめていた。"
+
+
+say "言葉も見つからないまま、
+光はひしと対立の胸元に抱きついた。
+対立はただ、やさしく少女を抱き止める。"
+
+say "やがて、静寂が満ちて……
+黒の少女は変わらず抱き留め、宥めている。"
+
+say "いまだ泣き続ける、その少女の涙が止まるまで。"
+
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,linear) normal
+wait 2 clear
+wait 1
+show "3white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "epilogue/last2_c1_epilogue.jpg" 0.8:0.1 0.8:0.1 0.9:0.9 fade(0,linear) normal
+
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2white.png" fade(7,sineout)
+hide "white.png" fade(0,linear)
+move "epilogue/last2_c1_epilogue.jpg" 180:0 26 easeout
+wait 3
+
+say "――灰色になった世界を、二人は旅した。"
+
+say "はじめは暫く、対立がもう一方の少女の手を握っていたけれど、
+その足並みが揃うまでに、そう時間はかからなかった。"
+
+hide "epilogue/last2_c1_epilogue.jpg" fade(7,linear)
+show "epilogue/last2_c2_epilogue.jpg" 1:1 1:1 1.42:1.42 fade(6,sinein) normal
+move "epilogue/last2_c2_epilogue.jpg" 200:0 17 easeout
+
+say "もう、対立は憶えていないようだった。
+かつての悲劇も、その辛苦も。
+少なくとも、凄惨なものだけは。"
+
+say "今まで対立にすり寄ってきたような、
+黒くて暗い記憶片も、
+もう彼女に関心すら無いようだった。"
+
+show "epilogue/last2_c3_epilogue.jpg" 0:1 0:1 1.42:1.42 fade(7,linear) normal
+move "epilogue/last2_c3_epilogue.jpg" -200:0 18 easeout
+
+say "光もまた、似たような状況だった。
+身を寄せる白い記憶片もなく、
+踊るように親しげな挙動を示すこともなかった。"
+
+
+say "かたや、陰から自由になった少女。
+対して、昏く色彩を失っていく少女と、その\"世界\"。"
+
+say "けれど……
+……もう、硝片のきらめきなんて、
+今の光が心から笑うためには、もう必要ないのだ。"
+
+hide "epilogue/last2_c2_epilogue.jpg" fade(4,linear)
+wait 2
+
+hide "epilogue/last2_c3_epilogue.jpg" fade(4,linear)
+show "epilogue/last2_c4_epilogue.jpg" 1:0.2 1:0.2 0.9:0.9 fade(8,linear) normal
+move "epilogue/last2_c4_epilogue.jpg" 270:0 26 easeout
+
+say "――崖へと向かう、二人の少女。
+失われた記憶の大地は今、緩慢に廃れている。
+向かうのは、辺りを一望できる場所。"
+
+say "廃れゆくこの地は、褪せては崩れてを繰り返している。
+いずれ、土砂の大小さえ遺さずに、すべてが無に帰すのだろう。"
+
+say "たどり着いた二人の少女は、ただそこに立っていた。
+大地の行く末も知らず、また、自身の過去も記憶も手放して。"
+
+say "そこで光を見つめる対立の表情は静かで……けれど穏やかなものだった。
+それは、かつての生涯でこそ浮かべた表情だろうか。
+……それを見て光は、ただ微笑んだ。"
+
+say "『この先には何が待つのか』
+そんな問いも、もう二人には関係ない。"
+
+say "今、二人には『もう欠けていない』という感覚があった。
+その感覚が揺らぐことは、ない。"
+
+say "また、言葉にせずとも、もう光はわかっていた。
+この旅路、その終わりが既に近いということを。
+これからの、未来への道は前にある。"
+
+say "すぐに新たな旅もまた、始まるだろう。"
+
+volume "after_epilogue.ogg" 0.15 8
+show "epilogue/last2_c5_epilogue.jpg" 0.48:0.5 0.48:0.5 1:1 fade(4.1,easein) normal
+wait 1
+wait 2 clear
+move "epilogue/last2_c5_epilogue.jpg" -100:0 30 linear
+
+say "……だから、少しだけ考える。ぼんやりと実感する。
+これからの旅が導くもの、それがわからないという事実について。"
+
+say "可能性の先は、もう知り得ないのだ、と。
+そう噛み締めて、また、ふと考える。"
+
+say "『彼女……前の私は、知っていたのかな……
+踏み出す一歩の続き、その行き先のこと。
+だってずっと、ずっと前だけを見て進んでいたから』"
+
+volume "after_epilogue.ogg" 0.01 5
+
+say "……"
+
+stop "after_epilogue.ogg" 3
+
+say "命あることを選んだなら、あとはただ、生きていこう。
+この世界を生きて、そのすべてを見ていこう。
+一瞬一瞬を、心から受け止めて生きていこう。"
+
+say "そんな感傷と想いを、決して手放さない。
+そう、光は誓った。"
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(4,easein) normal
+wait 4 clear
+show "epilogue/last2_epilogue.jpg" 0.31:0.52 0.31:0.52 1.5:1.5 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+move "epilogue/last2_epilogue.jpg" 0:-70 30 linear
+
+play "lastVocal_A_epilogue.ogg" 1
+wait 0.1
+scale "epilogue/last2_epilogue.jpg" 0.72:0.72 33 sineout
+hide "2white.png" fade(12,sineout)
+auto 5.25
+
+
+say "目を開き、しっかりと前を見て、胸いっぱいに息を採り入れる。
+知らない明日、となりの女の子、
+見たことのない人々、そして、隠された場所。"
+
+say "心に広がる様々な想いを、白の少女は慈しむように抱えていく。"
+
+auto 5.4
+
+say "そうして、対立の手を取った。"
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.09,linear) normal
+
+auto 2
+
+say "彼女たちはまだ、前に進んでいくのだから。"
+
+wait 0 clear
+hide "black.png" fade(0,linear)
+hide "white.png" fade(0,linear)
+hide "3white.png" fade(0,linear)
+hide "epilogue/last2_epilogue.jpg" fade(0,linear)
+hide "epilogue/last2_c5_epilogue.jpg" fade(0,linear)
+hide "epilogue/last2_c4_epilogue.jpg" fade(0,linear)
+wait 0
+
+wait 5

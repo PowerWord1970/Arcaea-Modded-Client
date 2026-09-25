@@ -1,0 +1,41 @@
+{
+  "songs": [
+    {
+      "id": "example",
+      "title_localized": {
+        "en": "example"
+      },
+      "artist": " ",
+      "bpm": "0",
+      "bpm_base": 0,
+      "set": "base",
+      "purchase": "",
+      "audioPreview": 0,
+      "audioPreviewEnd": 0,
+      "side": 0,
+      "bg": "base_light",
+      "date": 0,
+      "version": "1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0
+        }
+      ]
+    }
+  }
+}

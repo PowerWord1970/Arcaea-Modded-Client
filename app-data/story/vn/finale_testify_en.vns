@@ -1,0 +1,585 @@
+show "finale/bg_distance.jpg" 1:0.55 1:0.55 1.5:1.5 fade(0,linear) normal
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "black.png" fade(14,linear)
+
+move "finale/bg_distance.jpg" 0:900 21 linear
+
+play "skyFall.ogg" 1.0
+wait 14
+
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(5,linear) normal
+wait 2
+
+say "Reason tells her that this can go on forever."
+
+wait 2
+hide "finale/bg_distance.jpg" fade(0,linear)
+show "finale/bg_distance.jpg" 1:0.55 1:0.55 1.5:1.5 fade(0,linear) normal
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(3,linear)
+
+say "If she turns her sword back and thrusts it down again,
+the walls will fall away, and Tairitsu will be easily pushed."
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.4,linear) normal
+
+say "So, why—?"
+
+show "finale/testify1.jpg" 0.1:0.57 0.1:0.57 2.2:2.2 fade(0,linear) normal
+hide "finale/bg_distance.jpg" fade(0,linear)
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3 clear
+hide "finale/testify1.jpg" fade(0,linear)
+wait 0
+
+
+hide "2white.png" fade(0,linear)
+
+
+show "finale/testify1.jpg" 0.74:0.97 0.74:0.97 2.2:2.2 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3
+hide "finale/testify1.jpg" fade(0,linear)
+wait 0
+
+show "finale/testify1.jpg" 0.34:0.55 0.34:0.55 2.2:2.2 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3
+hide "finale/testify1.jpg" fade(0,linear)
+wait 0
+
+show "finale/testify1.jpg" 1:0.74 1:0.74 2.2:2.2 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3
+hide "finale/testify1.jpg" fade(0,linear)
+wait 0
+
+show "finale/testify1.jpg" 0.48:0.85 0.48:0.85 2.2:2.2 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3
+hide "finale/testify1.jpg" fade(0,linear)
+wait 0
+
+hide "black.png" fade(0.2,linear)
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+wait 1
+
+show "finale/testify1.jpg" 0.55:0.81 0.55:0.81 2.05:2.05 fade(6,linear) normal
+
+say "When she feels Tairitsu's hand gently holding her right cheek..."
+
+show "red.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "red.png" fade(0.2,linear)
+hide "2black.png" fade(0,linear)
+
+move "finale/testify1.jpg" -5:0 1 sineout
+wait 0.5
+move "finale/testify1.jpg" -295:0 10.5 easeout 
+
+play "thump.ogg" 0.5
+
+say "When what is clearly Tairitsu's flesh and blood body appears before her,
+why does she thrust her sword upward,
+and through the other girl's chest?"
+
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "finale/testify1.jpg" fade(0,linear)
+
+wait 1 clear
+
+show "finale/testify1.jpg" 0.5:0.48 0.5:0.48 0.85:0.85 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+scale "finale/testify1.jpg" 0.8:0.8 0.3 sineout
+move "finale/testify1.jpg" 0:-20 10 sineout
+hide "2white.png" fade(0.3,sineout)
+
+play "strike.ogg" 2.0
+play "predestination.ogg" 1.0
+wait 9
+
+stop "predestination.ogg" 2
+
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white70.png" fade(3,linear)
+
+play "blowing1.ogg" 0.7 loop
+
+hide "2black.png" fade(0,linear)
+say "Her emotions power her through the strike. Out of the corner of her eye,
+she sees a dark shard of glass drop from Tairitsu's hand—
+her right arm having been brought back in reflex and pain."
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(8,linear) normal
+
+play "burst.ogg" 1
+play "memory1.ogg" 0.6 loop
+wait 0.2
+
+move "finale/testify1.jpg" -40:0 0.2 sinein
+move "finale/testify1.jpg" -20:0 13 linear
+
+
+
+show "white50.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+
+say "A blinding shine grows slowly, and soon rapidly. An aura surreal: above and beyond reality—"
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+
+say "—and, a cry for life roars out, so consuming life in return.
+The shout pulses and vibrates through the earth, and also through Tairitsu's body."
+
+wait 2 clear
+
+stop "blowing1.ogg" 0.2
+
+hide "white40.png" fade(0,linear)
+hide "white50.png" fade(0,linear)
+hide "white.png" fade(0,linear)
+
+hide "finale/testify1.jpg" fade(0,linear)
+
+play "sword.ogg" 1.0
+
+play "testifyStoryFull.ogg" 1.0 loop 114000:194001
+
+wait 1.2 clear
+
+play "end.ogg" 1.0
+
+show "finale/testify1.jpg" 0.66:0.42 0.66:0.42 3.7:3.7 fade(0,linear) normal
+scale "finale/testify1.jpg" 3.0:3.0 0.3 sineout
+move "finale/testify1.jpg" 40:0 0.01 linear
+wait 0.01 clear
+move "finale/testify1.jpg" -80:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:-80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -40:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 0:-40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -40:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:-40 0.01 linear
+scale "finale/testify1.jpg" 2.95:2.95 0.5 linear
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.5,sinein) normal
+wait 1.23
+
+stop "sword.ogg" 0.5
+
+hide "black.png" fade(0,linear)
+scale "finale/testify1.jpg" 2.2:2.2 0.3 sineout
+move "finale/testify1.jpg" 40:0 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -80:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:-80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -40:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 0:-40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -40:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:-40 0.01 linear
+scale "finale/testify1.jpg" 2.15:2.15 0.5 linear
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.45,sineout) normal
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.5,sinein) normal
+wait 1.23
+
+
+hide "black.png" fade(0,linear)
+scale "finale/testify1.jpg" 1.4:1.4 0.3 sineout
+move "finale/testify1.jpg" 80:0 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -160:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:-160 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -80:80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 0:-80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 80:80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -80:80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:-40 0.01 linear
+scale "finale/testify1.jpg" 1.35:1.35 0.5 linear
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.4,sineout) normal
+wait 0.01
+move "finale/testify1.jpg" -80:80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 0:-80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 80:0 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -160:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 0:-80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 80:0 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -80:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 0:-160 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -80:80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:80 0.01 linear
+wait 1.23
+hide "finale/testify1.jpg" fade(0,linear)
+
+play "breath.ogg" 0.4
+
+say "And ends."
+
+say "Like that, sound dies, and so too does the girl."
+
+show "finale/bg7.jpg" 1:0.55 1:0.55 1.5:1.5 fade(0,linear) normal
+hide "white.png" fade(0,linear)
+hide "white70.png" fade(0,linear)
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2white.png" fade(5,linear)
+move "finale/bg7.jpg" 0:625 20 sineoutin
+
+wait 10 clear
+
+play "tunnel.ogg" 0.4
+stop "tunnel.ogg" 4
+
+say "As soon as it stabs through her—sets within her body—the blade swallows her life, her blood and essence
+quickly filling the glass. And then, the glass slowly begins to shatter and fade.
+In an instant, she is completely extinguished, and her body begins to fall."
+
+wait 0 clear
+hide "finale/bg7.jpg" fade(0,linear)
+wait 0
+show "finale/bg7.jpg" 1:0.05 1:0.05 1.5:1.5 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(2,linear)
+move "finale/bg7.jpg" 0:40 1 sineout
+
+play "collapse.ogg" 0.3
+
+say "Quickly, without thinking, Hikari takes the hand Tairitsu had placed on her cheek.
+In seconds, the other girl is quickly gone, leaving only a cold and silent form behind."
+
+play "glassRain.ogg" 0.1 loop
+
+say "Yet... warmth runs over Hikari's fingers as the sword of glass continues to break and disappear.
+In her other hand, she can feel the strength of Tairitsu's grasp completely vanish."
+
+play "collapse.ogg" 0.3
+
+play "thump.ogg" 0.7
+
+say "The girl's feet now reach the ground, and like that only Hikari's wet and warm hand still supports her.
+Her eyes are closed now. Her brow is furrowed... and then is not. Like this, without peace: she is dead."
+
+play "thump.ogg" 1.0
+
+say "And only now, with her own eyes wide and her own heart still beating, does Hikari understand this."
+
+stop "memory1.ogg" 2.0
+
+play "thump.ogg" 1.0
+
+wait 0
+hide "finale/bg7.jpg" fade(0,linear)
+wait 0
+show "finale/bg7.jpg" 0:0.63 0:0.63 1.5:1.5 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(6,linear)
+move "finale/bg7.jpg" 0:100 5 sineout
+
+say "She slowly pulls back her left hand, and the girl's body begins to fall.
+She returns her hand to the lifeless body and holds the girl as her stare continues to widen.
+She squeezes the girl's dead hand tightly, and the two come down to their knees."
+
+say "With her hand against Tairitsu's motionless chest,
+she feels warmth again, and brings her eyes to the wound that she made."
+
+say "She has wounded the earth and sky as well... though she finds it difficult to look anywhere
+other than that disfigured hole, as everywhere else around her has become flattened.
+The strength she had put into her strike must have been immense..."
+
+wait 0
+hide "finale/bg7.jpg" fade(0,linear)
+wait 0
+show "finale/bg7.jpg" 1:0.4 1:0.4 1.5:1.5 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2white.png" fade(6,linear)
+move "finale/bg7.jpg" 0:100 5 sineout
+
+say "The scene has been leveled entirely; the sky has gone completely still; the cathedral is all but no more."
+
+say "Behind Tairitsu some fractured brick wall has flown out from the blast and fallen.
+Evidently, it was shielded and kept from disintegrating by the powerful girl's body.
+But, still... the shield had been pierced."
+
+wait 0
+hide "finale/bg7.jpg" fade(0.2,linear)
+wait 0
+show "finale/bg7.jpg" 0.2:0 0.2:0 1.5:1.5 fade(0,linear) normal
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+say "Stupidly, Hikari brings her face near to the other girl's, and waits for a breath that will never come."
+
+say "She squeezes the dead hand tighter, and when it does not hold her back in return, she throws it down in anger.
+She digs her nails into the front of the other girl's clothing. Feeling something warm once again,
+she looks and realizes that tears have begun to fall on her hand."
+
+show "red.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "red.png" fade(0.2,linear)
+
+play "thump.ogg" 1.0
+
+wait 2 clear
+
+show "red.png" 0.5:0.5 0.5:0.5 2000:960 fade(10,linear) normal
+
+say "And though she knows what had warmed it before—she had to have known—
+seeing her own hand dyed in red and cut through by her own tears... throws her suddenly into panic."
+
+hide "red.png" fade(0,linear)
+
+move "finale/bg7.jpg" 0:-2200 20 sineout
+
+play "collapse.ogg" 0.3
+
+say "She straightens her back in terror, then nearly falls backward."
+
+say "Her face contorts and her lips tremble."
+
+hide "black.png" fade(7,linear)
+
+say "She sobs, brings her clean hand to her face, and sobs more deeply."
+
+say "Now, she falls, Tairitsu coming down along with her. Hikari pulls her stained hand down to her dress,
+and the corpse leaning upon her collapses back instead against the cathedral's debris."
+
+say "Her own words echo inside of her head—"
+
+say "Her own sardonic chastisement—"
+
+say "You never had to do this."
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,linear) normal
+
+wait 4 clear
+hide "finale/bg7.jpg" fade(0,linear)
+play "thump.ogg" 2
+wait 1
+
+say "...It isn't funny."
+
+say "The reality of everything is becoming so impossible to ignore. Leave your hand down all you want—
+the heat that burns through your skin isn't going to disappear like the sword."
+
+show "prelude/tai2.jpg" 0.5:1 0.5:1 1:1 fade(2,sinein) normal
+
+say "A girl is dead, and you were the one who took her life. You killed her."
+
+say "You knew how much she suffered... Did you really try to understand her?"
+
+hide "prelude/tai2.jpg" fade(3,linear)
+show "../../cg/2-8.jpg" 0.6:0.39 0.6:0.39 1.2:1.2 fade(4,linear) normal
+
+say "\"What will you do now\"...? No, don't you understand?"
+
+say "You can't just move on. You want to pick yourself up, continue your journey?
+This world already remembers everything that you did."
+
+hide "../../cg/2-8.jpg" fade(3,linear)
+show "../../cg/V-10.jpg" 0.2:0.75 0.2:0.75 1.3:1.3 fade(4,sinein) normal
+show "finale/vs_overlay.png" 0.15:0.75 0.15:0.75 1.3:1.3 fade(1,sinein) normal
+move "../../cg/V-10.jpg" 40:0 2.6 sinein
+move "finale/vs_overlay.png" -100:0 1.6 sinein
+move "../../cg/V-10.jpg" 30:0 1 linear
+
+say "What? Where's your sense of triumph? You won, didn't you? You are alive."
+
+say "Do you hate it?"
+
+say "Didn't she?"
+
+hide "../../cg/V-10.jpg" fade(3,linear)
+
+say "Does that justify it? Does that make things better? \"Justification\"?"
+
+wait 2
+hide "finale/vs_overlay.png" fade(0.3,linear)
+wait 1
+
+show "finale/LS.jpg" 0.34:0.5 0.34:0.5 1:1 fade(3.5,linear) normal
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white70.png" fade(0.6,linear)
+move "finale/LS.jpg" 0:-400 3 sineout
+play "thump.ogg" 1.4
+wait 1
+
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white70.png" fade(0.6,linear)
+play "thump.ogg" 1.8
+scale "finale/LS.jpg" 1.4:1.4 0.3 sineout
+wait 0.3
+scale "finale/LS.jpg" 1.6:1.6 3 linear
+wait 1.4
+
+play "thump.ogg" 2.5
+hide "finale/LS.jpg" fade(0,linear)
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white70.png" fade(0.2,linear)
+wait 0.5
+
+wait 3 clear
+
+say "...Is something wrong with you?"
+
+say "Even now...
+　
+You're only thinking about yourself."
+
+show "vs/arcahv1.jpg" 0.7:0.2 0.7:0.2 1.8:1.8 fade(2,sineout) normal
+move "vs/arcahv1.jpg" 0:180 8 sinein
+
+say "With this thought, her heart feels as if made of paper, all falling away.
+She grips her own hair, but still cannot bring up her left hand."
+
+say "She cannot stop damning herself."
+
+say "Herself. Herself. Herself."
+
+move "vs/arcahv1.jpg" 0:20 6 sinein
+
+say "And something lingers, telling her...
+ㅤ
+...is that anything new?"
+
+hide "vs/arcahv1.jpg" fade(0,linear)
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,linear) normal
+
+wait 4
+
+show "../../cg/1-1.jpg" 0:0.3 0:0.3 1.1:1.1 fade(0,linear) normal
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2white.png" fade(3.5,linear)
+hide "white70.png" fade(6,linear)
+
+scale "../../cg/1-1.jpg" 1.2:1.2 6 sineout
+move "../../cg/1-1.jpg" -600:0 18 sineout
+
+say "Her first impression was that she'd awakened to a cloud of glass butterflies.
+\"How pleasant,\" she thought, \"that these figures can move as well. Where are the strings?\""
+
+say "She sat onto her knees, fixed her dress, and found that there were no strings, and these were not butterflies.
+Glass shards, flying on their own. \"Delightful!\" she felt, and so she said it."
+
+say "The glass reflected another world than the one in white surrounding her.
+In it she could see reflections of seas, cities, fires, lights;
+she rose her hand to scatter them, and laughed in joy."
+
+say "...I didn't know these pieces of glass had a name: Arcaea.
+To tell the truth, they were so beautiful to me that it didn't matter the name.
+I entertained myself by touching them, swirling them, watching them. That was enough, no?"
+
+hide "white40.png" fade(0.2,linear)
+hide "white.png" fade(0.2,linear)
+hide "../../cg/1-1.jpg" fade(0.2,linear)
+
+say "No."
+
+say "And you knew it all the while. Maybe you almost saw it once as well—
+but it's impossible for people to truly change."
+
+say "That, too, is something that you always knew."
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(1.5,linear) normal
+wait 1.7
+
+show "zettai/bg.jpg" 0.9:0.2 0.9:0.2 1.5:1.5 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(6,linear)
+hide "2white.png" fade(6,linear)
+move "zettai/bg.jpg" 150:0 10 sineout
+wait 3 clear
+wait 4
+
+hide "black.png" fade(0,linear)
+hide "zettai/bg.jpg" fade(0,linear)
+show "vs/bg.jpg" 0:0.4 0:0.4 1.5:1.5 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(6,linear)
+move "vs/bg.jpg" -150:0 10 sineout
+wait 7
+
+hide "vs/bg.jpg" fade(0,linear)
+show "meeting/bg.jpg" 0.9:0.2 0.9:0.2 1.5:1.5 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(5,linear)
+move "meeting/bg.jpg" 150:0 10 sineout
+wait 6
+
+hide "meeting/bg.jpg" fade(0,linear)
+show "finale/bg7.jpg" 0:0 0:0 1.5:1.5 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(6,linear)
+move "finale/bg7.jpg" -150:0 10 sineout
+wait 7
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,linear) normal
+wait 4
+
+hide "finale/bg7.jpg" fade(0,linear)
+show "finale/bg3.jpg" 0.5:0.7 0.5:0.7 1.5:1.5 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(0,linear)
+wait 0.1
+hide "2white.png" fade(20,linear)
+move "finale/bg3.jpg" 0:1800 40 sineoutin
+
+auto 6
+
+say "The curtain will not draw to a close. This never \"ends\"."
+
+say "There is no meaning to be found here. Like you wanted."
+
+volume "testifyStoryFull.ogg" 0.15 10
+
+say "Just another crying girl, alone in a world of the dead."
+
+auto 4
+
+say "At least there is one truth you could take comfort in, one fact irrefutable,
+now etched into you with the blood of the one girl who had been so near to taking you out of it."
+
+volume "testifyStoryFull.ogg" 0.01 5
+wait 2
+hide "finale/bg3.jpg" fade(6,linear)
+auto 3
+
+say "Yes."
+
+stop "testifyStoryFull.ogg" 3
+wait 3
+stop "glassRain.ogg" 8
+auto 6
+
+say "It was paradise."
+
+wait 8

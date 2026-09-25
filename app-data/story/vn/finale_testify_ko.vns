@@ -1,0 +1,589 @@
+show "finale/bg_distance.jpg" 1:0.55 1:0.55 1.5:1.5 fade(0,linear) normal
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "black.png" fade(14,linear)
+
+move "finale/bg_distance.jpg" 0:900 21 linear
+
+play "skyFall.ogg" 1.0
+wait 14
+
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(5,linear) normal
+wait 2
+
+say "논리란 그녀에게 이것이 영원히 이어질 수도 있다 말한다."
+
+wait 2
+hide "finale/bg_distance.jpg" fade(0,linear)
+show "finale/bg_distance.jpg" 1:0.55 1:0.55 1.5:1.5 fade(0,linear) normal
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(3,linear)
+
+say "그녀가 검을 다시 땅에 찌른다면, 
+벽이 사라질 것이고 타이리츠는 쉽게 뒤로 밀려날 것이다."
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.4,linear) normal
+
+say "그렇다면 왜?"
+
+show "finale/testify1.jpg" 0.1:0.57 0.1:0.57 2.2:2.2 fade(0,linear) normal
+hide "finale/bg_distance.jpg" fade(0,linear)
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3 clear
+hide "finale/testify1.jpg" fade(0,linear)
+wait 0
+
+
+hide "2white.png" fade(0,linear)
+
+
+show "finale/testify1.jpg" 0.74:0.97 0.74:0.97 2.2:2.2 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3
+hide "finale/testify1.jpg" fade(0,linear)
+wait 0
+
+show "finale/testify1.jpg" 0.34:0.55 0.34:0.55 2.2:2.2 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3
+hide "finale/testify1.jpg" fade(0,linear)
+wait 0
+
+show "finale/testify1.jpg" 1:0.74 1:0.74 2.2:2.2 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3
+hide "finale/testify1.jpg" fade(0,linear)
+wait 0
+
+show "finale/testify1.jpg" 0.48:0.85 0.48:0.85 2.2:2.2 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3
+hide "finale/testify1.jpg" fade(0,linear)
+wait 0
+
+hide "black.png" fade(0.2,linear)
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+wait 1
+
+show "finale/testify1.jpg" 0.55:0.81 0.55:0.81 2.05:2.05 fade(6,linear) normal
+
+say "타이리츠의 손이 그녀의 오른쪽 볼을 감싸는 것을 느꼈을 때..."
+
+show "red.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "red.png" fade(0.2,linear)
+hide "2black.png" fade(0,linear)
+
+move "finale/testify1.jpg" -5:0 1 sineout
+wait 0.5
+move "finale/testify1.jpg" -295:0 10.5 easeout 
+
+play "thump.ogg" 0.5
+
+say "타이리츠의 실제 몸이 그녀 앞에 서있음이 확실한데, 
+왜 그녀는 검을 소녀의
+가슴속으로 찔러버릴까?"
+
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "finale/testify1.jpg" fade(0,linear)
+
+wait 1 clear
+
+show "finale/testify1.jpg" 0.5:0.48 0.5:0.48 0.85:0.85 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+scale "finale/testify1.jpg" 0.8:0.8 0.3 sineout
+move "finale/testify1.jpg" 0:-20 10 sineout
+hide "2white.png" fade(0.3,sineout)
+
+play "strike.ogg" 2.0
+play "predestination.ogg" 1.0
+wait 9
+
+stop "predestination.ogg" 2
+
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white70.png" fade(3,linear)
+
+play "blowing1.ogg" 0.7 loop
+
+hide "2black.png" fade(0,linear)
+say "그녀는 감정에 힘을 입어 마지막 일격을 가한다. 
+눈 한편에 검은 유리조각이 타이리츠의 손에서 떨어지는 것을 본다. 
+그녀의 오른팔은 통증으로 인해 반사적으로 뒤로 빠진다."
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(8,linear) normal
+
+play "burst.ogg" 1
+play "memory1.ogg" 0.6 loop
+wait 0.2
+
+move "finale/testify1.jpg" -40:0 0.2 sinein
+move "finale/testify1.jpg" -20:0 13 linear
+
+
+
+show "white50.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+
+say "눈부신 빛이 서서히 강해지다 금세 속도를 낸다. 비현실적인 오러가 발생한다.
+현실보다 높고 넓은 것-"
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+
+say "-그리고 생명을 향한 외침이 울려 퍼진다. 그것은 생명을 고로 사로잡는다.
+그 울부짖음은 땅속을, 그리고 타이리츠의 몸속을 고동치고 진동한다."
+
+wait 2 clear
+
+stop "blowing1.ogg" 0.2
+
+hide "white40.png" fade(0,linear)
+hide "white50.png" fade(0,linear)
+hide "white.png" fade(0,linear)
+
+hide "finale/testify1.jpg" fade(0,linear)
+
+play "sword.ogg" 1.0
+
+play "testifyStoryFull.ogg" 1.0 loop 114000:194001
+
+wait 1.2 clear
+
+play "end.ogg" 1.0
+
+show "finale/testify1.jpg" 0.66:0.42 0.66:0.42 3.7:3.7 fade(0,linear) normal
+scale "finale/testify1.jpg" 3.0:3.0 0.3 sineout
+move "finale/testify1.jpg" 40:0 0.01 linear
+wait 0.01 clear
+move "finale/testify1.jpg" -80:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:-80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -40:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 0:-40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -40:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:-40 0.01 linear
+scale "finale/testify1.jpg" 2.95:2.95 0.5 linear
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.5,sinein) normal
+wait 1.23
+
+stop "sword.ogg" 0.5
+
+hide "black.png" fade(0,linear)
+scale "finale/testify1.jpg" 2.2:2.2 0.3 sineout
+move "finale/testify1.jpg" 40:0 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -80:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:-80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -40:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 0:-40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -40:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:-40 0.01 linear
+scale "finale/testify1.jpg" 2.15:2.15 0.5 linear
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.45,sineout) normal
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.5,sinein) normal
+wait 1.23
+
+
+hide "black.png" fade(0,linear)
+scale "finale/testify1.jpg" 1.4:1.4 0.3 sineout
+move "finale/testify1.jpg" 80:0 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -160:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:-160 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -80:80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 0:-80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 80:80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -80:80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:-40 0.01 linear
+scale "finale/testify1.jpg" 1.35:1.35 0.5 linear
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.4,sineout) normal
+wait 0.01
+move "finale/testify1.jpg" -80:80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 0:-80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 80:0 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -160:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 0:-80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 80:0 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -80:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 0:-160 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -80:80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:80 0.01 linear
+wait 1.23
+hide "finale/testify1.jpg" fade(0,linear)
+
+play "breath.ogg" 0.4
+
+say "그리고 멈춘다."
+
+say "그렇게 소리는 죽어가고 소녀 역시 죽어간다."
+
+show "finale/bg7.jpg" 1:0.55 1:0.55 1.5:1.5 fade(0,linear) normal
+hide "white.png" fade(0,linear)
+hide "white70.png" fade(0,linear)
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2white.png" fade(5,linear)
+move "finale/bg7.jpg" 0:625 20 sineoutin
+
+wait 10 clear
+
+play "tunnel.ogg" 0.4
+stop "tunnel.ogg" 4
+
+say "검이 그녀를 찌름과 동시에 그것이 자리를 잡고 칼날이 그녀의 목숨을 삼켜버린다.
+그녀의 피와 생명은 유리잔을 급하게 채우고, 유리잔은 산산조각 난 후 서서히 희미해진다.
+순간에 그녀는 완전히 소멸되고, 그녀의 몸은 추락하기 시작한다."
+
+wait 0 clear
+hide "finale/bg7.jpg" fade(0,linear)
+wait 0
+show "finale/bg7.jpg" 1:0.05 1:0.05 1.5:1.5 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(2,linear)
+move "finale/bg7.jpg" 0:40 1 sineout
+
+play "collapse.ogg" 0.3
+
+say "생각도 하기 전에 순식간에 히카리는 타이리츠가 자신의 볼에 뒀던 손을 잡는다.
+몇 초 만에 나머지 소녀는 사라지고 차가운 침묵의 형체만이 남겨졌다."
+
+play "glassRain.ogg" 0.1 loop
+
+say "그러나 검의 유리가 계속해 부서지고
+사라지는 동안 히카리의 손가락 너머로 따뜻함이 감싸고돈다.
+그녀의 반대 손에서는 움켜쥐던 타이리츠의 손힘이 점차 사라지는 것을 느낄 수 있었다."
+
+play "collapse.ogg" 0.3
+
+play "thump.ogg" 0.7
+
+say "소녀의 발은 이제 땅에 닿는다. 이제 히카리의 따뜻하고 젖은 손만이 자신을 지탱한다.
+그녀의 눈을 감겨있다. 그녀의 이마는 찌푸려져있다가 풀린다.
+이렇게 평온을 찾지 못한 채 그녀는 죽었다."
+
+play "thump.ogg" 1.0
+
+say "그녀는 눈을 크게 뜬 채 심장이 쿵쾅쿵쾅 뛰는 이때야 마침내 히카리가 이것을 이해한다."
+
+stop "memory1.ogg" 2.0
+
+play "thump.ogg" 1.0
+
+wait 0
+hide "finale/bg7.jpg" fade(0,linear)
+wait 0
+show "finale/bg7.jpg" 0:0.63 0:0.63 1.5:1.5 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(6,linear)
+move "finale/bg7.jpg" 0:100 5 sineout
+
+say "그녀는 왼손을 서서히 빼어내자, 그 소녀의 몸을 추락하기 시작한다.
+다시금 생명이 없는 몸에 손을 대서 소녀를 잡은 채 눈이 계속해 커진다.
+그녀는 소녀의 죽은 손을 꽉 쥐며, 둘은 땅에 무릎을 꿇는다."
+
+say "타이리츠의 미동 없는 가슴에 손을 얹은 그녀는 따뜻함을 되찾고,
+그녀가 가한 상처를 바라본다."
+
+say "그녀는 땅과 하늘을 모두 상처 냈다.
+하지만 타이리츠에게 낸 흉한 구멍 외에는 무엇도 바라보기 어렵다.
+공격에 자신이 넣은 힘이 상당했던 것 같다..."
+
+wait 0
+hide "finale/bg7.jpg" fade(0,linear)
+wait 0
+show "finale/bg7.jpg" 1:0.4 1:0.4 1.5:1.5 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2white.png" fade(6,linear)
+move "finale/bg7.jpg" 0:100 5 sineout
+
+say "이곳은 완전히 파괴되었다. 하늘은 조용해졌고 교회는 더 이상 존재하지 않는다."
+
+say "타이리츠 뒤에 금 간 벽돌 벽의 일부가 폭발로 인해 튀어나가 떨어져 있다.
+분명히 이것은 소녀의 강한 몸에 의해 보호되어 분해되지 않은 것이다.
+하지만 그 방해란 뚫려버렸다."
+
+wait 0
+hide "finale/bg7.jpg" fade(0.2,linear)
+wait 0
+show "finale/bg7.jpg" 0.2:0 0.2:0 1.5:1.5 fade(0,linear) normal
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+say "바보같이 히카리는 그 소녀의 얼굴 가까이 자신의 얼굴을 대고 오지 않는 숨소리를 기다린다."
+
+say "그녀는 소녀의 죽은 손을 더 꽉 쥔다. 이 손이 되려 자신의 손을 잡아주지 않자,
+분노에 찬 그녀는 손을 내쳐버린다. 소녀의 옷자락에 손톱을 파고든다.
+무언가 따뜻함을 다시 느끼자 그녀는 손에 자신의 눈물이 떨어지고 있음을 깨달은다."
+
+show "red.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "red.png" fade(0.2,linear)
+
+play "thump.ogg" 1.0
+
+wait 2 clear
+
+show "red.png" 0.5:0.5 0.5:0.5 2000:960 fade(10,linear) normal
+
+say "전에는 그 손을 무엇이 따뜻하게 감싸고 있었는지 분명 알고 있었을 텐데,
+그럼에도 자신의 붉게 염색된 손이 눈물에 의해 씻기는 것을 보고 그녀는 공황에 빠진다."
+
+hide "red.png" fade(0,linear)
+
+move "finale/bg7.jpg" 0:-2200 20 sineout
+
+play "collapse.ogg" 0.3
+
+say "공포로 인해 그녀는 등을 꼿꼿이 세운 채 뒤로 넘어질 뻔한다."
+
+say "얼굴이 일그러진채 그녀의 입술이 떨린다."
+
+hide "black.png" fade(7,linear)
+
+say "엉엉 울며 깨끗한 쪽의 손을 자신의 얼굴에 대며 더욱 깊게 울어버린다."
+
+say "땅으로 넘어지며 그녀는 타이리츠까지 자신과 함께 끌어내린다.
+히카리는 얼룩진 손을 치맛자락에 대고,
+자신에게 기대던 타이리츠의 시체는 대신해 교회 잔해에 기댄다."
+
+say "그녀 자신의 말소리가 머릿속에 맴돈다."
+
+say "그녀 스스로의 가소로운 응징이다."
+
+say "넌 그럴 필요 없었어."
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,linear) normal
+
+wait 4 clear
+hide "finale/bg7.jpg" fade(0,linear)
+play "thump.ogg" 2
+wait 1
+
+say "...웃기지도 않다."
+
+say "모든 것에 대한 현실이 외면하기 불가능해지고 있다. 손을 내리고 있어도 된다만,
+피부를 데이게 하는 이 열기는 검처럼 사라지지 않을 것이다."
+
+show "prelude/tai2.jpg" 0.5:1 0.5:1 1:1 fade(2,sinein) normal
+
+say "한 소녀는 죽었고 네가 그녀의 목숨을 앗아갔다. 네가 그녀를 죽였다."
+
+say "그녀가 얼마나 괴로웠는지 안다. 정말 그녀를 이해하려 노력하기는 했는가?"
+
+hide "prelude/tai2.jpg" fade(3,linear)
+show "../../cg/2-8.jpg" 0.6:0.39 0.6:0.39 1.2:1.2 fade(4,linear) normal
+
+say "\"이제 어쩔 거야?\" 아니, 이해 못 하는 거니?"
+
+say "그냥 넘어갈 수 있는 일이 아니야. 스스로 정신 차리고 여정을 계속하고 싶다고?
+이 세상은 네가 한 일을 모두 기억해."
+
+hide "../../cg/2-8.jpg" fade(3,linear)
+show "../../cg/V-10.jpg" 0.2:0.75 0.2:0.75 1.3:1.3 fade(4,sinein) normal
+show "finale/vs_overlay.png" 0.15:0.75 0.15:0.75 1.3:1.3 fade(1,sinein) normal
+move "../../cg/V-10.jpg" 40:0 2.6 sinein
+move "finale/vs_overlay.png" -100:0 1.6 sinein
+move "../../cg/V-10.jpg" 30:0 1 linear
+
+say "뭐? 네 승리감은 어디 간 거야? 네가 이긴 거 맞잖아? 넌 살아있잖아."
+
+say "싫은 거야?"
+
+say "그녀 역시 살아있길 싫어했지?"
+
+hide "../../cg/V-10.jpg" fade(3,linear)
+
+say "그렇다고 죽이는 게 맞았을까? 그게 모든 것을 낫게 하는가? 정당화시키는 것인가?"
+
+wait 2
+hide "finale/vs_overlay.png" fade(0.3,linear)
+wait 1
+
+show "finale/LS.jpg" 0.34:0.5 0.34:0.5 1:1 fade(3.5,linear) normal
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white70.png" fade(0.6,linear)
+move "finale/LS.jpg" 0:-400 3 sineout
+play "thump.ogg" 1.4
+wait 1
+
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white70.png" fade(0.6,linear)
+play "thump.ogg" 1.8
+scale "finale/LS.jpg" 1.4:1.4 0.3 sineout
+wait 0.3
+scale "finale/LS.jpg" 1.6:1.6 3 linear
+wait 1.4
+
+play "thump.ogg" 2.5
+hide "finale/LS.jpg" fade(0,linear)
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white70.png" fade(0.2,linear)
+wait 0.5
+
+wait 3 clear
+
+say "너 무언가 문제 있는 건가?"
+
+say "지금조차...
+　
+자신 생각만 하잖아."
+
+show "vs/arcahv1.jpg" 0.7:0.2 0.7:0.2 1.8:1.8 fade(2,sineout) normal
+move "vs/arcahv1.jpg" 0:180 8 sinein
+
+say "이 생각을 하며 그녀는 심장이 종이로 만들어진 듯 떨어져 나가는 것처럼 느낀다.
+자신의 머리카락을 움켜쥐지만 여전히 왼손을 끌어올릴 수 없다."
+
+say "그녀는 자신에 대한 비난을 멈출 수가 없다."
+
+say "자신. 자신. 자신."
+
+move "vs/arcahv1.jpg" 0:20 6 sinein
+
+say "그리고 어떤 것이 머물며 그녀에게 말한다...
+ㅤ
+...네가 그렇지 뭐?"
+
+hide "vs/arcahv1.jpg" fade(0,linear)
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,linear) normal
+
+wait 4
+
+show "../../cg/1-1.jpg" 0:0.3 0:0.3 1.1:1.1 fade(0,linear) normal
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2white.png" fade(3.5,linear)
+hide "white70.png" fade(6,linear)
+
+scale "../../cg/1-1.jpg" 1.2:1.2 6 sineout
+move "../../cg/1-1.jpg" -600:0 18 sineout
+
+say "그녀는 주변에 날아다니는 나비들과 함께 깨어났다.
+\"아름답다, 줄이 없으면 다른 곳으로 날아가 버릴 수도 있겠는데.\""
+
+say "무릎에 앉은 나비와 함께 그녀는 옷매무새를 고치며 줄을 찾아봤지만 줄은 없었고,
+자세히 보니 그것들은 나비가 아닌 작은 유리 조각들이 바람에 흩날리고 있던 것이었다. \"우와!\""
+
+say "유리 조각에는 그녀가 지금 있는 하얀 세상이 아닌 또 다른 세상의 바다,
+도시, 불, 빛 등이 비춰지고 있었으며,
+그녀는 유리 조각들을 날리며 즐거워했다."
+
+say "하지만 나는 이 유리 조각들에게 '아르케아'라는 이름이 있는지는 몰랐다.
+사실은 그 아름다움에 취해 이름 따위는 신경도 쓰지 않았다.
+오로지 유리 조각들을 가지고 노는 것만으로도 충분했을지 모른다."
+
+hide "white40.png" fade(0.2,linear)
+hide "white.png" fade(0.2,linear)
+hide "../../cg/1-1.jpg" fade(0.2,linear)
+
+say "아니."
+
+say "너는 여태 알고 있었다. 한때 네가 보았을지도 모르지만,
+사람이 진정 변하기란 불가능한 일이다."
+
+say "그것도 네가 이미 알고 있던 사실이다."
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(1.5,linear) normal
+wait 1.7
+
+show "zettai/bg.jpg" 0.9:0.2 0.9:0.2 1.5:1.5 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(6,linear)
+hide "2white.png" fade(6,linear)
+move "zettai/bg.jpg" 150:0 10 sineout
+wait 3 clear
+wait 4
+
+hide "black.png" fade(0,linear)
+hide "zettai/bg.jpg" fade(0,linear)
+show "vs/bg.jpg" 0:0.4 0:0.4 1.5:1.5 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(6,linear)
+move "vs/bg.jpg" -150:0 10 sineout
+wait 7
+
+hide "vs/bg.jpg" fade(0,linear)
+show "meeting/bg.jpg" 0.9:0.2 0.9:0.2 1.5:1.5 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(5,linear)
+move "meeting/bg.jpg" 150:0 10 sineout
+wait 6
+
+hide "meeting/bg.jpg" fade(0,linear)
+show "finale/bg7.jpg" 0:0 0:0 1.5:1.5 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(6,linear)
+move "finale/bg7.jpg" -150:0 10 sineout
+wait 7
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,linear) normal
+wait 4
+
+hide "finale/bg7.jpg" fade(0,linear)
+show "finale/bg3.jpg" 0.5:0.7 0.5:0.7 1.5:1.5 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(0,linear)
+wait 0.1
+hide "2white.png" fade(20,linear)
+move "finale/bg3.jpg" 0:1800 40 sineoutin
+
+auto 6
+
+say "커튼이 막을 내리지 않을 것이다. 이것에는 끝이 없다."
+
+say "이곳에는 뜻이 없다. 네가 원했던 대로."
+
+volume "testifyStoryFull.ogg" 0.15 10
+
+say "그냥 또 한 명의 눈물 흘리는 소녀가 홀로 죽은 자들의 세상에 서있지."
+
+auto 4
+
+say "그래도 하나의 진실에 안도할 수 있다. 이곳으로부터 너를 지워버리려
+했던 한 소녀의 피로 너에게 새겨진 것, 반박할 수 없는 하나의 사실이 있다."
+
+volume "testifyStoryFull.ogg" 0.01 5
+wait 2
+hide "finale/bg3.jpg" fade(6,linear)
+auto 3
+
+say "그렇다."
+
+stop "testifyStoryFull.ogg" 3
+wait 3
+stop "glassRain.ogg" 8
+auto 6
+
+say "이곳은 천국이다."
+
+wait 8

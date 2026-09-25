@@ -1,0 +1,1050 @@
+play "glassRain.ogg" 0.4 loop
+
+wait 3
+
+show "vs/arcahv2.jpg" 0.3:0 0.3:0 1.4:1.4 fade(0,linear) normal
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+wait 1
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+wait 0.5
+hide "black.png" fade(0,linear)
+wait 0.5
+move "vs/arcahv2.jpg" -600:0 32 easeout
+wait 1
+hide "2black.png" fade(6,sineout)
+wait 3
+
+say "Hikari sits amidst dust and blood."
+
+say "I see her there... Her folly has ruined her. Self-pity has ruined her."
+
+say "As she gazes through her fingers, her hand still on her face,
+she finds, once more, the sight of you, my second self, dead."
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white40.png" fade(6,sineout)
+
+say "And the apathy which brought about your death—
+the apathy which brought about this all—must be threatening to encroach again."
+
+say "I know it: the girl in white and red can feel it. She can feel that she was meant for this.
+That you were meant to die, and she was meant to kill you."
+
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "black.png" fade(3,sineout)
+
+say "Her back relaxes...
+The world itself... Arcaea... She can likely feel tension releasing throughout it.
+Relief..."
+
+play "breath.ogg" 0.4
+
+say "The disorder is gone... It's safe now...
+But I can hear it too...
+Something like a whisper, easing into her heart, seems to ask her to embrace this state."
+
+say "To embrace herself, and embrace Arcaea.
+...However—"
+
+play "collapse.ogg" 0.1
+hide "vs/arcahv2.jpg" fade(0.2,sinein)
+
+say "\"...Tairitsu...\""
+
+show "vs/arcahv2.jpg" 0.65:0.42 0.65:0.42 1.9:1.9 fade(1,easeout) normal
+
+say "...She whispers something to herself: a name. Her voice is shaking, barely audible through her crying."
+
+say "\"What did you mean...? That our names 'here' were those...?\""
+
+say "She falls silent, and seems to wonder."
+
+play "breath.ogg" 0.4
+play "voice_epilogue.ogg" 0.7 loop
+
+say "The whisper comes again, telling her: if you want it, those answers will arrive.
+This place—it is an archive to all memory...
+...And yet still, she remains silent."
+
+
+
+say "\"...\""
+
+hide "vs/arcahv2.jpg" fade(3,easeout)
+
+say "Beneath her building apathy is a sheer and shining hatred.
+She cannot stop hating herself."
+
+say "Obviously not. After all that's happened... how could she allow an ending like this?
+What would it mean? What would it mean for her?"
+
+say "She... She, who walked here, could never accept it."
+
+show "finale/LS.jpg" 0.5:0.7 0.5:0.7 1:1 fade(4,linear) normal
+wait 1.5 clear
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+stop "voice_epilogue.ogg" 2.5
+hide "finale/LS.jpg" fade(0.4,linear)
+wait 1
+
+say "With nausea eating at her stomach, she clenches her jaw."
+
+
+say "\"...\""
+
+show "finale/bg7.jpg" 0.4:0 0.4:0 1.7:1.7 fade(3,linear) normal
+hide "black.png" fade(5,easeout)
+stop "glassRain.ogg" 5
+wait 0.1
+play "quietWind.ogg" 0.6 loop
+move "finale/bg7.jpg" 0:-40 7 easeout
+
+say "Hikari puts her hand to the dirt and sand below her and lurches up onto her knees."
+
+say "And she asks,
+\"Arcaea... Were you here to heal me?\""
+
+play "woosh.ogg" 0.4
+
+wait 2
+
+say "Her arm relaxes... like a cool sensation has woven up the limb."
+
+wait 2
+
+say "\"...I can feel it,\"
+Hikari mutters as her eyes slowly close, her voice still hoarse."
+
+say "\"...Paradise, for someone scared, tired, and weak...\""
+
+wait 1
+
+say "\"...\""
+
+wait 1
+
+play "sand_epilogue.ogg" 1
+wait 0.1
+move "finale/bg7.jpg" 0:-300 12 easeout
+
+say "She swallows the dry nothingness in her mouth.
+Opening her eyes, she grabs up sand and begins to rise to her feet
+as much of it pours out from between her fingers."
+
+say "\"I don't know what to do...\"
+Hikari goes on,
+\"...but would it be right of me to let you hold me again?\""
+
+say "\"It... absolutely wouldn't.\""
+
+say "\"I... don't want this...\""
+
+say "\"I don't want it...!\""
+
+show "vs/arcahv2.jpg" 1:0.4 1:0.4 1.15:1.15 fade(0,linear) normal
+hide "finale/bg7.jpg" fade(0,linear)
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+play "thump.ogg" 1
+
+wait 0.5 clear
+stop "quietWind.ogg" 2
+
+wait 2
+
+play "refusal_epilogue.ogg" 0.5
+hide "black.png" fade(0.3,linear)
+move "vs/arcahv2.jpg" 0:80 0.3 sinein
+move "vs/arcahv2.jpg" 0:10 2 easeout
+show "vs/arcahv1.jpg" 1:0.22 1:0.22 1.15:1.15 fade(40,linear) normal
+
+say "—
+\"Mmf—!\""
+
+say "Hikari suddenly bends over, gripping her stomach and pushing
+her other hand against her mouth. She sways heavily."
+
+play "plea_epilogue.ogg" 2
+play "voice_epilogue.ogg" 0.7 loop
+play "tension.ogg" 0.6 loop
+
+say "Her \"refusal\" seems to be enough to make this world recognize her once more.
+As she holds her mouth shut, eyes wide in fear, she suddenly winces.
+I can hear it too: a sharp noise, flying suddenly through her ears—through her head—"
+
+
+
+say "And inside her heart again—no longer a whisper, but almost a vibrating bellow.
+A silent, yet powerful voice filling her and saying: decide, and speak your heart's intent."
+
+
+
+stop "voice_epilogue.ogg" 4
+
+say "\"Speak... my...?\""
+
+show "../../cg/F-7.jpg" 0.8:0 0.8:0 2:2 fade(4,linear) normal
+move "../../cg/F-7.jpg" 40:0 15 easeout
+
+say "As she is...
+...Hikari is nothing but a girl moved by her heart.
+And it is heart that brought her here—long before she first opened her eyes."
+
+say "Is it instinct? Does that \"body\" remember how this all happened...? How she was before...?"
+
+stop "tension.ogg" 5
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(1,linear) normal
+
+say "Ha...
+I don't really care.
+I just... find it very funny, and ironic, that this new heart would undo it all in a single beat."
+
+hide "../../cg/F-7.jpg" fade(0,linear)
+hide "vs/arcahv2.jpg" fade(0,linear)
+hide "vs/arcahv1.jpg" fade(0,linear)
+show "finale/bg_distance.jpg" 0.2:0.4 0.2:0.4 1.3:1.3 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2black.png" fade(3,linear)
+wait 0.1
+play "memory1.ogg" 0.7 loop
+move "finale/bg_distance.jpg" 0:-230 7.5 easeout
+
+say "Her answer... after her breathing has become shallow, after her heart has trembled long past a minute,
+is ultimately clear and resonant:"
+
+play "thump.ogg" 1
+
+say "\"My intent... is to reverse.\""
+
+say "\"I have to bring her back.\""
+
+play "thump.ogg" 1
+
+say "\"This world... doesn't make any sense!
+You think I'd die for it? You think I'd let someone ELSE die for it...!?\""
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white40.png" fade(2,sineout)
+
+say "\"I can't! I won't!
+Whatever I need to do, whatever I need to give up... I'll sacrifice it all for that...!\""
+
+move "finale/bg_distance.jpg" 10:0 0.01 linear
+play "cut.ogg" 0.2
+wait 0.04
+move "finale/bg_distance.jpg" -5:10 0.01 linear
+wait 0.03
+move "finale/bg_distance.jpg" 10:-12 0.01 linear
+wait 0.04
+move "finale/bg_distance.jpg" 0:10 0.01 linear
+wait 0.03
+
+say "She holds the earth in her palm, firmly, before throwing her hand out and scattering the sand."
+
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white40.png" fade(2,sineout)
+
+say "She declares,
+\"I'll die if it means I can change all this—!\""
+
+stop "memory1.ogg" 0.3
+play "groan_epilogue.ogg" 2
+play "heart_epilogue.ogg" 1
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+wait 3 clear
+
+hide "finale/bg_distance.jpg" fade(0,linear)
+wait 0
+show "finale/bg_distance.jpg" 0.4:0.6 0.4:0.6 1.3:1.3 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(0,linear)
+hide "2white.png" fade(1,linear)
+
+scale "finale/bg_distance.jpg" 0.9:0.9 0.3 easeinout
+wait 0.3
+scale "finale/bg_distance.jpg" 0.8:0.8 4 easeout
+
+show "2white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2white40.png" fade(7,sineout)
+
+say "The world's heart beats, and its sound silences her cold.
+It would never give her up. It will not.
+The voice fills her again—"
+
+stop "heart_epilogue.ogg" 2
+
+play "voice_epilogue.ogg" 1 loop
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(1,easein) normal
+wait 1.1 clear
+hide "white70.png" fade(8,sineout)
+wait 0.7
+
+say "And its sentiments, and knowledge, enter her chest and run to her fingertips."
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,easein) normal
+
+say "It says, You cannot die.
+You were born here to live, and living is what you chose."
+
+play "thump.ogg" 1
+
+say "Hikari... knows this.
+And guilt—apology—forces tears to well in her eyes."
+
+play "tension.ogg" 1
+stop "tension.ogg" 1.8
+play "breath.ogg" 1
+
+say "But, the world's heart beats again before she can cry.
+Do not die, says Arcaea."
+
+
+play "tension.ogg" 1 loop
+wait 2 clear
+
+play "decision_epilogue.ogg" 1
+stop "voice_epilogue.ogg" 3
+show "epilogue/last1_c1_epilogue.jpg" 0.3:0 0.3:0 1.3:1.3 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2white.png" fade(3,easeout)
+move "epilogue/last1_c1_epilogue.jpg" -200:0 20 easeout
+
+say "—
+Only let it end."
+
+hide "white.png" fade(0,linear)
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(5,linear) normal
+wait 5 clear
+
+show "epilogue/last1_c2_epilogue.jpg" 0.7:0 0.7:0 1:1 fade(0,linear) normal
+hide "2white.png" fade(0,linear)
+hide "epilogue/last1_c1_epilogue.jpg" fade(0,linear)
+hide "finale/bg_distance.jpg" fade(0,linear)
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(3,easeout)
+move "epilogue/last1_c2_epilogue.jpg" 300:0 12 easeout
+wait 2
+
+say "...And so her lips tighten.
+Tears break past her eyelid, and trace down her cheek.
+And she nods."
+
+stop "tension.ogg" 3
+
+hide "epilogue/last1_c2_epilogue.jpg" fade(6,easeout)
+
+say "A heart beats again...
+And like that—"
+
+play "loss_epilogue.ogg" 0.6
+play "wind.ogg" 0.4 loop
+
+
+
+say "—Arcaea begins to lose its light."
+
+wait 3
+
+show "finale/LS.jpg" 0.5:0.6 0.5:0.6 0.8:0.8 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2black.png" fade(10,easeout)
+
+play "blowing1.ogg" 0.6 loop
+wait 0.1
+move "finale/LS.jpg" 0:5 0.5 easeout
+wait 0.5
+move "finale/LS.jpg" 0:100 0.3 easeout
+wait 0.3
+move "finale/LS.jpg" 0:20 5 easeout
+
+say "And in so doing, it floods into her, flows into her hands and heart.
+It drives her down. It nearly causes her to collapse."
+
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white70.png" fade(5,sineout)
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white40.png" fade(2,sineout)
+
+say "For that while, memories flash across her eyes, but I can tell... they are memories ignored.
+Her eyes fix upon your lifeless corpse instead."
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,sineout) normal
+stop "wind.ogg" 4
+stop "blowing1.ogg" 4
+
+say "I think all she knows now... is \"what she has to do\".
+And I can feel myself being tugged there already... down, down...
+down: to where you were slain."
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,linear) normal
+wait 3 clear
+play "tension.ogg" 0.4 loop
+wait 1
+show "../../cg/F-7.jpg" 1:1 1:1 1.5:1.5 fade(0,linear) normal
+move "../../cg/F-7.jpg" 250:0 25 easeout
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "finale/LS.jpg" fade(0,linear)
+hide "black.png" fade(0,linear)
+hide "black.png" fade(0,linear)
+hide "white.png" fade(0,linear)
+hide "2white.png" fade(15,sineout)
+
+say "...
+Does she... truly understand what it is she's abandoning?
+Does she truly understand what is \"ending\" by this?"
+
+say "I don't know.
+　
+...You won't either."
+
+say "...Actually, if she's taking me, then... will I remember any of this? Will I understand?
+　
+No... probably not. But... she seems so sure of herself now."
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.6,linear) normal
+wait 0.6 clear
+stop "tension.ogg" 6
+wait 2
+play "new_epilogue.ogg" 1.0 loop 19103:104128
+wait 1.5
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(2.5,sinein) normal
+wait 2.5
+hide "white.png" fade(4,easeout)
+wait 1
+
+say "..."
+
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(16,linear) normal
+
+say "I'm going to let that heart of hers be the beacon for whatever comes after.
+　
+...I trust it. You would, too, wouldn't you?"
+
+say "After all, you were right...
+　
+The two of them... are completely different."
+
+
+
+say "...\"Tairitsu\"...
+　
+...I'll be going now."
+
+say "But don't worry.
+　
+I will surely take you with me."
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,easein) normal
+wait 1
+wait 3 clear
+hide "black.png" fade(0,linear)
+hide "white70.png" fade(0,linear)
+hide "../../cg/F-7.jpg" fade(0,linear)
+play "fracture1_epilogue.ogg" 0.6
+wait 1.9
+play "fracture1_epilogue.ogg" 0.8
+wait 0.3
+play "fracture1_epilogue.ogg" 0.8
+wait 0.3
+play "fracture4_epilogue.ogg" 1
+wait 0.3
+play "fracture1_epilogue.ogg" 1
+wait 0.3
+play "fracture2_epilogue.ogg" 1.5
+wait 0.3
+play "fracture1_epilogue.ogg" 1.5
+wait 0.3
+play "fracture3_epilogue.ogg" 1.5
+show "epilogue/last1_c3_epilogue.jpg" 0:1 0:1 1.3:1.3 fade(0,linear) normal
+hide "white.png" fade(0,linear)
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+move "epilogue/last1_c3_epilogue.jpg" 0:1300 0.45 sinein
+hide "2white.png" fade(0.8,linear)
+wait 0.3
+play "fracture5_epilogue.ogg" 1.5
+wait 0.1
+play "fracture5_epilogue.ogg" 1.5
+wait 0.1
+play "fracture5_epilogue.ogg" 1.5
+wait 0.1
+play "fracture5_epilogue.ogg" 2
+wait 0.05
+move "epilogue/last1_c3_epilogue.jpg" 0:60 20 linear
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white70.png" fade(3,easeout)
+wait 4
+
+say "The skies are forced down again, and the earth rises to her will.
+To die, and to make Tairitsu live again."
+
+say "Lives and souls cannot truly be brought into this world of the dead.
+Only their shapes, only their echoes..."
+
+say "And to begin with,
+the souls of the girl of light and the girl of conflict... were never quite ordinary."
+
+show "epilogue/last1_epilogue.jpg" 0.1:0.03 0.1:0.03 1.5:1.5 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+move "epilogue/last1_epilogue.jpg" -300:-90 15 easeout
+hide "white.png" fade(3,linear)
+
+say "Truly, the world was not meant for this.
+Surely, the world will shatter for this.
+But it will do everything to rewrite it all—or at least try."
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,easein) normal
+
+say "It would need both the girl in black's \"first soul\"
+and what fragments can be found of her second self's..."
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+play "memoryShift.ogg" 2
+wait 0.3
+hide "white40.png" fade(4,easeout)
+
+say "And now one fragmented soul calls out to a full other.
+Swiftly, that other soul is torn from beyond the pale."
+
+wait 1.5 clear
+play "fracture1_epilogue.ogg" 2
+wait 0.01
+play "blowing1.ogg" 2 loop
+wait 0.01
+hide "epilogue/last1_epilogue.jpg" fade(0,linear)
+play "burst.ogg" 2
+wait 0.1
+show "epilogue/last1_epilogue.jpg" 0.5:0.4 0.5:0.4 1.2:1.2 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "2white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.2,linear) normal
+scale "epilogue/last1_epilogue.jpg" 1:1 0.3 sineout
+move "epilogue/last1_epilogue.jpg" -30:-20 10 sineout
+hide "2white.png" fade(0.3,sineout)
+wait 0.2
+hide "2white40.png" fade(3.5,sineout)
+hide "black.png" fade(0,linear)
+wait 3
+
+say "A tornado flies around Hikari then,
+ripping the veil of reality around her apart in a torrent of shadow and light."
+
+wait 0.5 clear
+
+play "glass_epilogue.ogg" 2
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "epilogue/last1_c3_epilogue.jpg" fade(0,sineout)
+hide "white70.png" fade(4,sineout)
+
+say "Arcaea \"remembers\" the other girl, and at Hikari's command those memories come rushing back as glass.
+They seem almost instantly born. Or perhaps they have always been here.
+...Will they even suffice? Can this world weave two fractured souls?"
+
+hide "epilogue/last1_epilogue.jpg" fade(0.6,sineout)
+
+play "tunnel.ogg" 2
+stop "blowing1.ogg" 4
+
+say "...It will. The rules do not matter. Hikari will make it so...
+With these memories of the girl named Tairitsu...
+Glinting through the storm, those glass memories come swiftly."
+
+show "epilogue/last1_c4_epilogue.jpg" 0.55:0.55 0.6:0.6 1.4:1.4 fade(0,linear) normal
+show "epilogue/forgotten_epilogue.jpg" 0.52:0.62 0.52:0.62 1.6:1.6 fade(0,linear) normal
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "zettai/bg.jpg" 0.9:0.2 0.9:0.2 1.5:1.5 fade(0,linear) normal
+show "finale/bg3.jpg" 0.5:0.4 0.5:0.4 1.5:1.5 fade(0,linear) normal
+show "meeting/bg.jpg" 0.9:0.2 0.9:0.2 1.5:1.5 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "prelude/bg.jpg" 0.5:0.5 0.5:0.5 1.2:1.2 fade(0,linear) normal
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(2.5,easein) normal
+wait 2.5 clear
+show "../../cg/2-1.jpg" 0.3:0.5 0.3:0.5 1:1 fade(4,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(0,linear)
+hide "2white.png" fade(4,easeout)
+move "../../cg/2-1.jpg" -100:0 11 easeout
+
+wait 3
+
+hide "../../cg/2-1.jpg" fade(1.5,linear)
+
+say "There was a girl here who once walked the lands in agony.
+A girl dogged mercilessly by sorrow and grief...
+Yet she strode onward to save herself."
+
+
+show "epilogue/2missingtai_epilogue.png" 0.5:0.5 0.5:0.5 1.2:1.2 fade(2,linear) normal
+show "epilogue/missingtai_epilogue.png" 0.5:0.5 0.5:0.5 1:1 fade(3,linear) normal
+wait 1 clear
+scale "epilogue/2missingtai_epilogue.png" 1.05:1.05 2 easeout
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(2,linear)
+hide "epilogue/2missingtai_epilogue.png" fade(3,easeout)
+
+wait 0.5
+move "epilogue/missingtai_epilogue.png" 0:80 18 easeout
+
+say "To save herself and to grasp freedom.
+She had only ever wished for one thing:
+the chance to have some reason to smile."
+
+hide "epilogue/missingtai_epilogue.png" fade(2,easeout)
+hide "black.png" fade(3,easeout)
+
+say "To make this world a better place, she was a girl who stood and faced it,
+even if \"better\" would mean turning this world over."
+
+hide "2black.png" fade(3,easeout)
+hide "prelude/bg.jpg" fade(3,easeout)
+wait 0.5 clear
+show "epilogue/tai_epilogue.png" 0.5:0.5 0.5:0.5 1.6:1.6 fade(7,easein) normal
+move "meeting/bg.jpg" 0:200 5 easeout
+wait 2.5
+move "finale/bg3.jpg" 0:200 5 easeout
+hide "meeting/bg.jpg" fade(0.3,easeout)
+wait 3
+move "zettai/bg.jpg" 0:200 5 easeout
+hide "finale/bg3.jpg" fade(0.3,easeout)
+wait 3
+hide "zettai/bg.jpg" fade(0.3,easeout)
+wait 0.25
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+wait 1.5
+hide "white.png" fade(3.5,linear)
+hide "epilogue/tai_epilogue.png" fade(3,easeout)
+play "blowing1.ogg" 2 loop
+wait 0.5
+hide "3black.png" fade(2.5,easein)
+move "epilogue/forgotten_epilogue.jpg" 0:-200 5 easeout
+hide "epilogue/forgotten_epilogue.jpg" fade(5,easeout)
+wait 1
+move "epilogue/last1_c4_epilogue.jpg" 0:100 11 easeout
+
+say "The memories flash across Hikari's eyes, distracting her even more
+from her own encroaching recollections."
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white40.png" fade(4,sineout)
+
+say "Few of the other girl's tears pass through the storm. Much of her pain seems to have been forgotten."
+
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white70.png" fade(5,sineout)
+
+say "It seems so... but in truth, as a soul of light, still pushing away
+the cruel truth of that soul as she is, it is all Hikari can do to find even the fleeting moments
+of the other girl's sincerest despair—the rest, the longer of them, lie beyond her grasp."
+
+say "...However, knowing where that truest pain had led the girl in black, Hikari gives that sorrow up,
+and so too gives up the moment that they met, which she cannot find."
+
+hide "epilogue/last1_c4_epilogue.jpg" fade(1,easein)
+
+say "The Tairitsu born of this all... will be one who has not seen the true depths of her plight,
+but will still know herself as one who was born and lived in the midst of struggle."
+
+show "epilogue/last1_c3_epilogue.jpg" 0.33:0.2 0.33:0.2 1.3:1.3 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(5,sineout)
+move "epilogue/last1_c3_epilogue.jpg" 0:-200 0.35 easeout
+play "fracture3_epilogue.ogg" 1.5
+wait 0.1
+play "fracture3_epilogue.ogg" 1.5
+wait 0.1
+play "fracture3_epilogue.ogg" 1.5
+wait 0.1
+play "fracture6_epilogue.ogg" 1.5
+wait 0.05 clear
+move "epilogue/last1_c3_epilogue.jpg" 0:-50 20 easeout
+play "woosh.ogg" 2
+
+say "New energy booms out from Hikari. Four columns of light, immense fonts of power, erupt from the ground.
+It is the world protecting her, as the shadow soul to which she called finally descends."
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,easein) normal
+play "tension.ogg" 1.5 loop
+
+say "She almost fails to recognize it at its approach. What floats before her and begins to block the sky
+is something like Death: the immense and chilling shape of a phantom. It gently slows as it nears,
+and there, at once, the dark begins to flow into the rotating glass."
+
+hide "black.png" fade(1,sineout)
+stop "tension.ogg" 6
+play "tunnel.ogg" 2
+stop "tunnel.ogg" 5.5
+
+say "There she truly comprehends it. With a firm nod, she eases the process, guiding soul to glass.
+The lost soul of Tairitsu \"before\" thus becomes the living essence of the new body to come,
+with that of Tairitsu \"after\" stabilizing the rest of the shell."
+
+move "epilogue/last1_c3_epilogue.jpg" 40:0 0.01 linear
+wait 0.01 clear
+move "epilogue/last1_c3_epilogue.jpg" -80:40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 40:-80 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" -40:40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 0:-40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 40:40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" -40:40 0.01 linear
+wait 0.01
+play "fracture2_epilogue.ogg" 1.5
+play "decision_epilogue.ogg" 2
+move "epilogue/last1_c3_epilogue.jpg" 0:-40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 40:40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" -40:40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 40:-40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 0:-40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 40:40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" -40:40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 40:-40 0.01 linear
+
+
+say "The shaking beneath Hikari's feet becomes almost too much to bear.
+Hikari remains as still as she is able, and steadfastly directs the new life between her hands.
+With a thunderous groan, she feels the world bending in agony, and yet she holds onto her will."
+
+show "epilogue/last1_c4_epilogue.jpg" 0.67:0.48 0.67:0.48 1.8:1.8 fade(5,easein) normal
+scale "epilogue/last1_c4_epilogue.jpg" 1.3:1.3 70 sineout
+
+say "Without being deterred, in her heart she reaffirms her vow."
+
+wait 4
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.4,easein) normal
+wait 0.4
+play "fracture3_epilogue.ogg" 1.5
+wait 1.5
+play "fracture1_epilogue.ogg" 1
+wait 0.5
+play "fracture2_epilogue.ogg" 1.5
+hide "white.png" fade(4,sineout)
+
+say "She twists the core of the world itself. It, too, will fuel the rebirth of a fallen deity.
+Like this, finally, once absolute rules are rewritten, and with Hikari's sound and silent order
+new death spikes solidly into that core."
+
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,linear) normal
+wait 5 clear
+play "fracture4_epilogue.ogg" 1.5
+wait 2
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(7,easein) normal
+wait 3
+play "groan_epilogue.ogg" 2
+play "skyFall.ogg" 2
+stop "skyFall.ogg" 7.1
+say "In an overwhelming pulse of light and shadow, Arcaea begins to die."
+
+wait 3
+show "epilogue/last1_epilogue.jpg" 0.4:0.5 0.4:0.5 1:1 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2white.png" fade(0,sineout)
+hide "black.png" fade(0,sineout)
+hide "epilogue/last1_c4_epilogue.jpg" fade(0,sineout)
+hide "epilogue/last1_c3_epilogue.jpg" fade(0,sineout)
+hide "2black.png" fade(4,sineout)
+scale "epilogue/last1_epilogue.jpg" 2.1:2.1 120 sineout
+
+say "The wish that made existence is overturned. The skies run rapid overhead, and what light remains of this
+reality cascades to her from every horizon. As she pushes the crafted soul into Tairitsu's now-floating
+and deeply effulgent body, with sweat dripping off her brow, Hikari pushes, too, the entire world—"
+
+say "She channels the life of the earth."
+
+hide "epilogue/last1_epilogue.jpg" fade(0.2,sineout)
+
+say "She abandons Arcaea."
+
+show "epilogue/last1_epilogue.jpg" 0.6:1 0.6:1 2.1:2.1 fade(5,easeout) normal
+move "epilogue/last1_epilogue.jpg" 1000:0 30 easeoutin
+
+say "Below the now-ending daylight, twin girls watch as clouds rush past above them."
+
+say "Below the half-night sky, a noble gazes at a rift slowly tearing apart the earth,
+and gazes above to see star after star fading."
+
+say "A girl who tends and cares, a girl who wanders and seeks, a girl who watches and wishes—"
+
+say "A soul of joy, a soul of hunger, a soul of ambition—"
+
+say "A heart of war, a heart of song—"
+
+say "—they see the end, as all the life of the world is taken now to one, distant place."
+
+hide "epilogue/last1_epilogue.jpg" fade(3,easein)
+stop "blowing1.ogg" 6
+stop "new_epilogue.ogg" 17
+
+say "And soon..."
+
+say "...Hikari feels the last wisps of that life flow into the body of the girl she wishes to save.
+Tairitsu's form begins to drift back to the earth as the life fades out from Hikari's hands,
+and as it does..."
+
+say "...the girl in white feels, too, that a part of herself is being lost in the current."
+
+say "...None of that concerns her."
+
+say "When the winds die down, and as Arcaea's skies above are left slowed, dull...
+she feels very lightheaded and plants her foot down before she might fall."
+
+say "She tries to calm herself, trying to grasp what she, truly, has done.
+But... she can't.
+And overwhelmingly, her thoughts focus on this:"
+
+
+
+say "Is Tairitsu alive?"
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(6,linear) normal
+wait 3
+wait 3 clear
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(3.2,easeout) normal
+
+play "wind.ogg" 0.8 loop
+
+wait 3.2
+
+show "epilogue/forgotten_epilogue.jpg" 0.52:1 0.52:1 1.8:1.8 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white40.png" fade(0,linear)
+hide "white.png" fade(0,linear)
+hide "2white.png" fade(12,sineout)
+move "epilogue/forgotten_epilogue.jpg" 0:960 24 easeout
+
+say "—"
+
+wait 4
+
+say "Dust drifts down from the sky again."
+
+wait 1
+stop "wind.ogg" 3
+
+say "She does remember this..."
+
+wait 1
+
+say "...at the end, at that lowest point..."
+
+wait 1
+
+hide "epilogue/forgotten_epilogue.jpg" fade(5,easein)
+
+say "Nobody was there, and she closed her eyes to tears."
+
+wait 1
+
+say "She opens them now, slowly...
+　
+...just as those memories leave her entirely."
+
+wait 3
+play "after_epilogue.ogg" 0 loop
+volume "after_epilogue.ogg" 0.51 7.5
+wait 1.6
+
+show "finale/bg_distance.jpg" 1:0 1:0 1.5:1.5 fade(8,easeout) normal
+
+move "finale/bg_distance.jpg" 0:-500 31 easeout
+
+wait 13.4 clear
+
+say "Hikari sees the motion in her brow.
+The girl in white holds her own fists over her mouth and her breath catches in her throat."
+
+say "For all the splendor, she thinks, it was all so simple—"
+
+say "Too simple—
+Could her wish have been granted for so little as hope and effort?"
+
+play "1step.ogg" 0.5
+
+say "Hikari shakes her head of these thoughts. She steps forward, shaking.
+Tairitsu's eyes open fully, and blink once, before their lids fall again halfway."
+
+play "collapse.ogg" 0.3
+hide "finale/bg_distance.jpg" fade(0.3,sineout)
+
+say "Hikari rushes forward then, falls to her knees, and hugs the other girl."
+
+show "finale/bg7.jpg" 0:0 0:0 1.7:1.7 fade(3,linear) normal
+move "finale/bg7.jpg" -380:0 25 easeout
+
+say "\"Wh... What...!? What are y—!?\""
+
+say "The girl is silenced as Hikari clings to her,
+embracing her more tightly than anything else before in her life.
+And, Hikari starts to sob."
+
+say "She uncontrollably cries into the other girl's shoulder—
+the girl who stares back in disbelief, unsure of anything."
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white40.png" fade(2,sineout)
+play "woosh.ogg" 0.3
+
+say "...Many more rifts have been carved through the landscape.
+The light which once eternally poured from the sky has been suddenly, and starkly dimmed.
+The world... is wounded."
+
+say "And yet, Hikari's focus remains on \"what\"—\"who\" remains.
+Tairitsu lifts her hand, and places it gently upon Hikari's shaking back.
+Each unknowing, the two comfort one another at the end of the world."
+
+
+hide "finale/bg7.jpg" fade(2,sineout)
+
+say "\"I'm sorry... I'm so sorry...\"
+Hikari endlessly repeats."
+
+say "\"...Whatever you did,\"
+Tairitsu replies,
+\"you made it right, didn't you? So why are you apologizing...?\""
+
+say "Hikari slowly pulls herself away, though she still holds the other girl.
+With her eyes and nose reddened, she gazes on Tairitsu with misery, and tugging elation."
+
+say "She suddenly buries her face in Tairitsu's chest, and Tairitsu holds her in return, softly.
+The scene begins to quiet, and the girl in black allows the girl in white to weep."
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,linear) normal
+wait 2 clear
+wait 1
+show "3white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "epilogue/last2_c1_epilogue.jpg" 0.8:0.1 0.8:0.1 0.9:0.9 fade(0,linear) normal
+
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2white.png" fade(7,sineout)
+hide "white.png" fade(0,linear)
+move "epilogue/last2_c1_epilogue.jpg" 180:0 26 easeout
+wait 3
+
+say "—
+They set out into the gray world."
+
+say "For a while, Tairitsu holds the other girl's hand to walk her forward,
+but it doesn't take long for their paces to match."
+
+
+hide "epilogue/last2_c1_epilogue.jpg" fade(7,linear)
+show "epilogue/last2_c2_epilogue.jpg" 1:1 1:1 1.42:1.42 fade(6,sinein) normal
+move "epilogue/last2_c2_epilogue.jpg" 200:0 17 easeout
+
+say "She does not remember her tragedy—at least, not the worst of it."
+
+say "And the black shards... They don't take interest in her any longer."
+
+show "epilogue/last2_c3_epilogue.jpg" 0:1 0:1 1.42:1.42 fade(7,linear) normal
+move "epilogue/last2_c3_epilogue.jpg" -200:0 18 easeout
+
+say "For Hikari too. Those white shards which were so fond of her no longer dance nearby and close."
+
+say "One has lost some aspect of dark, and the other... and the world... continue to lose light.
+Though...
+...to smile sincerely, Hikari no longer needs the light of glass."
+
+
+hide "epilogue/last2_c2_epilogue.jpg" fade(4,linear)
+wait 2
+
+hide "epilogue/last2_c3_epilogue.jpg" fade(4,linear)
+show "epilogue/last2_c4_epilogue.jpg" 1:0.2 1:0.2 0.9:0.9 fade(8,linear) normal
+move "epilogue/last2_c4_epilogue.jpg" 270:0 26 easeout
+
+say "The girls walk to a cliff's edge.
+They look out to see a land of lost memory, slowly falling to decay.
+And it will decay. It will collapse, fade, and crumble to nothing."
+
+
+
+say "They stand there, not knowing this, and only \"knowing\" each other,
+foregoing the past, and foregoing memory."
+
+say "Tairitsu looks to Hikari with a steady, and quietly warm expression—
+It is the expression she wore once, whenever able, within another life.
+Hikari, seeing it, smiles with the simplest ease."
+
+say "\"What awaits\"...?
+What awaits could never matter."
+
+
+
+say "That sense of \"completeness\" they each feel... cannot be shaken."
+
+say "And...
+Implicitly, Hikari knows this journey is at its end.
+The road to the future lies ahead, and there a new journey will begin."
+
+volume "after_epilogue.ogg" 0.15 8
+show "epilogue/last2_c5_epilogue.jpg" 0.48:0.5 0.48:0.5 1:1 fade(4.1,easein) normal
+wait 1
+wait 2 clear
+move "epilogue/last2_c5_epilogue.jpg" -100:0 30 linear
+
+say "...She takes the time to acknowledge that she cannot know what, precisely, that journey will bring.
+She can never know what might happen."
+
+say "She acknowledges this, and closes her eyes to another thought:
+...Did she know, before, where her steps would take her?
+She only, always, stepped forward."
+
+volume "after_epilogue.ogg" 0.01 5
+
+say "..."
+
+stop "after_epilogue.ogg" 3
+
+say "If you've chosen life, then choose to live.
+Live in this world. See this world. Feel it and truly accept every last moment.
+With this sentiment, she chooses to hold firm."
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(4,easein) normal
+wait 4 clear
+show "epilogue/last2_epilogue.jpg" 0.31:0.52 0.31:0.52 1.5:1.5 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+move "epilogue/last2_epilogue.jpg" 0:-70 30 linear
+
+play "lastVocal_A_epilogue.ogg" 1
+wait 0.1
+scale "epilogue/last2_epilogue.jpg" 0.72:0.72 33 sineout
+hide "2white.png" fade(12,sineout)
+auto 5.25
+
+
+say "She lets her eyes open and she breathes in the air.
+The unknowable winds ahead, the girl beside her,
+the faces she has not seen, and the hidden places beyond..."
+
+say "She holds all of it close to her heart."
+
+auto 5.4
+
+say "She takes Tairitsu's hand."
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.09,linear) normal
+
+auto 2
+
+say "Because they will go on."
+
+wait 0 clear
+hide "black.png" fade(0,linear)
+hide "white.png" fade(0,linear)
+hide "3white.png" fade(0,linear)
+hide "epilogue/last2_epilogue.jpg" fade(0,linear)
+hide "epilogue/last2_c5_epilogue.jpg" fade(0,linear)
+hide "epilogue/last2_c4_epilogue.jpg" fade(0,linear)
+wait 0
+
+wait 5

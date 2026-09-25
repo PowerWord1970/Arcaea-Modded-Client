@@ -1,0 +1,31 @@
+{
+	"entries": [{
+		"minor": 1,
+		"requiredPack": "gimmedablood",
+		"storyType": "nvl",
+		"clearSongId": "gimmedablood",
+		"clearCharaId": -1,
+		"charIcon1": 44,
+		"charIcon2": -1
+	},
+	{
+		"minor": 2,
+		"requiredPack": "gimmedablood",
+		"requiredMinor": 1,
+		"storyType": "nvl",
+		"clearSongId": "bookmaker",
+		"clearCharaId": -1,
+		"charIcon1": 44,
+		"charIcon2": -1
+	},
+	{
+		"minor": 3,
+		"requiredPack": "gimmedablood",
+		"requiredMinor": 2,
+		"storyType": "nvl",
+		"clearSongId": "darakunosono",
+		"clearCharaId": -1,
+		"charIcon1": 44,
+		"charIcon2": -1
+	}]
+}

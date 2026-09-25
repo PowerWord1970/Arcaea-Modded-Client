@@ -1,0 +1,32 @@
+{
+	"entries": [{
+		"minor": 1,
+		"requiredPack": "init",
+		"storyType": "nvl",
+		"clearSongId": "oblivia",
+		"clearCharaId": -1,
+		"charIcon1": 19,
+		"charIcon2": -1
+	},
+	{
+		"minor": 2,
+		"requiredPack": "init",
+		"requiredMinor": 1,
+		"storyType": "nvl",
+		"clearSongId": "rugie",
+		"clearCharaId": -1,
+		"charIcon1": 19,
+		"charIcon2": -1,
+		"storyCgPath": "app-data/story/cg/11-2.jpg"
+	},
+	{
+		"minor": 3,
+		"requiredPack": "init",
+		"requiredMinor": 2,
+		"storyType": "nvl",
+		"clearSongId": "init",
+		"clearCharaId": -1,
+		"charIcon1": 19,
+		"charIcon2": -1
+	}]
+}

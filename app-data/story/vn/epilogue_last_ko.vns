@@ -1,0 +1,1058 @@
+play "glassRain.ogg" 0.4 loop
+
+wait 3
+
+show "vs/arcahv2.jpg" 0.3:0 0.3:0 1.4:1.4 fade(0,linear) normal
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+wait 1
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+wait 0.5
+hide "black.png" fade(0,linear)
+wait 0.5
+move "vs/arcahv2.jpg" -600:0 32 easeout
+wait 1
+hide "2black.png" fade(6,sineout)
+wait 3
+
+say "히카리는 먼지와 피에 덮인 채 앉아있다."
+
+say "나는 그녀를 바라본다. 어리석음이 그녀를 망쳤다. 자기 연민이 그녀를 망쳤다."
+
+say "자신의 손가락 사이를 쳐다보는 그녀는 여전히 손이 얼굴에 얹혀있고, 다시금 너...
+죽은 나의 제2의 모습을 발견한다."
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white40.png" fade(6,sineout)
+
+say "그리고 너의 죽음의 원인인 그 무관심,
+모든 것을 이렇게 만들어버린 그 무관심이 다시 해 침해하려 위협하는듯하다."
+
+say "나는 알고 있다. 하얀색과 붉은색의 소녀도 느낀다.
+이것을 위해 자신이 태어났음을 그녀는 알 수 있다.
+너는 죽었어야 할 운명이었고, 그녀는 너를 죽였어야 할 운명이었다는 것."
+
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "black.png" fade(3,sineout)
+
+say "그녀의 등은 힘이 풀린다...
+이 세상 자체... Arcaea... 그 속에 긴장감이 풀림을 그녀는 아마 느낄 수 있을 것이다.
+안도..."
+
+play "breath.ogg" 0.4
+
+say "그 이상한 존재는 사라졌다... 이제 안전하다...
+그러나 내게도 들린다...
+속삭임 같은 것이 지금의 상태를 받아들이라고 부탁하는 것처럼 그녀의 심장을 파고든다."
+
+say "자신을 받아들이고 Arcaea를 받아들이라고.
+...그러나-"
+
+play "collapse.ogg" 0.1
+hide "vs/arcahv2.jpg" fade(0.2,sinein)
+
+say "\"...타이리츠...\""
+
+show "vs/arcahv2.jpg" 0.65:0.42 0.65:0.42 1.9:1.9 fade(1,easeout) normal
+
+say "...그녀는 스스로에게 무언가를 속삭인다: 이름을... 그녀의 목소리는 흔들리고,
+그녀의 울음소리 너머로 거의 들리지 않는다."
+
+say "\"무슨 뜻이야...? '이곳'의 우리 이름이었다고...?\""
+
+say "그녀는 침묵한다. 그리고 골똘히 생각하는듯하다."
+
+play "breath.ogg" 0.4
+play "voice_epilogue.ogg" 0.7 loop
+
+say "속삭임이 돌아온다. 진정 원한다면 답이 찾아올 것이라고 그녀에게 말한다.
+이곳은 모든 기억들의 보관소다...
+...그러나 그녀는 여전히 침묵한다."
+
+
+
+say "\"...\""
+
+hide "vs/arcahv2.jpg" fade(3,easeout)
+
+say "그녀의 강해지는 무관심 아래에는 순순히 빛을 발하는 증오가 존재한다.
+그녀는 자기혐오를 멈출 수가 없다."
+
+say "당연하지. 일어난 모든 일을 생각한다면... 어떻게 이렇게 끝나도록 놔둘 수 있었지?
+이제 어떻게 될 것인가? 그녀는 어떻게 될 것인가?"
+
+say "그녀... 이곳을 걸어 다녔던 히카리… 그녀는 절대 받아들이지 않았을 것이다."
+
+show "finale/LS.jpg" 0.5:0.7 0.5:0.7 1:1 fade(4,linear) normal
+wait 1.5 clear
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+stop "voice_epilogue.ogg" 2.5
+hide "finale/LS.jpg" fade(0.4,linear)
+wait 1
+
+say "울렁증이 뱃속 깊이 침투한 채 그녀는 이를 악문다."
+
+
+say "\"...\""
+
+show "finale/bg7.jpg" 0.4:0 0.4:0 1.7:1.7 fade(3,linear) normal
+hide "black.png" fade(5,easeout)
+stop "glassRain.ogg" 5
+wait 0.1
+play "quietWind.ogg" 0.6 loop
+move "finale/bg7.jpg" 0:-40 7 easeout
+
+say "히카리는 자신 밑에 모래와 흙 속으로 손을 파묻히고 비틀거리며 무릎을 꿇는다."
+
+say "그녀는 묻는다,
+\"Arcaea... 너는 나를 치유하려고 온 것인가?\""
+
+play "woosh.ogg" 0.4
+
+wait 2
+
+say "그녀의 팔은 힘이 빠진다... 마치 팔에 시원한 감각이 거쳐 올라가는 듯이 말이다."
+
+wait 2
+
+say "\"...느껴져,\"
+히카리가 주절거리며 눈을 서서히 감는다. 그녀의 목소리를 여전히 거칠다."
+
+say "\"...두렵고 피로하고 약한 자를 위한 천국...\""
+
+wait 1
+
+say "\"...\""
+
+wait 1
+
+play "sand_epilogue.ogg" 1
+wait 0.1
+move "finale/bg7.jpg" 0:-300 12 easeout
+
+say "그녀는 건조한 입안에 있지도 않은 침을 삼킨다.
+눈을 뜬 후 모래를 잡아올리며 발을 딛고 선다.
+대부분의 모래는 손가락 틈으로 빠져나간다."
+
+say "\"어쩔 줄 모르겠어...\"
+히카리는 이야기한다,
+\"... 하지만 네가 나를 감싸 안도록 허락하는 게 맞는 일일까?\""
+
+say "\"그건... 정말 아닌 거 같아.\""
+
+say "\"난... 이걸 원하지 않아...\""
+
+say "\"원하지 않는다고!\""
+
+show "vs/arcahv2.jpg" 1:0.4 1:0.4 1.15:1.15 fade(0,linear) normal
+hide "finale/bg7.jpg" fade(0,linear)
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+play "thump.ogg" 1
+
+wait 0.5 clear
+stop "quietWind.ogg" 2
+
+wait 2
+
+play "refusal_epilogue.ogg" 0.5
+hide "black.png" fade(0.3,linear)
+move "vs/arcahv2.jpg" 0:80 0.3 sinein
+move "vs/arcahv2.jpg" 0:10 2 easeout
+show "vs/arcahv1.jpg" 1:0.22 1:0.22 1.15:1.15 fade(40,linear) normal
+
+say "-
+\"읔!\""
+
+say "히카리는 갑자기 몸을 앞으로 숙인 채 배를 움켜쥐고 남은 손으로 입을 덮는다.
+그녀는 몸이 크게 휘청인다."
+
+play "plea_epilogue.ogg" 2
+play "voice_epilogue.ogg" 0.7 loop
+play "tension.ogg" 0.6 loop
+
+say "그녀의 거절이 이 세상이 그녀를 다시 눈치채도록 만드는데 충분한 행동인 듯하다.
+그녀는 입을 손으로 다문 채 공포의 눈은 크게 뜨고 신음을 한다.
+내게도 들린다. 그녀의 귀를 통과하는 갑작스럽고 아주 날카로운 소리다. 그녀의 머리를 통과한다."
+
+
+
+say "그녀의 심장을 통과한다. 더 이상 속삭임이 아닌 강한 진동 같은 고함소리다.
+조용하지만 힘이 넘치는 목소리가 그녀의 속을 가득 채우며 말한다: 결정하라.
+너의 마음의 바람을 이야기하라."
+
+
+
+stop "voice_epilogue.ogg" 4
+
+say "\"무엇을... 이야기하라고...?\""
+
+show "../../cg/F-7.jpg" 0.8:0 0.8:0 2:2 fade(4,linear) normal
+move "../../cg/F-7.jpg" 40:0 15 easeout
+
+say "그녀 자체로는...
+...히카리는 단지 마음을 통해 움직여지는 소녀일 뿐이다.
+그리고 그 심장이 그녀를 이곳까지 데려왔다- 그녀가 눈을 처음 뜨기 훨씬 진작부터."
+
+say "이것은 본능인가? 일이 어떻게 돌아갔던 건지 그 육체가 기억하는 것인가...?
+그녀의 전의 모습 말이다..."
+
+stop "tension.ogg" 5
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(1,linear) normal
+
+say "하...
+나는 상관 안 해.
+단지... 새로운 심장이 한 번의 박동으로 모든 것을 원상태로 되돌렸다는 사실이 웃기고 아이러니하다."
+
+hide "../../cg/F-7.jpg" fade(0,linear)
+hide "vs/arcahv2.jpg" fade(0,linear)
+hide "vs/arcahv1.jpg" fade(0,linear)
+show "finale/bg_distance.jpg" 0.2:0.4 0.2:0.4 1.3:1.3 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2black.png" fade(3,linear)
+wait 0.1
+play "memory1.ogg" 0.7 loop
+move "finale/bg_distance.jpg" 0:-230 7.5 easeout
+
+say "그녀의 숨소리가 가벼워지고 심장이 1분도 넘게 떨어오자,
+그녀의 대답은 결국 명확하고 공명하다."
+
+play "thump.ogg" 1
+
+say "\"나의 바람은... 되돌리는 것이야.\""
+
+say "\"그녀를 되돌려놔야 해.\""
+
+play "thump.ogg" 1
+
+say "\"이 세상은... 말이 안 되잖아!
+내가 이런 곳을 위해 목숨을 내놓겠어? 다른 사람이 이런 곳을 위해 목숨을 잃길 둘 것 같아...!?\""
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white40.png" fade(2,sineout)
+
+say "\"그럴 수 없어! 그러지 않겠어!
+뭘 해야 하든 무엇을 포기해야 하든... 그것을 위해 다 희생하겠어...!\""
+
+move "finale/bg_distance.jpg" 10:0 0.01 linear
+play "cut.ogg" 0.2
+wait 0.04
+move "finale/bg_distance.jpg" -5:10 0.01 linear
+wait 0.03
+move "finale/bg_distance.jpg" 10:-12 0.01 linear
+wait 0.04
+move "finale/bg_distance.jpg" 0:10 0.01 linear
+wait 0.03
+
+say "그녀는 흙을 손바닥에 세게 쥐고 있다가 그것을 던지고 모래를 흩날린다."
+
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white40.png" fade(2,sineout)
+
+say "그녀는 이렇게 주장한다.
+\"이것을 모두 바꿀 수 있다면, 기꺼이 죽겠어!\""
+
+stop "memory1.ogg" 0.3
+play "groan_epilogue.ogg" 2
+play "heart_epilogue.ogg" 1
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+wait 3 clear
+
+hide "finale/bg_distance.jpg" fade(0,linear)
+wait 0
+show "finale/bg_distance.jpg" 0.4:0.6 0.4:0.6 1.3:1.3 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(0,linear)
+hide "2white.png" fade(1,linear)
+
+scale "finale/bg_distance.jpg" 0.9:0.9 0.3 easeinout
+wait 0.3
+scale "finale/bg_distance.jpg" 0.8:0.8 4 easeout
+
+show "2white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2white40.png" fade(7,sineout)
+
+say "세상의 심장은 고동치고, 그 소리는 그녀를 조용히 하도록 한다.
+이곳은 그녀를 포기하지 않을 것이다. 그러지 않을 것이다.
+목소리가 그녀의 속을 다시금 채운다."
+
+stop "heart_epilogue.ogg" 2
+
+play "voice_epilogue.ogg" 1 loop
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(1,easein) normal
+wait 1.1 clear
+hide "white70.png" fade(8,sineout)
+wait 0.7
+
+say "모든 감정과 지식이 그녀의 가슴을 통과하고 손가락 끝까지 역류한다."
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,easein) normal
+
+say "그것은 말한다. 넌 죽을 수 없어.
+너는 살아가기 위해 이곳에 태어났고, 살아가는 것은 네가 선택한 길이다."
+
+play "thump.ogg" 1
+
+say "히카리도... 이 사실을 안다.
+죄책감과 사과가 그녀의 눈이 눈물로 가득 차게 만든다."
+
+play "tension.ogg" 1
+stop "tension.ogg" 1.8
+play "breath.ogg" 1
+
+say "하지만 그녀가 눈물 흘리기도 전에 세상의 심장이 다시 고동친다.
+죽지 마, Arcaea가 말한다."
+
+
+play "tension.ogg" 1 loop
+wait 2 clear
+
+play "decision_epilogue.ogg" 1
+stop "voice_epilogue.ogg" 3
+show "epilogue/last1_c1_epilogue.jpg" 0.3:0 0.3:0 1.3:1.3 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2white.png" fade(3,easeout)
+move "epilogue/last1_c1_epilogue.jpg" -200:0 20 easeout
+
+say "-
+단지 그것이 끝나도록 놔둬."
+
+hide "white.png" fade(0,linear)
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(5,linear) normal
+wait 5 clear
+
+show "epilogue/last1_c2_epilogue.jpg" 0.7:0 0.7:0 1:1 fade(0,linear) normal
+hide "2white.png" fade(0,linear)
+hide "epilogue/last1_c1_epilogue.jpg" fade(0,linear)
+hide "finale/bg_distance.jpg" fade(0,linear)
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(3,easeout)
+move "epilogue/last1_c2_epilogue.jpg" 300:0 12 easeout
+wait 2
+
+say "...그녀의 입술은 오므려진다.
+눈물이 그녀의 눈꺼풀 사이로 스며나오고 볼을 따라 떨어진다.
+그녀는 고개를 끄덕인다."
+
+stop "tension.ogg" 3
+
+hide "epilogue/last1_c2_epilogue.jpg" fade(6,easeout)
+
+say "심장이 다시 고동친다...
+그리고 그렇게-"
+
+play "loss_epilogue.ogg" 0.6
+play "wind.ogg" 0.4 loop
+
+
+
+say "Arcaea는 빛을 잃기 시작한다."
+
+wait 3
+
+show "finale/LS.jpg" 0.5:0.6 0.5:0.6 0.8:0.8 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2black.png" fade(10,easeout)
+
+play "blowing1.ogg" 0.6 loop
+wait 0.1
+move "finale/LS.jpg" 0:5 0.5 easeout
+wait 0.5
+move "finale/LS.jpg" 0:100 0.3 easeout
+wait 0.3
+move "finale/LS.jpg" 0:20 5 easeout
+
+say "그리고 그럼으로써 그 빛은 그녀에게 쏟아들어와 그녀의 손과 심장을 채운다.
+그녀를 무너뜨릴 듯 누른다. 거의 그녀가 쓰러지도록 만든다."
+
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white70.png" fade(5,sineout)
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white40.png" fade(2,sineout)
+
+say "한동안 기억들이 그녀의 시야를 스쳐 지나간다.
+그러나 무시당한 기억들임을 나는 확신할 수 있다.
+대신 그녀의 눈은 너의 생명을 잃은 시체에 고정된다."
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,sineout) normal
+stop "wind.ogg" 4
+stop "blowing1.ogg" 4
+
+say "이제 그녀가 아는 것이라고는... \"그녀가 해야만 하는 일.\"
+벌써 밑으로 끌려내려가는 것이 나는 느낄 수 있다... 아래로, 아래로...
+아래: 네가 살해된 곳으로."
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,linear) normal
+wait 3 clear
+play "tension.ogg" 0.4 loop
+wait 1
+show "../../cg/F-7.jpg" 1:1 1:1 1.5:1.5 fade(0,linear) normal
+move "../../cg/F-7.jpg" 250:0 25 easeout
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "finale/LS.jpg" fade(0,linear)
+hide "black.png" fade(0,linear)
+hide "black.png" fade(0,linear)
+hide "white.png" fade(0,linear)
+hide "2white.png" fade(15,sineout)
+
+say "...
+그녀는 무엇을 버리고 가는 것인지 진정 이해하고 있을까?
+무엇이 끝을 맞이하는지 그녀는 진정 이해하고 있을까?"
+
+say "모르겠다.
+　
+...너도 모르겠지."
+
+say "...실은, 그녀가 나를 데리고 가는 것이라면... 이 모든 것을 나는 기억할까? 이해할까?
+　
+아마... 아니겠지. 그러나... 그녀는 지금 매우 자신감 있어 보이지."
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.6,linear) normal
+wait 0.6 clear
+stop "tension.ogg" 6
+wait 2
+play "new_epilogue.ogg" 1.0 loop 19103:104128
+wait 1.5
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(2.5,sinein) normal
+wait 2.5
+hide "white.png" fade(4,easeout)
+wait 1
+
+say "..."
+
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(16,linear) normal
+
+say "이후 일어날 일들에 대해서는 그녀의 심장이 한 줄기 빛이 되길 기대할 거야.
+　
+...난 그것을 믿어. 너라도 믿지 않겠어?"
+
+say "네 말이 맞았잖아...
+　
+그 둘은 완전히 달랐어."
+
+
+
+say "...\"타이리츠\"...
+　
+...난 이만 가볼게."
+
+say "하지만 걱정 마.
+　
+너를 함께 데려갈 테니까."
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,easein) normal
+wait 1
+wait 3 clear
+hide "black.png" fade(0,linear)
+hide "white70.png" fade(0,linear)
+hide "../../cg/F-7.jpg" fade(0,linear)
+play "fracture1_epilogue.ogg" 0.6
+wait 1.9
+play "fracture1_epilogue.ogg" 0.8
+wait 0.3
+play "fracture1_epilogue.ogg" 0.8
+wait 0.3
+play "fracture4_epilogue.ogg" 1
+wait 0.3
+play "fracture1_epilogue.ogg" 1
+wait 0.3
+play "fracture2_epilogue.ogg" 1.5
+wait 0.3
+play "fracture1_epilogue.ogg" 1.5
+wait 0.3
+play "fracture3_epilogue.ogg" 1.5
+show "epilogue/last1_c3_epilogue.jpg" 0:1 0:1 1.3:1.3 fade(0,linear) normal
+hide "white.png" fade(0,linear)
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+move "epilogue/last1_c3_epilogue.jpg" 0:1300 0.45 sinein
+hide "2white.png" fade(0.8,linear)
+wait 0.3
+play "fracture5_epilogue.ogg" 1.5
+wait 0.1
+play "fracture5_epilogue.ogg" 1.5
+wait 0.1
+play "fracture5_epilogue.ogg" 1.5
+wait 0.1
+play "fracture5_epilogue.ogg" 2
+wait 0.05
+move "epilogue/last1_c3_epilogue.jpg" 0:60 20 linear
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white70.png" fade(3,easeout)
+wait 4
+
+say "하늘이 다시 무너지고 땅이 그녀의 의지에 솟아올랐다.
+죽기 위해서, 그리고 타이리츠가 다시 살아나게 하기 위해."
+
+say "생명과 영혼은 이 죽은 자들의 세계에 진정 들일 수는 없다.
+그것들의 형태와 메아리만..."
+
+say "그리고 처음부터 빛의 소녀와 갈등의 소녀의 영혼은 전혀 평범하지 않았다."
+
+show "epilogue/last1_epilogue.jpg" 0.1:0.03 0.1:0.03 1.5:1.5 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+move "epilogue/last1_epilogue.jpg" -300:-90 15 easeout
+hide "white.png" fade(3,linear)
+
+say "진정, 이 세상은 이것을 위해 존재한 것이 아니다.
+분명 이것으로 인해 세상은 부서지겠지.
+그래도 모든 것을 고쳐쓰기 위해 노력하겠지."
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,easein) normal
+
+say "필요로 하는 두 가지는 검은 소녀의 \"첫 영혼,\"
+그리고 그녀의 두 번째 자신의 남은 조각들이다."
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+play "memoryShift.ogg" 2
+wait 0.3
+hide "white40.png" fade(4,easeout)
+
+say "그리고 파편이 된 하나의 영혼이 온전한 다른 영혼에게 외친다.
+밝은 곳에서부터 순식간에 그 영혼은 뜯겨나간다."
+
+wait 1.5 clear
+play "fracture1_epilogue.ogg" 2
+wait 0.01
+play "blowing1.ogg" 2 loop
+wait 0.01
+hide "epilogue/last1_epilogue.jpg" fade(0,linear)
+play "burst.ogg" 2
+wait 0.1
+show "epilogue/last1_epilogue.jpg" 0.5:0.4 0.5:0.4 1.2:1.2 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "2white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.2,linear) normal
+scale "epilogue/last1_epilogue.jpg" 1:1 0.3 sineout
+move "epilogue/last1_epilogue.jpg" -30:-20 10 sineout
+hide "2white.png" fade(0.3,sineout)
+wait 0.2
+hide "2white40.png" fade(3.5,sineout)
+hide "black.png" fade(0,linear)
+wait 3
+
+say "회오리바람이 히카리 주변을 감돌고 그림자와 빛의 급류가 그녀 주변 현실의 연막을 갈라낸다."
+
+wait 0.5 clear
+
+play "glass_epilogue.ogg" 2
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "epilogue/last1_c3_epilogue.jpg" fade(0,sineout)
+hide "white70.png" fade(4,sineout)
+
+say "Arcaea는 또 다른 소녀를 기억한다. 그리고 히카리의 주문에 따라 그 기억들이 유리의
+형태로 되살아난다. 그것들은 거의 순식간에 태어난듯하다. 어쩌면 항상 그곳에 존재했었을지도 모른다.
+...이것으로 충분한가? 이 세계가 두 개의 분열된 영혼을 이어낼 수 있을까?"
+
+hide "epilogue/last1_epilogue.jpg" fade(0.6,sineout)
+
+play "tunnel.ogg" 2
+stop "blowing1.ogg" 4
+
+say "...그럴 것이다. 규칙은 중요치 않다. 히카리가 그러도록 만들 거다.
+타이리츠라는 소녀에 대한 이러한 기억들과 함께...
+폭풍을 거쳐 반짝이며, 그 유리 기억들은 금세 찾아온다."
+
+show "epilogue/last1_c4_epilogue.jpg" 0.55:0.55 0.6:0.6 1.4:1.4 fade(0,linear) normal
+show "epilogue/forgotten_epilogue.jpg" 0.52:0.62 0.52:0.62 1.6:1.6 fade(0,linear) normal
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "zettai/bg.jpg" 0.9:0.2 0.9:0.2 1.5:1.5 fade(0,linear) normal
+show "finale/bg3.jpg" 0.5:0.4 0.5:0.4 1.5:1.5 fade(0,linear) normal
+show "meeting/bg.jpg" 0.9:0.2 0.9:0.2 1.5:1.5 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "prelude/bg.jpg" 0.5:0.5 0.5:0.5 1.2:1.2 fade(0,linear) normal
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(2.5,easein) normal
+wait 2.5 clear
+show "../../cg/2-1.jpg" 0.3:0.5 0.3:0.5 1:1 fade(4,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(0,linear)
+hide "2white.png" fade(4,easeout)
+move "../../cg/2-1.jpg" -100:0 11 easeout
+
+wait 3
+
+hide "../../cg/2-1.jpg" fade(1.5,linear)
+
+say "고통을 겪으며 땅을 걷던 한 소녀가 있었다.
+슬픔과 비탄으로 무정하게 괴롭힘당하는 한 소녀...
+그러나 그녀는 자신을 구하기 위해 계속해 앞으로 나아갔다."
+
+
+show "epilogue/2missingtai_epilogue.png" 0.5:0.5 0.5:0.5 1.2:1.2 fade(2,linear) normal
+show "epilogue/missingtai_epilogue.png" 0.5:0.5 0.5:0.5 1:1 fade(3,linear) normal
+wait 1 clear
+scale "epilogue/2missingtai_epilogue.png" 1.05:1.05 2 easeout
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(2,linear)
+hide "epilogue/2missingtai_epilogue.png" fade(3,easeout)
+
+wait 0.5
+move "epilogue/missingtai_epilogue.png" 0:80 18 easeout
+
+say "자신을 구하고 자유를 찾기 위해서.
+그녀는 단 하나의 소망이 있었다:
+미소 지을 이유를 찾는 것이었다."
+
+hide "epilogue/missingtai_epilogue.png" fade(2,easeout)
+hide "black.png" fade(3,easeout)
+
+say "이 세상을 나은 곳으로 만들기 위해 그 소녀는 일어서서 세상과 대면했다.
+더 나은 곳으로 만드는 일이란 세상을 뒤엎어버리는 것이라 할지라도..."
+
+hide "2black.png" fade(3,easeout)
+hide "prelude/bg.jpg" fade(3,easeout)
+wait 0.5 clear
+show "epilogue/tai_epilogue.png" 0.5:0.5 0.5:0.5 1.6:1.6 fade(7,easein) normal
+move "meeting/bg.jpg" 0:200 5 easeout
+wait 2.5
+move "finale/bg3.jpg" 0:200 5 easeout
+hide "meeting/bg.jpg" fade(0.3,easeout)
+wait 3
+move "zettai/bg.jpg" 0:200 5 easeout
+hide "finale/bg3.jpg" fade(0.3,easeout)
+wait 3
+hide "zettai/bg.jpg" fade(0.3,easeout)
+wait 0.25
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+wait 1.5
+hide "white.png" fade(3.5,linear)
+hide "epilogue/tai_epilogue.png" fade(3,easeout)
+play "blowing1.ogg" 2 loop
+wait 0.5
+hide "3black.png" fade(2.5,easein)
+move "epilogue/forgotten_epilogue.jpg" 0:-200 5 easeout
+hide "epilogue/forgotten_epilogue.jpg" fade(5,easeout)
+wait 1
+move "epilogue/last1_c4_epilogue.jpg" 0:100 11 easeout
+
+say "히카리의 눈앞에 기억들이 스쳐 지나가는데,
+이것들은 그녀 자신만의 기억들에게서 집중을 방해한다."
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white40.png" fade(4,sineout)
+
+say "폭풍 사이로 다른 소녀의 눈물이 그리 많이 흘러 넘어오지 못한다.
+그녀의 고통 대부분은 잊힌듯하다."
+
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white70.png" fade(5,sineout)
+
+say "그런듯하지만... 사실은 빛의 영혼으로써, 그녀의 영혼은 그 잔인한 현실을 외면하고 있다.
+다른 소녀의 진실한 절망을 찾기 위해 히카리가 할 수 있는 유일한 것이다.
+나머지, 더 긴 기억들은 그녀에게 닿지 않게 멀리 있다."
+
+say "...그러나 그 가장 순수한 고통이 검은색의 소녀를 어디까지 이끌어 갔는지 알고 있기에,
+히카리는 그 슬픔을 포기한다.
+고로 그 둘이 만난 순간을 포기하여 그녀는 그것을 다시 찾을 수 없다."
+
+hide "epilogue/last1_c4_epilogue.jpg" fade(1,easein)
+
+say "이 모든 것에서 태어난 타이리츠는... 그녀의 역경의 깊이를 보지 않은 자다.
+그래도 자신이 투쟁 속에서 태어나고 살았음을 알 것이다."
+
+show "epilogue/last1_c3_epilogue.jpg" 0.33:0.2 0.33:0.2 1.3:1.3 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(5,sineout)
+move "epilogue/last1_c3_epilogue.jpg" 0:-200 0.35 easeout
+play "fracture3_epilogue.ogg" 1.5
+wait 0.1
+play "fracture3_epilogue.ogg" 1.5
+wait 0.1
+play "fracture3_epilogue.ogg" 1.5
+wait 0.1
+play "fracture6_epilogue.ogg" 1.5
+wait 0.05 clear
+move "epilogue/last1_c3_epilogue.jpg" 0:-50 20 easeout
+play "woosh.ogg" 2
+
+say "새로운 기운이 히카리를 통해 나온다.
+빛의 기둥 네 개, 위력이 넘치는 이것들이 땅에서 솟는다.
+이렇게 세상은 그녀를 지킨다. 그러자 그녀가 불러낸 그림자 영혼이 등장한다."
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,easein) normal
+play "tension.ogg" 1.5 loop
+
+say "그것이 다가오는 것을 자칫 그녀는 놓칠 뻔한다.
+그녀에게 둥둥 떠와서 죽음처럼 하늘을 가로막는다. 어마어마하고 소름 끼치는 환영의 모습을 지녔다.
+그것이 살포시 다가오자, 어둠이 회전하는 유리 속으로 스며들기 시작한다."
+
+hide "black.png" fade(1,sineout)
+stop "tension.ogg" 6
+play "tunnel.ogg" 2
+stop "tunnel.ogg" 5.5
+
+say "이때 그녀는 완전히 이의 존재를 깨달은다. 고개를 끄덕인 후 영혼을 유리까지
+인도하는 과정을 시작한다. \"예전\" 타이리츠의 잃어버린 영혼은 새로운 몸을 차지하게 되고,
+그것으로 \"현재\" 타이리츠의 껍데기를 안정화시킨다."
+
+move "epilogue/last1_c3_epilogue.jpg" 40:0 0.01 linear
+wait 0.01 clear
+move "epilogue/last1_c3_epilogue.jpg" -80:40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 40:-80 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" -40:40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 0:-40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 40:40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" -40:40 0.01 linear
+wait 0.01
+play "fracture2_epilogue.ogg" 1.5
+play "decision_epilogue.ogg" 2
+move "epilogue/last1_c3_epilogue.jpg" 0:-40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 40:40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" -40:40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 40:-40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 0:-40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 40:40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" -40:40 0.01 linear
+wait 0.01
+move "epilogue/last1_c3_epilogue.jpg" 40:-40 0.01 linear
+
+
+say "히카리의 발밑에 흔들림이 더 이상 견딜 수 없을 정도에 도달한다. 최대한 움직이지 않으려
+히카리는 노력하며 그녀의 손바닥에 담긴 새로운 생명을 계속해 인도한다. 커다란 신음과 함께 세상이
+고통을 느끼며 굽혀지는 것을 느낄 수 있지만, 그녀는 자신의 의지를 놓치지 않는다."
+
+show "epilogue/last1_c4_epilogue.jpg" 0.67:0.48 0.67:0.48 1.8:1.8 fade(5,easein) normal
+scale "epilogue/last1_c4_epilogue.jpg" 1.3:1.3 70 sineout
+
+say "단념하지 않고 그녀는 스스로의 맹세를 마음속으로 되새긴다."
+
+wait 4
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.4,easein) normal
+wait 0.4
+play "fracture3_epilogue.ogg" 1.5
+wait 1.5
+play "fracture1_epilogue.ogg" 1
+wait 0.5
+play "fracture2_epilogue.ogg" 1.5
+hide "white.png" fade(4,sineout)
+
+say "그녀는 세상의 중심을 뒤틀리게 한다. 그것도 추락한 신의 재탄생에 연료를 더할 것이다.
+이렇게 드디어 완전한 규정이 다시 쓰인 후 히카리의 온전하고
+조용한 주문으로 새로운 죽음이 세상의 중심에 깊게 자리 잡는다."
+
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,linear) normal
+wait 5 clear
+play "fracture4_epilogue.ogg" 1.5
+wait 2
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(7,easein) normal
+wait 3
+play "groan_epilogue.ogg" 2
+play "skyFall.ogg" 2
+stop "skyFall.ogg" 7.1
+
+say "이 압도적인 빛과 그림자의 고동과 함께 Arcaea는 죽기 시작한다."
+
+wait 3
+show "epilogue/last1_epilogue.jpg" 0.4:0.5 0.4:0.5 1:1 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2white.png" fade(0,sineout)
+hide "black.png" fade(0,sineout)
+hide "epilogue/last1_c4_epilogue.jpg" fade(0,sineout)
+hide "epilogue/last1_c3_epilogue.jpg" fade(0,sineout)
+hide "2black.png" fade(4,sineout)
+scale "epilogue/last1_epilogue.jpg" 2.1:2.1 120 sineout
+
+say "존재의 시작이 된 소망은 반전됐다. 하늘은 고개 너머로 끝없이 펼쳐지며 이 현실 속에 남아있는
+빛은 모든 곳에서부터 그녀에게 쏟아진다. 만들어낸 영혼을 타이리츠의 눈부시게 둥둥 떠있는 몸속으로
+채워 넣는다. 그녀는 이마에서 땀이 뚝뚝 떨어지는 채로 전 세계도 그 몸속으로 들이민다."
+
+say "그녀는 땅의 생명을 전달한다."
+
+hide "epilogue/last1_epilogue.jpg" fade(0.2,sineout)
+
+say "그리고 그녀는 Arcaea를 버린다."
+
+show "epilogue/last1_epilogue.jpg" 0.6:1 0.6:1 2.1:2.1 fade(5,easeout) normal
+move "epilogue/last1_epilogue.jpg" 1000:0 30 easeoutin
+
+say "이제 막 저무는 일광 아래에 쌍둥이 소녀는 구름이 머리 위로 급히 지나가는 모습을 바라본다."
+
+say "어둑어둑해진 반 쪼가리 밤 하늘 아래에 한 귀족이 땅을 서서히 찢고 있는 틈을 바라본다.
+그리고 위를 쳐다보며 별들이 희미해지는 것을 본다."
+
+say "챙겨주고 아껴주는 한 소녀, 여행하고 갈망하는 한 소녀, 지켜보고 희망하는 한 소녀-"
+
+say "기쁨의 영혼, 배고픔의 영혼, 포부의 영혼-"
+
+say "전쟁의 심장, 노래의 심장-"
+
+say "-하나의 머나먼 곳으로 세상의 모든 생명이 떠나가는 이때, 그들은 끝을 본다."
+
+hide "epilogue/last1_epilogue.jpg" fade(3,easein)
+stop "blowing1.ogg" 6
+stop "new_epilogue.ogg" 17
+
+say "그리고 곧..."
+
+say "...히카리는 남아있는 생명의 줄기들이 그녀가 살리고 싶어 하는 소녀의
+몸으로 흘러들어가는 것을 느낄 수 있다. 히카리의 손안 생명이 사라지며,
+타이리츠의 모습이 땅으로 다시 돌아오기 시작한다. 그러자..."
+
+say "...하얀색의 소녀도 느낀다. 그 기류 속에서 자신의 일부를 잃기 시작했음을..."
+
+say "...그녀는 전혀 신경 쓰지 않는다."
+
+say "바람이 가라앉고 Arcaea의 하늘이 느려지고 흐리멍덩 해졌을 때...
+그녀는 현기증이 나서 쓰러질까 봐 발을 땅이 고정해 디딘다."
+
+say "그녀는 스스로 무슨 일을 저지른 건지 이해하려 하며 안정을 찾으려 한다.
+하지만... 그럴 수가 없다.
+압도적으로 그녀의 생각은 이것에 집중되어 있다:"
+
+
+
+say "타이리츠는 살아있을까?"
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(6,linear) normal
+wait 3
+wait 3 clear
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(3.2,easeout) normal
+
+play "wind.ogg" 0.8 loop
+
+wait 3.2
+
+show "epilogue/forgotten_epilogue.jpg" 0.52:1 0.52:1 1.8:1.8 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white40.png" fade(0,linear)
+hide "white.png" fade(0,linear)
+hide "2white.png" fade(12,sineout)
+move "epilogue/forgotten_epilogue.jpg" 0:960 24 easeout
+
+say "—"
+
+wait 4
+
+say "먼지가 하늘에서 서서히 떨어진다."
+
+wait 1
+stop "wind.ogg" 3
+
+say "그녀는 이것만은 기억한다..."
+
+wait 1
+
+say "...마지막에... 최저점에서..."
+
+wait 1
+
+hide "epilogue/forgotten_epilogue.jpg" fade(5,easein)
+
+say "아무도 그곳에 없었고 그녀는 눈물 가득한 채 눈을 감는다."
+
+wait 1
+
+say "그녀가 지금 눈을 서서히 뜨자...
+　
+...그 기억들이 그녀를 완전히 떠나버린다."
+
+wait 3
+play "after_epilogue.ogg" 0 loop
+volume "after_epilogue.ogg" 0.51 7.5
+wait 1.6
+
+show "finale/bg_distance.jpg" 1:0 1:0 1.5:1.5 fade(8,easeout) normal
+
+move "finale/bg_distance.jpg" 0:-500 31 easeout
+
+wait 13.4 clear
+
+say "히카리는 이마에 움직임을 눈치챈다.
+하얀색의 소녀는 자신의 양쪽 주먹을 입에 갖다 대고 목 안에 든 숨을 참는다."
+
+say "그녀는 생각한다. 그 모든 화려함 속에서조차 그것은 무척 단순한 것이었다."
+
+say "너무 단순했다.
+그녀의 소원이 단지 희망과 조금의 노력으로 이루어질 수 있었던 것일까?"
+
+play "1step.ogg" 0.5
+
+say "히카리는 머릿속 생각들을 고개를 저으며 지워버린다. 떨리는 채로 그녀는 앞으로 나아간다.
+타이리츠는 눈을 완전히 뜬 후 한번 깜빡였다가 눈꺼풀이 반 정도 감긴다"
+
+play "collapse.ogg" 0.3
+hide "finale/bg_distance.jpg" fade(0.3,sineout)
+
+say "히카리는 이때 앞으로 나아가 무릎 위로 쓰러져 그 소녀를 안아든다."
+
+show "finale/bg7.jpg" 0:0 0:0 1.7:1.7 fade(3,linear) normal
+move "finale/bg7.jpg" -380:0 25 easeout
+
+say "\"W뭐... 뭐!? 뭐 하는-!?\""
+
+say "히카리가 그녀를 여태 그 무엇보다 강하게 움켜쥐며 안아들자 소녀는 조용해진다.
+그리고 히카리가 울기 시작한다."
+
+say "소녀의 어깨에 대고 참을 수 없는 울음소리를 내자
+소녀는 혼란 속에서 믿을 수 없다는 듯한 표정으로 도로 쳐다본다."
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white40.png" fade(2,sineout)
+play "woosh.ogg" 0.3
+
+say "...더욱 많은 틈이 땅 전체에 새겨졌다.
+한때 하늘에서 영원히 쏟아져 내렸던 빛은 이제 완전히 어둑해졌다.
+세상은... 상처를 입었다."
+
+say "그러나 히카리는 여전히 \"무엇\" 그리고 \"누구\"에 대해 집중한다.
+타이 리츠는 손을 들어 히카리의 떨리는 등에 살포시 얹힌다.
+서로 무엇도 알지 못한 채, 세상의 종말 그 끝에서 서로를 위로해 주고 있었다."
+
+
+hide "finale/bg7.jpg" fade(2,sineout)
+
+say "\"미안해... 너무 미안해...\"
+히카리는 끊임없이 반복한다."
+
+say "\"... 네가 무엇을 했든 간에,\"
+타이리츠가 대답한다,
+\"다 나아지도록 바꾼 거잖아, 그렇지? 왜 사과하는 건데...?\""
+
+say "여전히 소녀를 안고 있었으나, 히카리는 조금 몸을 떨어뜨린다.
+빨간 코와 눈으로 그녀는 타이리츠를 고통과 끈질긴 기쁨과 함께 쳐다본다."
+
+say "그녀는 갑자기 타이리츠의 가슴에 얼굴을 파묻힌다.
+그리고 타이리츠는 대답하듯 도로 그녀를 살포시 감싸 안은다.
+모든 것이 조용해졌을쯤 검은색의 소녀는 하얀색의 소녀가 울게끔 허락한다."
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,linear) normal
+wait 2 clear
+wait 1
+show "3white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "epilogue/last2_c1_epilogue.jpg" 0.8:0.1 0.8:0.1 0.9:0.9 fade(0,linear) normal
+
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2white.png" fade(7,sineout)
+hide "white.png" fade(0,linear)
+move "epilogue/last2_c1_epilogue.jpg" 180:0 26 easeout
+wait 3
+
+say "—
+그들은 회색의 세상 속으로 나아간다."
+
+say "한동안 타이리츠는 나머지 소녀의 손을 잡아 앞으로 이끌어주지만,
+머지않아 나란히 걷게 된다."
+
+hide "epilogue/last2_c1_epilogue.jpg" fade(7,linear)
+show "epilogue/last2_c2_epilogue.jpg" 1:1 1:1 1.42:1.42 fade(6,sinein) normal
+move "epilogue/last2_c2_epilogue.jpg" 200:0 17 easeout
+
+say "그녀는 자신의 비극을 기억하지 않는다. 적어도 가장 최악의 비극은 말이다."
+
+say "검은 조각들... 그것들은 더 이상 자신에게 관심을 주지 않는다."
+
+show "epilogue/last2_c3_epilogue.jpg" 0:1 0:1 1.42:1.42 fade(7,linear) normal
+move "epilogue/last2_c3_epilogue.jpg" -200:0 18 easeout
+
+say "히카리도 그렇다. 전에 그녀를 그토록 좋아하던 하얀 조각들은 더 이상 그녀 근처에서 춤추지 않는다."
+
+
+
+say "한쪽은 어둠의 일부를 잃었고, 나머지 한쪽... 그리고 세상은... 계속해 빛을 잃는다.
+하지만...
+진심 어린 미소를 짓기 위해 히카리는 더 이상 빛의 유리를 필요로 하지 않는다."
+
+hide "epilogue/last2_c2_epilogue.jpg" fade(4,linear)
+wait 2
+
+hide "epilogue/last2_c3_epilogue.jpg" fade(4,linear)
+show "epilogue/last2_c4_epilogue.jpg" 1:0.2 1:0.2 0.9:0.9 fade(8,linear) normal
+move "epilogue/last2_c4_epilogue.jpg" 270:0 26 easeout
+
+say "소녀들은 벼랑 끝까지 걸어간다.
+멀리 바라보며 잃어버린 기억들의 땅을 본다. 그것은 서서히 파괴되어 썩어간다.
+부패할 것이다. 쓰러지고, 희미해지고, 아무것도 남지 않을 때까지 부스러질 것이다."
+
+
+
+say "이것을 모른 채 그들은 그곳에 서있는다. 서로의 존재만을 이해한 채,
+과거를 뒤로한 채 그리고 기억도 뒤로한 채."
+
+say "타이리츠는 안정감 있는 조용하고도 따뜻한 표정을 지은 채 히카리를 바라본다.
+다른 인생 속에서 가능한 대로 자주 짓든 표정이었다.
+그것을 본 히카리는 매우 자연스럽게 미소가 번진다."
+
+say "무엇이 기다리느냐고...?
+기다리는 그 무엇은 중요치가 않다."
+
+
+
+say "서로가 느끼는 완전함은 절대 흔들릴 수가 없다."
+
+say "그리고...
+절대적으로 히카리는 이 여정이 끝에 달했음을 안다.
+미래를 향한 길은 앞에 놓였고, 새로운 여행이 시작될 것이다."
+
+volume "after_epilogue.ogg" 0.15 8
+show "epilogue/last2_c5_epilogue.jpg" 0.48:0.5 0.48:0.5 1:1 fade(4.1,easein) normal
+wait 1
+wait 2 clear
+move "epilogue/last2_c5_epilogue.jpg" -100:0 30 linear
+
+say "...그녀는 그 여행과 함께 무엇이 기다리는지 정확히 알 수 없음을 차근차근 인정하려 한다.
+무슨 일이 일어날지는 알 수 없다."
+
+say "그것을 그녀는 받아들인 채 눈을 감고 다른 생각에 사로잡힌다:
+...그녀는 선택들이 자신을 어디로 인도할지 전에 알았을까?
+그녀는 항상 앞으로 전진했을 뿐이다."
+
+volume "after_epilogue.ogg" 0.01 5
+
+say "..."
+
+stop "after_epilogue.ogg" 3
+
+say "삶을 선택했다면, 살아가길 선택하라. 이 세상을 살아가라. 이 세상을 보아라.
+그것을 느끼고 마지막 순간까지도 모든 것을 완전히 받아들이거라.
+그 마음가짐으로 그녀는 소신을 굽히지 않기로 한다."
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(4,easein) normal
+wait 4 clear
+show "epilogue/last2_epilogue.jpg" 0.31:0.52 0.31:0.52 1.5:1.5 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+move "epilogue/last2_epilogue.jpg" 0:-70 30 linear
+
+play "lastVocal_A_epilogue.ogg" 1
+wait 0.1
+scale "epilogue/last2_epilogue.jpg" 0.72:0.72 33 sineout
+hide "2white.png" fade(12,sineout)
+auto 5.25
+
+
+say "그녀는 눈을 뜨고 공기를 들이쉰다.
+앞에 불어오는 알 수 없는 바람, 그녀 옆에선 소녀,
+아직 만나지 못한 사람들, 그리고 저 멀리 숨겨진 모든 곳들..."
+
+say "그 모두를 심장 가까이에 새겨둔다."
+
+auto 5.4
+
+say "그녀는 타이리츠의 손을 잡는다."
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.09,linear) normal
+
+auto 2
+
+say "그들은 계속해 나아갈 것이니."
+
+wait 0 clear
+hide "black.png" fade(0,linear)
+hide "white.png" fade(0,linear)
+hide "3white.png" fade(0,linear)
+hide "epilogue/last2_epilogue.jpg" fade(0,linear)
+hide "epilogue/last2_c5_epilogue.jpg" fade(0,linear)
+hide "epilogue/last2_c4_epilogue.jpg" fade(0,linear)
+wait 0
+
+wait 5

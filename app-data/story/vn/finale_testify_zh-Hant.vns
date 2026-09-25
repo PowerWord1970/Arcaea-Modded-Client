@@ -1,0 +1,585 @@
+show "finale/bg_distance.jpg" 1:0.55 1:0.55 1.5:1.5 fade(0,linear) normal
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "black.png" fade(14,linear)
+
+move "finale/bg_distance.jpg" 0:900 21 linear
+
+play "skyFall.ogg" 1.0
+wait 14
+
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(5,linear) normal
+wait 2
+
+say "理性告訴她這樣的情況還會反覆上演。"
+
+wait 2
+hide "finale/bg_distance.jpg" fade(0,linear)
+show "finale/bg_distance.jpg" 1:0.55 1:0.55 1.5:1.5 fade(0,linear) normal
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(3,linear)
+
+say "如果她再次收回手上的劍並將其插向地面，
+周圍的牆壁就會散去，也能輕鬆擊退對立。"
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.4,linear) normal
+
+say "那麼，究竟是為什麼呢——？"
+
+show "finale/testify1.jpg" 0.1:0.57 0.1:0.57 2.2:2.2 fade(0,linear) normal
+hide "finale/bg_distance.jpg" fade(0,linear)
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3 clear
+hide "finale/testify1.jpg" fade(0,linear)
+wait 0
+
+
+hide "2white.png" fade(0,linear)
+
+
+show "finale/testify1.jpg" 0.74:0.97 0.74:0.97 2.2:2.2 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3
+hide "finale/testify1.jpg" fade(0,linear)
+wait 0
+
+show "finale/testify1.jpg" 0.34:0.55 0.34:0.55 2.2:2.2 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3
+hide "finale/testify1.jpg" fade(0,linear)
+wait 0
+
+show "finale/testify1.jpg" 1:0.74 1:0.74 2.2:2.2 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3
+hide "finale/testify1.jpg" fade(0,linear)
+wait 0
+
+show "finale/testify1.jpg" 0.48:0.85 0.48:0.85 2.2:2.2 fade(0,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3
+hide "finale/testify1.jpg" fade(0,linear)
+wait 0
+
+hide "black.png" fade(0.2,linear)
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+wait 1
+
+show "finale/testify1.jpg" 0.55:0.81 0.55:0.81 2.05:2.05 fade(6,linear) normal
+
+say "當她感受到對立的手輕柔觸碰她的右臉頰時……"
+
+show "red.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "red.png" fade(0.2,linear)
+hide "2black.png" fade(0,linear)
+
+move "finale/testify1.jpg" -5:0 1 sineout
+wait 0.5
+move "finale/testify1.jpg" -295:0 10.5 easeout 
+
+play "thump.ogg" 0.5
+
+say "當那個明明就是對立的的血肉之軀出現在她眼前時，
+為什麼她要舉劍往上刺穿
+另一個少女的胸膛呢？"
+
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "finale/testify1.jpg" fade(0,linear)
+
+wait 1 clear
+
+show "finale/testify1.jpg" 0.5:0.48 0.5:0.48 0.85:0.85 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+scale "finale/testify1.jpg" 0.8:0.8 0.3 sineout
+move "finale/testify1.jpg" 0:-20 10 sineout
+hide "2white.png" fade(0.3,sineout)
+
+play "strike.ogg" 2.0
+play "predestination.ogg" 1.0
+wait 9
+
+stop "predestination.ogg" 2
+
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white70.png" fade(3,linear)
+
+play "blowing1.ogg" 0.7 loop
+
+hide "2black.png" fade(0,linear)
+say "她化情緒為力量刺了出去。透過眼角餘光，
+她看見有個黑色的玻璃碎片從對立的手中掉了出來——
+對方的右手臂在神經和痛覺的促使下往後收回。"
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(8,linear) normal
+
+play "burst.ogg" 1
+play "memory1.ogg" 0.6 loop
+wait 0.2
+
+move "finale/testify1.jpg" -40:0 0.2 sinein
+move "finale/testify1.jpg" -20:0 13 linear
+
+
+
+show "white50.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+
+say "耀眼的光芒先是逐漸變強，而後又迅速擴展。這股超自然的氣場超乎理解與想像——"
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+
+say "接著，生命的吶喊呼嘯而出，同時卻也吞噬著生命。
+嘶吼聲像脈搏一樣在大地裡迴繞，也在對立的體內震盪。"
+
+wait 2 clear
+
+stop "blowing1.ogg" 0.2
+
+hide "white40.png" fade(0,linear)
+hide "white50.png" fade(0,linear)
+hide "white.png" fade(0,linear)
+
+hide "finale/testify1.jpg" fade(0,linear)
+
+play "sword.ogg" 1.0
+
+play "testifyStoryFull.ogg" 1.0 loop 114000:194001
+
+wait 1.2 clear
+
+play "end.ogg" 1.0
+
+show "finale/testify1.jpg" 0.66:0.42 0.66:0.42 3.7:3.7 fade(0,linear) normal
+scale "finale/testify1.jpg" 3.0:3.0 0.3 sineout
+move "finale/testify1.jpg" 40:0 0.01 linear
+wait 0.01 clear
+move "finale/testify1.jpg" -80:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:-80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -40:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 0:-40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -40:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:-40 0.01 linear
+scale "finale/testify1.jpg" 2.95:2.95 0.5 linear
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.5,sinein) normal
+wait 1.23
+
+stop "sword.ogg" 0.5
+
+hide "black.png" fade(0,linear)
+scale "finale/testify1.jpg" 2.2:2.2 0.3 sineout
+move "finale/testify1.jpg" 40:0 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -80:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:-80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -40:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 0:-40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -40:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:-40 0.01 linear
+scale "finale/testify1.jpg" 2.15:2.15 0.5 linear
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.45,sineout) normal
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.5,sinein) normal
+wait 1.23
+
+
+hide "black.png" fade(0,linear)
+scale "finale/testify1.jpg" 1.4:1.4 0.3 sineout
+move "finale/testify1.jpg" 80:0 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -160:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:-160 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -80:80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 0:-80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 80:80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -80:80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:-40 0.01 linear
+scale "finale/testify1.jpg" 1.35:1.35 0.5 linear
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.4,sineout) normal
+wait 0.01
+move "finale/testify1.jpg" -80:80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 0:-80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 80:0 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -160:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 0:-80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 80:0 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -80:40 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 0:-160 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" -80:80 0.01 linear
+wait 0.01
+move "finale/testify1.jpg" 40:80 0.01 linear
+wait 1.23
+hide "finale/testify1.jpg" fade(0,linear)
+
+play "breath.ogg" 0.4
+
+say "然後，一切歸於靜止。"
+
+say "就這樣，聲音消逝，少女的生命也跟著消逝。"
+
+show "finale/bg7.jpg" 1:0.55 1:0.55 1.5:1.5 fade(0,linear) normal
+hide "white.png" fade(0,linear)
+hide "white70.png" fade(0,linear)
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2white.png" fade(5,linear)
+move "finale/bg7.jpg" 0:625 20 sineoutin
+
+wait 10 clear
+
+play "tunnel.ogg" 0.4
+stop "tunnel.ogg" 4
+
+say "就在她把劍刺穿、刺進對方的身軀時，劍刃吞噬了對方的生命力，
+她的鮮血與精華迅速浸滿了玻璃。緊接著，那片玻璃開始碎裂消散。
+片刻之間，她已完全失去溫度，她的身體則開始倒下。"
+
+wait 0 clear
+hide "finale/bg7.jpg" fade(0,linear)
+wait 0
+show "finale/bg7.jpg" 1:0.05 1:0.05 1.5:1.5 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(2,linear)
+move "finale/bg7.jpg" 0:40 1 sineout
+
+play "collapse.ogg" 0.3
+
+say "光不假思索地迅速抓住對立觸碰著她臉頰的那隻手。
+才沒過幾秒鐘的時間，那位少女便迅速消逝，只剩下冰冷無聲的軀體。"
+
+play "glassRain.ogg" 0.1 loop
+
+say "然而……就在玻璃製成的刀劍瓦解消散的同時，光的指尖依舊能夠感受到溫暖。
+可是她的另一隻手能夠感受到對立原本握住她的力量已經完全消散。"
+
+play "collapse.ogg" 0.3
+
+play "thump.ogg" 0.7
+
+say "那位少女的雙腳現在站在地面上，只有光濕潤且溫暖的手掌依舊托著她。
+如今她已闔上眼睛。她眉頭深鎖……接著逐漸舒展開。就這樣，她死了，死得並不安詳。"
+
+play "thump.ogg" 1.0
+
+say "也只有現在，睜大雙眼，心臟仍在跳動著的光，才終於徹底明白這一切。"
+
+stop "memory1.ogg" 2.0
+
+play "thump.ogg" 1.0
+
+wait 0
+hide "finale/bg7.jpg" fade(0,linear)
+wait 0
+show "finale/bg7.jpg" 0:0.63 0:0.63 1.5:1.5 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(6,linear)
+move "finale/bg7.jpg" 0:100 5 sineout
+
+say "她緩緩收回左手，面前少女的身軀開始倒下。
+她再次把手伸向那副了無生氣的軀體並抓住那位少女，同時她的眼睛也越瞪越大。
+她緊緊握著死去少女的手，雙方都跪倒在地上。"
+
+say "她的手靠在對立一動不動的胸膛上，
+並再次感受到暖意，接著把目光移向她所造成的那道傷口。"
+
+say "她此次的攻擊其實也傷及了大地和天空……但她的注意力全部都集中在那個扭曲的破洞，
+因為她周圍的其它地方早已被徹底夷平。
+她方才那次攻擊所施展的力道想必相當巨大……"
+
+wait 0
+hide "finale/bg7.jpg" fade(0,linear)
+wait 0
+show "finale/bg7.jpg" 1:0.4 1:0.4 1.5:1.5 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2white.png" fade(6,linear)
+move "finale/bg7.jpg" 0:100 5 sineout
+
+say "周圍的景像被完全地分層，天空完全靜止下來，大教堂也已完全不見蹤影。"
+
+say "對立身後有個碎裂的磚牆因為衝擊的關係被吹散而倒塌。
+顯然那面磚牆是因為受到眼前這位少女力量強大的身軀所保護，才免受分崩離析的命運。
+但……護住磚牆的那面盾牌，身上已被鑿出一個大洞。"
+
+wait 0
+hide "finale/bg7.jpg" fade(0.2,linear)
+wait 0
+show "finale/bg7.jpg" 0.2:0 0.2:0 1.5:1.5 fade(0,linear) normal
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+say "天真的光把臉湊向另一位少女的臉，試圖等待著對方再無可能的下一次鼻息。"
+
+say "她更用力抓住對方的手，但對方絲毫沒有回應，這另她氣得直接把手甩開。
+她將手指甲深深嵌入另一位少女的衣服前端。正當她再次感受到溫暖時，
+她這才意識到眼淚正不斷滑落到自己的手上。"
+
+show "red.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "red.png" fade(0.2,linear)
+
+play "thump.ogg" 1.0
+
+wait 2 clear
+
+show "red.png" 0.5:0.5 0.5:0.5 2000:960 fade(10,linear) normal
+
+say "她很清楚，因為她以前也感受過這份暖意。
+但當她發現自己的那隻手被淚滴切穿而浸滿紅色血水時……她頓時之間不知所措。"
+
+hide "red.png" fade(0,linear)
+
+move "finale/bg7.jpg" 0:-2200 20 sineout
+
+play "collapse.ogg" 0.3
+
+say "出於恐懼，她直挺著後背，差點沒有往後倒下。"
+
+say "她的表情扭曲、嘴唇不停發顫。"
+
+hide "black.png" fade(7,linear)
+
+say "她開始啜泣出聲，把另一隻乾淨的手放到臉上，接著哭得更大聲了。"
+
+say "她跌坐在地上，對立也跟她同時倒地。光把被血水浸濕的手收回裙襬，
+而靠在她身上的那個軀體則向後倒並靠在了大教堂的廢墟殘骸上。"
+
+say "她自己的聲音在腦海內迴盪——"
+
+say "那是對她自己的帶有諷刺意味的懲罰——"
+
+say "妳不需要做到這種地步。"
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,linear) normal
+
+wait 4 clear
+hide "finale/bg7.jpg" fade(0,linear)
+play "thump.ogg" 2
+wait 1
+
+say "……這並不好笑。"
+
+say "現實的一切都逐漸變得無法忽視。即便低垂著那隻手也是沒有用的，
+皮膚灼熱的燃燒感並不會像那把劍一樣消失無蹤。"
+
+show "prelude/tai2.jpg" 0.5:1 0.5:1 1:1 fade(2,sinein) normal
+
+say "少女喪命，而妳就是殺人兇手。是妳殺了她。"
+
+say "妳知道她承受多大的痛苦……妳真的有試著去暸解她嗎？"
+
+hide "prelude/tai2.jpg" fade(3,linear)
+show "../../cg/2-8.jpg" 0.6:0.39 0.6:0.39 1.2:1.2 fade(4,linear) normal
+
+say "「妳接下來要怎麼做呢……？」不，難道妳還不明白嗎？"
+
+say "這件事情不能就這樣放下。妳想要重新振作起來繼續踏上旅程嗎？
+這個世界已經把妳的所作所為全部都記錄下來了。"
+
+hide "../../cg/2-8.jpg" fade(3,linear)
+show "../../cg/V-10.jpg" 0.2:0.75 0.2:0.75 1.3:1.3 fade(4,sinein) normal
+show "finale/vs_overlay.png" 0.15:0.75 0.15:0.75 1.3:1.3 fade(1,sinein) normal
+move "../../cg/V-10.jpg" 40:0 2.6 sinein
+move "finale/vs_overlay.png" -100:0 1.6 sinein
+move "../../cg/V-10.jpg" 30:0 1 linear
+
+say "什麼？妳那份勝利的喜悅感呢？妳不是贏了嗎？妳還活著。"
+
+say "妳討厭這樣嗎？"
+
+say "她不討厭這樣嗎？"
+
+hide "../../cg/V-10.jpg" fade(3,linear)
+
+say "這能夠為妳的行為開脫嗎？這樣的想法有讓情況好轉嗎？「開脫」？"
+
+wait 2
+hide "finale/vs_overlay.png" fade(0.3,linear)
+wait 1
+
+show "finale/LS.jpg" 0.34:0.5 0.34:0.5 1:1 fade(3.5,linear) normal
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white70.png" fade(0.6,linear)
+move "finale/LS.jpg" 0:-400 3 sineout
+play "thump.ogg" 1.4
+wait 1
+
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white70.png" fade(0.6,linear)
+play "thump.ogg" 1.8
+scale "finale/LS.jpg" 1.4:1.4 0.3 sineout
+wait 0.3
+scale "finale/LS.jpg" 1.6:1.6 3 linear
+wait 1.4
+
+play "thump.ogg" 2.5
+hide "finale/LS.jpg" fade(0,linear)
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white70.png" fade(0.2,linear)
+wait 0.5
+
+wait 3 clear
+
+say "……妳腦子是不是有什麼問題？"
+
+say "即便到了現在……
+　
+妳還是滿腦子只有自己。"
+
+show "vs/arcahv1.jpg" 0.7:0.2 0.7:0.2 1.8:1.8 fade(2,sineout) normal
+move "vs/arcahv1.jpg" 0:180 8 sinein
+
+say "在如此思緒的催化下，她的心彷彿紙糊的一樣變得不堪一擊，分崩離析。
+她抓住自己的頭髮，但依舊無法抬起左手。"
+
+say "她止不住一直譴責自己。"
+
+say "她自己，她自己，她自己。"
+
+move "vs/arcahv1.jpg" 0:20 6 sinein
+
+say "某種感覺遲遲沒有散去，並告訴著她……
+ㅤ
+……這種感覺妳並不陌生吧？"
+
+hide "vs/arcahv1.jpg" fade(0,linear)
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,linear) normal
+
+wait 4
+
+show "../../cg/1-1.jpg" 0:0.3 0:0.3 1.1:1.1 fade(0,linear) normal
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "2white.png" fade(3.5,linear)
+hide "white70.png" fade(6,linear)
+
+scale "../../cg/1-1.jpg" 1.2:1.2 6 sineout
+move "../../cg/1-1.jpg" -600:0 18 sineout
+
+say "恢復意識的她，發現自己甦醒于這個飛舞著玻璃蝴蝶的地方。
+「多麼令人愉快啊，」她想，「這些美妙的圖案居然能在空中移動呢。牽引著它們的絲線在哪裡？」"
+
+say "她蹲了下來，整了整裙子，環顧四周才發現這附近沒有任何絲線。那些事物，也並不是蝴蝶——
+玻璃碎片，不依靠任何外力便飛舞於空中。「太美妙了！」她自心底讚歎道。"
+
+say "這些玻璃反射出了另一個純潔的世界。
+她從中看見海洋、都市、火焰、光芒；美好的景象目不暇接。
+她抬起了自己的手，試圖去抓住它們，開心地笑了出來。"
+
+say "……我並不知道這些玻璃碎片有個名字：Arcaea。
+實際上，名字對這些過於美好的事物來說並不重要。
+我觸碰、旋轉、觀察它們；靠這樣來娛樂自己。這已經足够了，難道不是嗎？"
+
+hide "white40.png" fade(0.2,linear)
+hide "white.png" fade(0.2,linear)
+hide "../../cg/1-1.jpg" fade(0.2,linear)
+
+say "不。"
+
+say "妳一直以來都知道這點。也許妳也曾經差點見到過，
+但人類終究是不可能改變自己的。"
+
+say "這點妳一直以來也都心知肚明。"
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(1.5,linear) normal
+wait 1.7
+
+show "zettai/bg.jpg" 0.9:0.2 0.9:0.2 1.5:1.5 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(6,linear)
+hide "2white.png" fade(6,linear)
+move "zettai/bg.jpg" 150:0 10 sineout
+wait 3 clear
+wait 4
+
+hide "black.png" fade(0,linear)
+hide "zettai/bg.jpg" fade(0,linear)
+show "vs/bg.jpg" 0:0.4 0:0.4 1.5:1.5 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(6,linear)
+move "vs/bg.jpg" -150:0 10 sineout
+wait 7
+
+hide "vs/bg.jpg" fade(0,linear)
+show "meeting/bg.jpg" 0.9:0.2 0.9:0.2 1.5:1.5 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(5,linear)
+move "meeting/bg.jpg" 150:0 10 sineout
+wait 6
+
+hide "meeting/bg.jpg" fade(0,linear)
+show "finale/bg7.jpg" 0:0 0:0 1.5:1.5 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(6,linear)
+move "finale/bg7.jpg" -150:0 10 sineout
+wait 7
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,linear) normal
+wait 4
+
+hide "finale/bg7.jpg" fade(0,linear)
+show "finale/bg3.jpg" 0.5:0.7 0.5:0.7 1.5:1.5 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "white.png" fade(0,linear)
+wait 0.1
+hide "2white.png" fade(20,linear)
+move "finale/bg3.jpg" 0:1800 40 sineoutin
+
+auto 6
+
+say "簾幕並不會就此拉上。這件事情永遠也沒有「盡頭」。"
+
+say "這個地方已經沒有追尋的意義，就和妳所想的一樣。"
+
+volume "testifyStoryFull.ogg" 0.15 10
+
+say "只不過是個哭泣的少女，獨自一人置身於這個死寂的世界。"
+
+auto 4
+
+say "至少，以那個差點就能夠帶妳離開這裡的少女的鮮血作為代價，
+有個無庸置疑的真相能夠為妳帶來慰藉，並且深深刻印在妳心裡。"
+
+volume "testifyStoryFull.ogg" 0.01 5
+wait 2
+hide "finale/bg3.jpg" fade(6,linear)
+auto 3
+
+say "沒錯。"
+
+stop "testifyStoryFull.ogg" 3
+wait 3
+stop "glassRain.ogg" 8
+auto 6
+
+say "那裡一直以來都是一片樂園。"
+
+wait 8

@@ -1,0 +1,18 @@
+{
+	"entries": [{
+		"minor": 1,
+		"storyType": "vn",
+		"storyData": "epilogue_last",
+		"requiredPack": "finale",
+		"alternatePrefix": "E"
+		},
+	{
+		"minor": 2,
+		"storyType": "nvl",
+		"requiredPack": "finale",
+		"alternatePrefix": "E",
+		"requiredMinor": 1,
+		"charIcon1": 55,
+		"bgmOverride":"history_epilogue.ogg"
+	}]
+}

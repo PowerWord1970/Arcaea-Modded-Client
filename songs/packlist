@@ -1,0 +1,17 @@
+{
+  "packs": [
+    {
+      "id": "base",
+      "plus_character": -1,
+      "custom_banner": true,
+      "name_localized": {
+        "en": "Arcaea"
+      },
+      "description_localized": {
+        "en": "",
+        "ja": ""
+      }
+    }
+  ]
+}
+
